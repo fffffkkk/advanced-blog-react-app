@@ -1,18 +1,23 @@
-// @ts-nocheck
+//@ts-nocheck
 import path from "path";
-import { Configuration } from "webpack";
+import {Configuration as WebpackConfiguration, Configuration} from "webpack";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 import ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin";
 import ESLintPlugin from "eslint-webpack-plugin";
 import { CleanWebpackPlugin } from "clean-webpack-plugin";
+import {Configuration as WebpackDevServerConfiguration} from "webpack-dev-server";
+
+interface Configuration extends WebpackConfiguration {
+	devServer?: WebpackDevServerConfiguration;
+}
 
 const config: Configuration = {
-	mode: "production",
 	entry: "./src/index.tsx",
 	output: {
 		path: path.resolve(__dirname, "build"),
 		filename: "[name].[contenthash].js",
-		publicPath: "",
+		publicPath: "/",
+		clean: true,
 	},
 	module: {
 		rules: [
