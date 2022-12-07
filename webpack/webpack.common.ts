@@ -54,7 +54,7 @@ const config: Configuration = {
 				minimizer: {
 					implementation: ImageMinimizerPlugin.imageminMinify,
 					options: {
-						plugins: [['mozjpeg', { quality: 80 }]],
+						plugins: [['mozjpeg', { quality: 75 }]],
 					},
 				},
 			})
