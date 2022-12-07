@@ -1,11 +1,13 @@
 //@ts-nocheck
 import path from "path";
-import {Configuration as WebpackConfiguration, Configuration} from "webpack";
+import {Configuration as WebpackConfiguration, Configuration, ProgressPlugin} from "webpack";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 import ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin";
 import ESLintPlugin from "eslint-webpack-plugin";
 import { CleanWebpackPlugin } from "clean-webpack-plugin";
 import {Configuration as WebpackDevServerConfiguration} from "webpack-dev-server";
+import ImageMinimizerPlugin from "image-minimizer-webpack-plugin";
+import {BundleAnalyzerPlugin} from 'webpack-bundle-analyzer';
 
 interface Configuration extends WebpackConfiguration {
 	devServer?: WebpackDevServerConfiguration;
@@ -35,7 +37,28 @@ const config: Configuration = {
 					},
 				},
 			},
+			{
+				test: /\.(bmp|gif|jpg|jpeg|png)$/,
+				type: 'asset/resource',
+			},
+			{
+				test: /\.svg/,
+				type: 'asset/inline',
+			},
 		],
+	},
+	optimization: {
+		minimize: true,
+		minimizer: [
+			new ImageMinimizerPlugin({
+				minimizer: {
+					implementation: ImageMinimizerPlugin.imageminMinify,
+					options: {
+						plugins: [['mozjpeg', { quality: 80 }]],
+					},
+				},
+			})
+		]
 	},
 	resolve: {
 		extensions: [".tsx", ".ts", ".js"],
@@ -51,6 +74,10 @@ const config: Configuration = {
 			extensions: ["js", "jsx", "ts", "tsx"],
 		}),
 		new CleanWebpackPlugin(),
+		new ProgressPlugin(),
+		new BundleAnalyzerPlugin({
+			generateStatsFile: true,
+		}),
 	],
 };
 
