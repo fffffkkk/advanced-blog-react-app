@@ -19,8 +19,8 @@
     "react-hooks/exhaustive-deps": "warn",
     "react/prop-types": "off",
     "prettier/prettier": "off",
-    "@typescript-eslint/ban-ts-comment": "off"
-
+    "@typescript-eslint/ban-ts-comment": "off",
+    "react/no-unescaped-entities": "off"
   },
   "settings": {
     "react": {

@@ -18,7 +18,6 @@ export const Page: React.VFC = () => {
         onLogout={() => setUser(undefined)}
         onCreateAccount={() => setUser({ name: 'Jane Doe' })}
       />
-
       <section>
         <h2>Pages in Storybook</h2>
         <p>
