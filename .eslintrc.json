@@ -18,8 +18,9 @@
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/prop-types": "off",
-    "prettier/prettier": "off"
-
+    "prettier/prettier": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "react/no-unescaped-entities": "off"
   },
   "settings": {
     "react": {
