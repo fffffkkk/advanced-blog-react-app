@@ -5,6 +5,7 @@ import ESLintPlugin from 'eslint-webpack-plugin';
 import { CleanWebpackPlugin } from 'clean-webpack-plugin';
 import { ProgressPlugin } from 'webpack';
 import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
+import { TsconfigPathsPlugin } from 'tsconfig-paths-webpack-plugin';
 
 const plugins = [
 	new HtmlWebpackPlugin({
@@ -16,6 +17,7 @@ const plugins = [
 	new ESLintPlugin({
 		extensions: ['js', 'jsx', 'ts', 'tsx'],
 	}),
+	new TsconfigPathsPlugin(),
 	new CleanWebpackPlugin(),
 	new ProgressPlugin(),
 	new BundleAnalyzerPlugin({
