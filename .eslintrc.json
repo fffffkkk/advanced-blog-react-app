@@ -25,7 +25,12 @@
   "settings": {
     "react": {
       "pragma": "React",
-      "version": "detect"
+      "version": "detect",
+      "import/resolver": {
+        "alias": {
+          "map": [["@", "path.resolve(__dirname, 'src')"]]
+        }
+      }
     }
   }
 }

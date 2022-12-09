@@ -16,6 +16,10 @@ const config = {
 	module: {
 		...modules,
 	},
+	resolve: {
+		...resolves,
+	},
+	plugins: [...plugins],
 	optimization: {
 		minimize: true,
 		minimizer: [
@@ -29,10 +33,6 @@ const config = {
 			}),
 		],
 	},
-	resolve: {
-		...resolves,
-	},
-	plugins: [...plugins],
 };
 
 export default config;
