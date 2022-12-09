@@ -3,14 +3,15 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 import { privateRoutes } from '@/routes/routes';
+import { useAuth } from '@/hooks/use-auth';
 import Registration from '@/pages/Registration';
 
 const AppRouter = () => {
-	const authUser = false;
+	const {isAuth} = useAuth();
 
 	return (
 		<Routes>
-			{authUser ? (
+			{isAuth ? (
 				privateRoutes.map((route) => (
 					<Route
 						path={route.path}
