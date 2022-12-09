@@ -1,14 +1,13 @@
 {
   "hash": "4bfb16a27d73be413abc",
   "version": "5.75.0",
-  "time": 173,
-  "builtAt": 1670593041905,
+  "time": 109,
+  "builtAt": 1670593644778,
   "publicPath": "/",
   "outputPath": "E:\\react-project\\myProject\\advanced-blog-react-app\\webpack\\build",
   "assetsByChunkName": {
     "main": [
-      "main.bd66942c7e02429f42bb.js",
-      "main.4d1fcae102072a003a97.hot-update.js"
+      "main.bd66942c7e02429f42bb.js"
     ]
   },
   "assets": [
@@ -16,40 +15,14 @@
       "type": "asset",
       "name": "main.bd66942c7e02429f42bb.js",
       "size": 4292491,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "immutable": true,
         "contenthash": "bd66942c7e02429f42bb",
         "javascriptModule": false,
         "size": 4292491
-      },
-      "chunkNames": [
-        "main"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        "main"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "main.4d1fcae102072a003a97.hot-update.js",
-      "size": 3807,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "4d1fcae102072a003a97",
-        "size": 3807
       },
       "chunkNames": [
         "main"
@@ -82,40 +55,18 @@
       "chunks": [],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "main.4d1fcae102072a003a97.hot-update.json",
-      "size": 28,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "4d1fcae102072a003a97",
-        "size": 28
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
     }
   ],
   "chunks": [
     {
-      "rendered": true,
+      "rendered": false,
       "initial": true,
       "entry": true,
       "recorded": false,
       "size": 1606082,
       "sizes": {
-        "runtime": 27029,
-        "javascript": 1579053
+        "javascript": 1579053,
+        "runtime": 27029
       },
       "names": [
         "main"
@@ -125,8 +76,7 @@
         "main"
       ],
       "files": [
-        "main.bd66942c7e02429f42bb.js",
-        "main.4d1fcae102072a003a97.hot-update.js"
+        "main.bd66942c7e02429f42bb.js"
       ],
       "auxiliaryFiles": [],
       "hash": "2bae8a786ffc062eb9a7",
@@ -12733,20 +12683,20 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-          "issuerName": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack\\hot\\dev-server.js",
+          "issuerName": "./node_modules/webpack/hot/dev-server.js",
           "issuerPath": [
             {
-              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-              "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-              "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack\\hot\\dev-server.js",
+              "name": "./node_modules/webpack/hot/dev-server.js",
+              "id": "./node_modules/webpack/hot/dev-server.js"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/webpack/hot/log.js",
-          "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "issuerId": "./node_modules/webpack/hot/dev-server.js",
           "chunks": [
             "main"
           ],
@@ -13061,10 +13011,10 @@
           "sizes": {
             "javascript": 641
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\ui\\Button.tsx",
           "name": "./src/components/ui/Button.tsx",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\ui\\Button.tsx",
@@ -14409,9 +14359,9 @@
             "runtime": 267
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/compat get default export",
           "name": "webpack/runtime/compat get default export",
           "nameForCondition": null,
@@ -14445,9 +14395,9 @@
             "runtime": 308
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/define property getters",
           "name": "webpack/runtime/define property getters",
           "nameForCondition": null,
@@ -14481,9 +14431,9 @@
             "runtime": 209
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/get javascript update chunk filename",
           "name": "webpack/runtime/get javascript update chunk filename",
           "nameForCondition": null,
@@ -14517,9 +14467,9 @@
             "runtime": 90
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/get update manifest filename",
           "name": "webpack/runtime/get update manifest filename",
           "nameForCondition": null,
@@ -14553,9 +14503,9 @@
             "runtime": 54
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/getFullHash",
           "name": "webpack/runtime/getFullHash",
           "nameForCondition": null,
@@ -14589,9 +14539,9 @@
             "runtime": 88
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/hasOwnProperty shorthand",
           "name": "webpack/runtime/hasOwnProperty shorthand",
           "nameForCondition": null,
@@ -14625,9 +14575,9 @@
             "runtime": 9347
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/hot module replacement",
           "name": "webpack/runtime/hot module replacement",
           "nameForCondition": null,
@@ -14661,9 +14611,9 @@
             "runtime": 14705
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/jsonp chunk loading",
           "name": "webpack/runtime/jsonp chunk loading",
           "nameForCondition": null,
@@ -14697,9 +14647,9 @@
             "runtime": 1501
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/load script",
           "name": "webpack/runtime/load script",
           "nameForCondition": null,
@@ -14733,9 +14683,9 @@
             "runtime": 274
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/make namespace object",
           "name": "webpack/runtime/make namespace object",
           "nameForCondition": null,
@@ -14769,9 +14719,9 @@
             "runtime": 123
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/node module decorator",
           "name": "webpack/runtime/node module decorator",
           "nameForCondition": null,
@@ -14805,9 +14755,9 @@
             "runtime": 35
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/nonce",
           "name": "webpack/runtime/nonce",
           "nameForCondition": null,
@@ -14841,9 +14791,9 @@
             "runtime": 28
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/publicPath",
           "name": "webpack/runtime/publicPath",
           "nameForCondition": null,
@@ -15080,20 +15030,20 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-      "issuerName": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+      "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack\\hot\\dev-server.js",
+      "issuerName": "./node_modules/webpack/hot/dev-server.js",
       "issuerPath": [
         {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-          "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-          "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack\\hot\\dev-server.js",
+          "name": "./node_modules/webpack/hot/dev-server.js",
+          "id": "./node_modules/webpack/hot/dev-server.js"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/webpack/hot/log.js",
-      "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+      "issuerId": "./node_modules/webpack/hot/dev-server.js",
       "chunks": [
         "main"
       ],
@@ -27874,10 +27824,10 @@
       "sizes": {
         "javascript": 641
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\ui\\Button.tsx",
       "name": "./src/components/ui/Button.tsx",
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\ui\\Button.tsx",
@@ -29090,9 +29040,9 @@
         "runtime": 267
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/compat get default export",
       "name": "webpack/runtime/compat get default export",
       "nameForCondition": null,
@@ -29125,9 +29075,9 @@
         "runtime": 308
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/define property getters",
       "name": "webpack/runtime/define property getters",
       "nameForCondition": null,
@@ -29160,9 +29110,9 @@
         "runtime": 209
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/get javascript update chunk filename",
       "name": "webpack/runtime/get javascript update chunk filename",
       "nameForCondition": null,
@@ -29195,9 +29145,9 @@
         "runtime": 90
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/get update manifest filename",
       "name": "webpack/runtime/get update manifest filename",
       "nameForCondition": null,
@@ -29230,9 +29180,9 @@
         "runtime": 54
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/getFullHash",
       "name": "webpack/runtime/getFullHash",
       "nameForCondition": null,
@@ -29265,9 +29215,9 @@
         "runtime": 88
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/hasOwnProperty shorthand",
       "name": "webpack/runtime/hasOwnProperty shorthand",
       "nameForCondition": null,
@@ -29300,9 +29250,9 @@
         "runtime": 9347
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/hot module replacement",
       "name": "webpack/runtime/hot module replacement",
       "nameForCondition": null,
@@ -29335,9 +29285,9 @@
         "runtime": 14705
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/jsonp chunk loading",
       "name": "webpack/runtime/jsonp chunk loading",
       "nameForCondition": null,
@@ -29370,9 +29320,9 @@
         "runtime": 1501
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/load script",
       "name": "webpack/runtime/load script",
       "nameForCondition": null,
@@ -29405,9 +29355,9 @@
         "runtime": 274
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/make namespace object",
       "name": "webpack/runtime/make namespace object",
       "nameForCondition": null,
@@ -29440,9 +29390,9 @@
         "runtime": 123
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/node module decorator",
       "name": "webpack/runtime/node module decorator",
       "nameForCondition": null,
@@ -29475,9 +29425,9 @@
         "runtime": 35
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/nonce",
       "name": "webpack/runtime/nonce",
       "nameForCondition": null,
@@ -29510,9 +29460,9 @@
         "runtime": 28
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/publicPath",
       "name": "webpack/runtime/publicPath",
       "nameForCondition": null,
@@ -29547,14 +29497,10 @@
         {
           "name": "main.bd66942c7e02429f42bb.js",
           "size": 4292491
-        },
-        {
-          "name": "main.4d1fcae102072a003a97.hot-update.js",
-          "size": 3807
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 4296298,
+      "assetsSize": 4292491,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -29573,14 +29519,10 @@
         {
           "name": "main.bd66942c7e02429f42bb.js",
           "size": 4292491
-        },
-        {
-          "name": "main.4d1fcae102072a003a97.hot-update.js",
-          "size": 3807
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 4296298,
+      "assetsSize": 4292491,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
