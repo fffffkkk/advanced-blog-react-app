@@ -6,12 +6,8 @@ const SignUp = () => {
 	const handleSignUp = (form: { email: string, password: string }) => {
 		console.log('yes', form);
 	};
-	
-	return (
-		<div>
-			<AuthForm title='Регистрация' submit={handleSignUp} />
-		</div>
-	);
+
+	return <AuthForm title='Регистрация' submit={handleSignUp} />;
 };
 
 export default SignUp;

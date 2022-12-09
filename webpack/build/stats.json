@@ -1,29 +1,29 @@
 {
-  "hash": "60bdd30cb9fae1ef861a",
+  "hash": "9e0b2d6a30bd92c8acc7",
   "version": "5.75.0",
-  "time": 1036,
-  "builtAt": 1670576525558,
+  "time": 213,
+  "builtAt": 1670590260427,
   "publicPath": "/",
   "outputPath": "E:\\react-project\\myProject\\advanced-blog-react-app\\webpack\\build",
   "assetsByChunkName": {
     "main": [
-      "main.43d3b7686751d0b9995a.js",
-      "main.7a1aa2c513edd03e7aef.hot-update.js"
+      "main.99e260c157720575ce8e.js",
+      "main.316a67eb40e2461a7d42.hot-update.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "main.43d3b7686751d0b9995a.js",
-      "size": 4067540,
+      "name": "main.99e260c157720575ce8e.js",
+      "size": 4071068,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "43d3b7686751d0b9995a",
+        "contenthash": "99e260c157720575ce8e",
         "javascriptModule": false,
-        "size": 4067540
+        "size": 4071068
       },
       "chunkNames": [
         "main"
@@ -40,16 +40,16 @@
     },
     {
       "type": "asset",
-      "name": "main.7a1aa2c513edd03e7aef.hot-update.js",
-      "size": 6905,
+      "name": "main.316a67eb40e2461a7d42.hot-update.js",
+      "size": 3143,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "7a1aa2c513edd03e7aef",
-        "size": 6905
+        "fullhash": "316a67eb40e2461a7d42",
+        "size": 3143
       },
       "chunkNames": [
         "main"
@@ -85,7 +85,7 @@
     },
     {
       "type": "asset",
-      "name": "main.7a1aa2c513edd03e7aef.hot-update.json",
+      "name": "main.316a67eb40e2461a7d42.hot-update.json",
       "size": 28,
       "emitted": true,
       "comparedForEmit": false,
@@ -93,7 +93,7 @@
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "7a1aa2c513edd03e7aef",
+        "fullhash": "316a67eb40e2461a7d42",
         "size": 28
       },
       "chunkNames": [],
@@ -112,10 +112,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 1530605,
+      "size": 1531246,
       "sizes": {
         "runtime": 26994,
-        "javascript": 1503611
+        "javascript": 1504252
       },
       "names": [
         "main"
@@ -125,11 +125,11 @@
         "main"
       ],
       "files": [
-        "main.43d3b7686751d0b9995a.js",
-        "main.7a1aa2c513edd03e7aef.hot-update.js"
+        "main.99e260c157720575ce8e.js",
+        "main.316a67eb40e2461a7d42.hot-update.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "ced9db551bf9c8697be1",
+      "hash": "797468b453f1f14908ed",
       "childrenByOrder": {},
       "id": "main",
       "siblings": [],
@@ -196,11 +196,6 @@
               "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
               "name": "./src/features/Registration/components/form/AuthForm.tsx",
               "id": "./src/features/Registration/components/form/AuthForm.tsx"
-            },
-            {
-              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
-              "name": "./src/features/Registration/hooks/use-change.ts",
-              "id": "./src/features/Registration/hooks/use-change.ts"
             },
             {
               "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
@@ -333,11 +328,6 @@
               "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
               "name": "./src/features/Registration/components/form/AuthForm.tsx",
               "id": "./src/features/Registration/components/form/AuthForm.tsx"
-            },
-            {
-              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
-              "name": "./src/features/Registration/hooks/use-change.ts",
-              "id": "./src/features/Registration/hooks/use-change.ts"
             },
             {
               "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
@@ -506,7 +496,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@babel/runtime/helpers/defineProperty",
-              "loc": "12:57-72",
+              "loc": "14:57-72",
               "moduleId": "./src/features/Registration/hooks/use-change.ts",
               "resolvedModuleId": "./src/features/Registration/hooks/use-change.ts"
             }
@@ -578,11 +568,6 @@
               "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
               "name": "./src/features/Registration/components/form/AuthForm.tsx",
               "id": "./src/features/Registration/components/form/AuthForm.tsx"
-            },
-            {
-              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
-              "name": "./src/features/Registration/hooks/use-change.ts",
-              "id": "./src/features/Registration/hooks/use-change.ts"
             },
             {
               "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
@@ -696,11 +681,6 @@
               "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
               "name": "./src/features/Registration/components/form/AuthForm.tsx",
               "id": "./src/features/Registration/components/form/AuthForm.tsx"
-            },
-            {
-              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
-              "name": "./src/features/Registration/hooks/use-change.ts",
-              "id": "./src/features/Registration/hooks/use-change.ts"
             },
             {
               "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
@@ -875,8 +855,8 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
-          "issuerName": "./src/features/Registration/hooks/use-change.ts",
+          "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
+          "issuerName": "./src/features/Registration/components/form/AuthForm.tsx",
           "issuerPath": [
             {
               "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\index.tsx",
@@ -912,18 +892,13 @@
               "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
               "name": "./src/features/Registration/components/form/AuthForm.tsx",
               "id": "./src/features/Registration/components/form/AuthForm.tsx"
-            },
-            {
-              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
-              "name": "./src/features/Registration/hooks/use-change.ts",
-              "id": "./src/features/Registration/hooks/use-change.ts"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
-          "issuerId": "./src/features/Registration/hooks/use-change.ts",
+          "issuerId": "./src/features/Registration/components/form/AuthForm.tsx",
           "chunks": [
             "main"
           ],
@@ -981,7 +956,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@babel/runtime/helpers/slicedToArray",
-              "loc": "8:17-31",
+              "loc": "10:17-31",
               "moduleId": "./src/features/Registration/hooks/use-change.ts",
               "resolvedModuleId": "./src/features/Registration/hooks/use-change.ts"
             }
@@ -1461,11 +1436,6 @@
               "id": "./src/features/Registration/components/form/AuthForm.tsx"
             },
             {
-              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
-              "name": "./src/features/Registration/hooks/use-change.ts",
-              "id": "./src/features/Registration/hooks/use-change.ts"
-            },
-            {
               "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
               "name": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
               "id": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js"
@@ -1532,8 +1502,8 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@remix-run\\router\\dist\\router.js",
           "name": "./node_modules/@remix-run/router/dist/router.js",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@remix-run\\router\\dist\\router.js",
-          "index": 52,
-          "preOrderIndex": 52,
+          "index": 53,
+          "preOrderIndex": 53,
           "index2": 48,
           "postOrderIndex": 48,
           "cacheable": true,
@@ -3676,10 +3646,10 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-router-dom\\dist\\index.js",
           "name": "./node_modules/react-router-dom/dist/index.js",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-router-dom\\dist\\index.js",
-          "index": 53,
-          "preOrderIndex": 53,
-          "index2": 52,
-          "postOrderIndex": 52,
+          "index": 54,
+          "preOrderIndex": 54,
+          "index2": 53,
+          "postOrderIndex": 53,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -3727,7 +3697,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "react-router-dom",
-              "loc": "6:42-48",
+              "loc": "7:42-48",
               "moduleId": "./src/components/AppRouter.tsx",
               "resolvedModuleId": "./src/components/AppRouter.tsx"
             },
@@ -3741,7 +3711,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "react-router-dom",
-              "loc": "7:44-49",
+              "loc": "8:44-49",
               "moduleId": "./src/components/AppRouter.tsx",
               "resolvedModuleId": "./src/components/AppRouter.tsx"
             },
@@ -3755,7 +3725,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "react-router-dom",
-              "loc": "13:44-49",
+              "loc": "13:40-45",
               "moduleId": "./src/components/AppRouter.tsx",
               "resolvedModuleId": "./src/components/AppRouter.tsx"
             },
@@ -3786,6 +3756,48 @@
               "loc": "8:103-116",
               "moduleId": "./src/index.tsx",
               "resolvedModuleId": "./src/index.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "module": "./src/pages/Registration.tsx",
+              "moduleName": "./src/pages/Registration.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "resolvedModule": "./src/pages/Registration.tsx",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "react-router-dom",
+              "loc": "2:0-49",
+              "moduleId": "./src/pages/Registration.tsx",
+              "resolvedModuleId": "./src/pages/Registration.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "module": "./src/pages/Registration.tsx",
+              "moduleName": "./src/pages/Registration.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "resolvedModule": "./src/pages/Registration.tsx",
+              "type": "harmony import specifier",
+              "active": false,
+              "explanation": "",
+              "userRequest": "react-router-dom",
+              "loc": "5:42-48",
+              "moduleId": "./src/pages/Registration.tsx",
+              "resolvedModuleId": "./src/pages/Registration.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "module": "./src/pages/Registration.tsx",
+              "moduleName": "./src/pages/Registration.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "resolvedModule": "./src/pages/Registration.tsx",
+              "type": "harmony import specifier",
+              "active": false,
+              "explanation": "",
+              "userRequest": "react-router-dom",
+              "loc": "6:44-49",
+              "moduleId": "./src/pages/Registration.tsx",
+              "resolvedModuleId": "./src/pages/Registration.tsx"
             }
           ],
           "usedExports": null,
@@ -3876,8 +3888,8 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-router\\dist\\index.js",
           "name": "./node_modules/react-router/dist/index.js",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-router\\dist\\index.js",
-          "index": 51,
-          "preOrderIndex": 51,
+          "index": 52,
+          "preOrderIndex": 52,
           "index2": 49,
           "postOrderIndex": 49,
           "cacheable": true,
@@ -3918,7 +3930,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "react-router-dom",
-              "loc": "6:42-48",
+              "loc": "7:42-48",
               "moduleId": "./src/components/AppRouter.tsx",
               "resolvedModuleId": "./src/components/AppRouter.tsx"
             },
@@ -3932,7 +3944,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "react-router-dom",
-              "loc": "7:44-49",
+              "loc": "8:44-49",
               "moduleId": "./src/components/AppRouter.tsx",
               "resolvedModuleId": "./src/components/AppRouter.tsx"
             },
@@ -3946,9 +3958,37 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "react-router-dom",
-              "loc": "13:44-49",
+              "loc": "13:40-45",
               "moduleId": "./src/components/AppRouter.tsx",
               "resolvedModuleId": "./src/components/AppRouter.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "module": "./src/pages/Registration.tsx",
+              "moduleName": "./src/pages/Registration.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "resolvedModule": "./src/pages/Registration.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "(skipped side-effect-free modules)",
+              "userRequest": "react-router-dom",
+              "loc": "5:42-48",
+              "moduleId": "./src/pages/Registration.tsx",
+              "resolvedModuleId": "./src/pages/Registration.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "module": "./src/pages/Registration.tsx",
+              "moduleName": "./src/pages/Registration.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "resolvedModule": "./src/pages/Registration.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "(skipped side-effect-free modules)",
+              "userRequest": "react-router-dom",
+              "loc": "6:44-49",
+              "moduleId": "./src/pages/Registration.tsx",
+              "resolvedModuleId": "./src/pages/Registration.tsx"
             },
             {
               "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-router-dom\\dist\\index.js",
@@ -5345,7 +5385,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "6:22-41",
+              "loc": "7:22-41",
               "moduleId": "./src/components/AppRouter.tsx",
               "resolvedModuleId": "./src/components/AppRouter.tsx"
             },
@@ -5359,7 +5399,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "7:24-43",
+              "loc": "8:24-43",
               "moduleId": "./src/components/AppRouter.tsx",
               "resolvedModuleId": "./src/components/AppRouter.tsx"
             },
@@ -5373,7 +5413,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "9:28-47",
+              "loc": "10:28-47",
               "moduleId": "./src/components/AppRouter.tsx",
               "resolvedModuleId": "./src/components/AppRouter.tsx"
             },
@@ -5387,7 +5427,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "13:24-43",
+              "loc": "13:20-39",
               "moduleId": "./src/components/AppRouter.tsx",
               "resolvedModuleId": "./src/components/AppRouter.tsx"
             },
@@ -5401,7 +5441,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "15:28-47",
+              "loc": "15:26-45",
               "moduleId": "./src/components/AppRouter.tsx",
               "resolvedModuleId": "./src/components/AppRouter.tsx"
             },
@@ -5457,7 +5497,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "3:22-41",
+              "loc": "7:22-41",
               "moduleId": "./src/features/Registration/components/SignIn.tsx",
               "resolvedModuleId": "./src/features/Registration/components/SignIn.tsx"
             },
@@ -5486,20 +5526,6 @@
               "explanation": "",
               "userRequest": "react",
               "loc": "7:22-41",
-              "moduleId": "./src/features/Registration/components/SignUp.tsx",
-              "resolvedModuleId": "./src/features/Registration/components/SignUp.tsx"
-            },
-            {
-              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
-              "module": "./src/features/Registration/components/SignUp.tsx",
-              "moduleName": "./src/features/Registration/components/SignUp.tsx",
-              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
-              "resolvedModule": "./src/features/Registration/components/SignUp.tsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react",
-              "loc": "7:68-87",
               "moduleId": "./src/features/Registration/components/SignUp.tsx",
               "resolvedModuleId": "./src/features/Registration/components/SignUp.tsx"
             },
@@ -5625,7 +5651,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "5:0-33",
+              "loc": "5:0-46",
               "moduleId": "./src/features/Registration/hooks/use-change.ts",
               "resolvedModuleId": "./src/features/Registration/hooks/use-change.ts"
             },
@@ -5639,7 +5665,21 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "7:18-26",
+              "loc": "9:18-26",
+              "moduleId": "./src/features/Registration/hooks/use-change.ts",
+              "resolvedModuleId": "./src/features/Registration/hooks/use-change.ts"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
+              "module": "./src/features/Registration/hooks/use-change.ts",
+              "moduleName": "./src/features/Registration/hooks/use-change.ts",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
+              "resolvedModule": "./src/features/Registration/hooks/use-change.ts",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "13:21-32",
               "moduleId": "./src/features/Registration/hooks/use-change.ts",
               "resolvedModuleId": "./src/features/Registration/hooks/use-change.ts"
             },
@@ -5740,6 +5780,62 @@
               "loc": "5:22-41",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "module": "./src/pages/Registration.tsx",
+              "moduleName": "./src/pages/Registration.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "resolvedModule": "./src/pages/Registration.tsx",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "1:0-26",
+              "moduleId": "./src/pages/Registration.tsx",
+              "resolvedModuleId": "./src/pages/Registration.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "module": "./src/pages/Registration.tsx",
+              "moduleName": "./src/pages/Registration.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "resolvedModule": "./src/pages/Registration.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "5:22-41",
+              "moduleId": "./src/pages/Registration.tsx",
+              "resolvedModuleId": "./src/pages/Registration.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "module": "./src/pages/Registration.tsx",
+              "moduleName": "./src/pages/Registration.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "resolvedModule": "./src/pages/Registration.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "6:24-43",
+              "moduleId": "./src/pages/Registration.tsx",
+              "resolvedModuleId": "./src/pages/Registration.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "module": "./src/pages/Registration.tsx",
+              "moduleName": "./src/pages/Registration.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "resolvedModule": "./src/pages/Registration.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "8:28-47",
+              "moduleId": "./src/pages/Registration.tsx",
+              "resolvedModuleId": "./src/pages/Registration.tsx"
             },
             {
               "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-dom\\cjs\\react-dom.development.js",
@@ -9753,8 +9849,8 @@
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\App.tsx",
           "index": 30,
           "preOrderIndex": 30,
-          "index2": 51,
-          "postOrderIndex": 51,
+          "index2": 52,
+          "postOrderIndex": 52,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -9818,9 +9914,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 740,
+          "size": 687,
           "sizes": {
-            "javascript": 740
+            "javascript": 687
           },
           "built": false,
           "codeGenerated": false,
@@ -9831,8 +9927,8 @@
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
           "index": 31,
           "preOrderIndex": 31,
-          "index2": 50,
-          "postOrderIndex": 50,
+          "index2": 51,
+          "postOrderIndex": 51,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -10023,14 +10119,14 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 151,
+          "size": 377,
           "sizes": {
-            "javascript": 151
+            "javascript": 377
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignIn.tsx",
           "name": "./src/features/Registration/components/SignIn.tsx",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignIn.tsx",
@@ -10121,9 +10217,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 424,
+          "size": 377,
           "sizes": {
-            "javascript": 424
+            "javascript": 377
           },
           "built": false,
           "codeGenerated": false,
@@ -10223,10 +10319,10 @@
           "sizes": {
             "javascript": 1451
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
           "name": "./src/features/Registration/components/form/AuthForm.tsx",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
@@ -10283,6 +10379,34 @@
           "assets": [],
           "reasons": [
             {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignIn.tsx",
+              "module": "./src/features/Registration/components/SignIn.tsx",
+              "moduleName": "./src/features/Registration/components/SignIn.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignIn.tsx",
+              "resolvedModule": "./src/features/Registration/components/SignIn.tsx",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./form/AuthForm",
+              "loc": "2:0-39",
+              "moduleId": "./src/features/Registration/components/SignIn.tsx",
+              "resolvedModuleId": "./src/features/Registration/components/SignIn.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignIn.tsx",
+              "module": "./src/features/Registration/components/SignIn.tsx",
+              "moduleName": "./src/features/Registration/components/SignIn.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignIn.tsx",
+              "resolvedModule": "./src/features/Registration/components/SignIn.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./form/AuthForm",
+              "loc": "7:42-50",
+              "moduleId": "./src/features/Registration/components/SignIn.tsx",
+              "resolvedModuleId": "./src/features/Registration/components/SignIn.tsx"
+            },
+            {
               "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
               "module": "./src/features/Registration/components/SignUp.tsx",
               "moduleName": "./src/features/Registration/components/SignUp.tsx",
@@ -10306,7 +10430,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./form/AuthForm",
-              "loc": "7:88-96",
+              "loc": "7:42-50",
               "moduleId": "./src/features/Registration/components/SignUp.tsx",
               "resolvedModuleId": "./src/features/Registration/components/SignUp.tsx"
             }
@@ -10322,9 +10446,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1405,
+          "size": 1442,
           "sizes": {
-            "javascript": 1405
+            "javascript": 1442
           },
           "built": false,
           "codeGenerated": false,
@@ -10551,8 +10675,8 @@
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\index.tsx",
           "index": 22,
           "preOrderIndex": 22,
-          "index2": 53,
-          "postOrderIndex": 53,
+          "index2": 54,
+          "postOrderIndex": 54,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -10701,6 +10825,94 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
+          "size": 478,
+          "sizes": {
+            "javascript": 478
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "name": "./src/pages/Registration.tsx",
+          "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "index": 51,
+          "preOrderIndex": 51,
+          "index2": 50,
+          "postOrderIndex": 50,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
+          "issuerName": "./src/components/AppRouter.tsx",
+          "issuerPath": [
+            {
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\index.tsx",
+              "name": "./src/index.tsx",
+              "id": "./src/index.tsx"
+            },
+            {
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\App.tsx",
+              "name": "./src/App.tsx",
+              "id": "./src/App.tsx"
+            },
+            {
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
+              "name": "./src/components/AppRouter.tsx",
+              "id": "./src/components/AppRouter.tsx"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/pages/Registration.tsx",
+          "issuerId": "./src/components/AppRouter.tsx",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
+              "module": "./src/components/AppRouter.tsx",
+              "moduleName": "./src/components/AppRouter.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
+              "resolvedModule": "./src/components/AppRouter.tsx",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../pages/Registration",
+              "loc": "4:0-49",
+              "moduleId": "./src/components/AppRouter.tsx",
+              "resolvedModuleId": "./src/components/AppRouter.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
+              "module": "./src/components/AppRouter.tsx",
+              "moduleName": "./src/components/AppRouter.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
+              "resolvedModule": "./src/components/AppRouter.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../pages/Registration",
+              "loc": "15:46-58",
+              "moduleId": "./src/components/AppRouter.tsx",
+              "resolvedModuleId": "./src/components/AppRouter.tsx"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
           "size": 357,
           "sizes": {
             "javascript": 357
@@ -10759,7 +10971,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../routes/routes",
-              "loc": "3:0-63",
+              "loc": "3:0-49",
               "moduleId": "./src/components/AppRouter.tsx",
               "resolvedModuleId": "./src/components/AppRouter.tsx"
             },
@@ -10773,23 +10985,37 @@
               "active": true,
               "explanation": "",
               "userRequest": "../routes/routes",
-              "loc": "6:67-84",
+              "loc": "7:67-84",
               "moduleId": "./src/components/AppRouter.tsx",
               "resolvedModuleId": "./src/components/AppRouter.tsx"
             },
             {
-              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
-              "module": "./src/components/AppRouter.tsx",
-              "moduleName": "./src/components/AppRouter.tsx",
-              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
-              "resolvedModule": "./src/components/AppRouter.tsx",
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "module": "./src/pages/Registration.tsx",
+              "moduleName": "./src/pages/Registration.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "resolvedModule": "./src/pages/Registration.tsx",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../routes/routes",
+              "loc": "3:0-48",
+              "moduleId": "./src/pages/Registration.tsx",
+              "resolvedModuleId": "./src/pages/Registration.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "module": "./src/pages/Registration.tsx",
+              "moduleName": "./src/pages/Registration.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+              "resolvedModule": "./src/pages/Registration.tsx",
               "type": "harmony import specifier",
               "active": true,
               "explanation": "",
               "userRequest": "../routes/routes",
-              "loc": "12:7-23",
-              "moduleId": "./src/components/AppRouter.tsx",
-              "resolvedModuleId": "./src/components/AppRouter.tsx"
+              "loc": "5:56-72",
+              "moduleId": "./src/pages/Registration.tsx",
+              "resolvedModuleId": "./src/pages/Registration.tsx"
             }
           ],
           "usedExports": null,
@@ -11385,8 +11611,8 @@
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\index.tsx",
       "index": 22,
       "preOrderIndex": 22,
-      "index2": 53,
-      "postOrderIndex": 53,
+      "index2": 54,
+      "postOrderIndex": 54,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -12922,7 +13148,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "6:22-41",
+          "loc": "7:22-41",
           "moduleId": "./src/components/AppRouter.tsx",
           "resolvedModuleId": "./src/components/AppRouter.tsx"
         },
@@ -12936,7 +13162,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "7:24-43",
+          "loc": "8:24-43",
           "moduleId": "./src/components/AppRouter.tsx",
           "resolvedModuleId": "./src/components/AppRouter.tsx"
         },
@@ -12950,7 +13176,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "9:28-47",
+          "loc": "10:28-47",
           "moduleId": "./src/components/AppRouter.tsx",
           "resolvedModuleId": "./src/components/AppRouter.tsx"
         },
@@ -12964,7 +13190,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "13:24-43",
+          "loc": "13:20-39",
           "moduleId": "./src/components/AppRouter.tsx",
           "resolvedModuleId": "./src/components/AppRouter.tsx"
         },
@@ -12978,7 +13204,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "15:28-47",
+          "loc": "15:26-45",
           "moduleId": "./src/components/AppRouter.tsx",
           "resolvedModuleId": "./src/components/AppRouter.tsx"
         },
@@ -13034,7 +13260,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "3:22-41",
+          "loc": "7:22-41",
           "moduleId": "./src/features/Registration/components/SignIn.tsx",
           "resolvedModuleId": "./src/features/Registration/components/SignIn.tsx"
         },
@@ -13063,20 +13289,6 @@
           "explanation": "",
           "userRequest": "react",
           "loc": "7:22-41",
-          "moduleId": "./src/features/Registration/components/SignUp.tsx",
-          "resolvedModuleId": "./src/features/Registration/components/SignUp.tsx"
-        },
-        {
-          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
-          "module": "./src/features/Registration/components/SignUp.tsx",
-          "moduleName": "./src/features/Registration/components/SignUp.tsx",
-          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
-          "resolvedModule": "./src/features/Registration/components/SignUp.tsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react",
-          "loc": "7:68-87",
           "moduleId": "./src/features/Registration/components/SignUp.tsx",
           "resolvedModuleId": "./src/features/Registration/components/SignUp.tsx"
         },
@@ -13202,7 +13414,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "5:0-33",
+          "loc": "5:0-46",
           "moduleId": "./src/features/Registration/hooks/use-change.ts",
           "resolvedModuleId": "./src/features/Registration/hooks/use-change.ts"
         },
@@ -13216,7 +13428,21 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "7:18-26",
+          "loc": "9:18-26",
+          "moduleId": "./src/features/Registration/hooks/use-change.ts",
+          "resolvedModuleId": "./src/features/Registration/hooks/use-change.ts"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
+          "module": "./src/features/Registration/hooks/use-change.ts",
+          "moduleName": "./src/features/Registration/hooks/use-change.ts",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
+          "resolvedModule": "./src/features/Registration/hooks/use-change.ts",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "13:21-32",
           "moduleId": "./src/features/Registration/hooks/use-change.ts",
           "resolvedModuleId": "./src/features/Registration/hooks/use-change.ts"
         },
@@ -13317,6 +13543,62 @@
           "loc": "5:22-41",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "module": "./src/pages/Registration.tsx",
+          "moduleName": "./src/pages/Registration.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "resolvedModule": "./src/pages/Registration.tsx",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "1:0-26",
+          "moduleId": "./src/pages/Registration.tsx",
+          "resolvedModuleId": "./src/pages/Registration.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "module": "./src/pages/Registration.tsx",
+          "moduleName": "./src/pages/Registration.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "resolvedModule": "./src/pages/Registration.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "5:22-41",
+          "moduleId": "./src/pages/Registration.tsx",
+          "resolvedModuleId": "./src/pages/Registration.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "module": "./src/pages/Registration.tsx",
+          "moduleName": "./src/pages/Registration.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "resolvedModule": "./src/pages/Registration.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "6:24-43",
+          "moduleId": "./src/pages/Registration.tsx",
+          "resolvedModuleId": "./src/pages/Registration.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "module": "./src/pages/Registration.tsx",
+          "moduleName": "./src/pages/Registration.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "resolvedModule": "./src/pages/Registration.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "8:28-47",
+          "moduleId": "./src/pages/Registration.tsx",
+          "resolvedModuleId": "./src/pages/Registration.tsx"
         },
         {
           "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-dom\\cjs\\react-dom.development.js",
@@ -15267,8 +15549,8 @@
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\App.tsx",
       "index": 30,
       "preOrderIndex": 30,
-      "index2": 51,
-      "postOrderIndex": 51,
+      "index2": 52,
+      "postOrderIndex": 52,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -15342,10 +15624,10 @@
       "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-router-dom\\dist\\index.js",
       "name": "./node_modules/react-router-dom/dist/index.js",
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-router-dom\\dist\\index.js",
-      "index": 53,
-      "preOrderIndex": 53,
-      "index2": 52,
-      "postOrderIndex": 52,
+      "index": 54,
+      "preOrderIndex": 54,
+      "index2": 53,
+      "postOrderIndex": 53,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -15392,7 +15674,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "react-router-dom",
-          "loc": "6:42-48",
+          "loc": "7:42-48",
           "moduleId": "./src/components/AppRouter.tsx",
           "resolvedModuleId": "./src/components/AppRouter.tsx"
         },
@@ -15406,7 +15688,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "react-router-dom",
-          "loc": "7:44-49",
+          "loc": "8:44-49",
           "moduleId": "./src/components/AppRouter.tsx",
           "resolvedModuleId": "./src/components/AppRouter.tsx"
         },
@@ -15420,7 +15702,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "react-router-dom",
-          "loc": "13:44-49",
+          "loc": "13:40-45",
           "moduleId": "./src/components/AppRouter.tsx",
           "resolvedModuleId": "./src/components/AppRouter.tsx"
         },
@@ -15451,6 +15733,48 @@
           "loc": "8:103-116",
           "moduleId": "./src/index.tsx",
           "resolvedModuleId": "./src/index.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "module": "./src/pages/Registration.tsx",
+          "moduleName": "./src/pages/Registration.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "resolvedModule": "./src/pages/Registration.tsx",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "react-router-dom",
+          "loc": "2:0-49",
+          "moduleId": "./src/pages/Registration.tsx",
+          "resolvedModuleId": "./src/pages/Registration.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "module": "./src/pages/Registration.tsx",
+          "moduleName": "./src/pages/Registration.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "resolvedModule": "./src/pages/Registration.tsx",
+          "type": "harmony import specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "react-router-dom",
+          "loc": "5:42-48",
+          "moduleId": "./src/pages/Registration.tsx",
+          "resolvedModuleId": "./src/pages/Registration.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "module": "./src/pages/Registration.tsx",
+          "moduleName": "./src/pages/Registration.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "resolvedModule": "./src/pages/Registration.tsx",
+          "type": "harmony import specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "react-router-dom",
+          "loc": "6:44-49",
+          "moduleId": "./src/pages/Registration.tsx",
+          "resolvedModuleId": "./src/pages/Registration.tsx"
         }
       ],
       "usedExports": null,
@@ -16341,9 +16665,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 740,
+      "size": 687,
       "sizes": {
-        "javascript": 740
+        "javascript": 687
       },
       "built": false,
       "codeGenerated": false,
@@ -16354,8 +16678,8 @@
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
       "index": 31,
       "preOrderIndex": 31,
-      "index2": 50,
-      "postOrderIndex": 50,
+      "index2": 51,
+      "postOrderIndex": 51,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -16434,8 +16758,8 @@
       "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-router\\dist\\index.js",
       "name": "./node_modules/react-router/dist/index.js",
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-router\\dist\\index.js",
-      "index": 51,
-      "preOrderIndex": 51,
+      "index": 52,
+      "preOrderIndex": 52,
       "index2": 49,
       "postOrderIndex": 49,
       "cacheable": true,
@@ -16475,7 +16799,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "react-router-dom",
-          "loc": "6:42-48",
+          "loc": "7:42-48",
           "moduleId": "./src/components/AppRouter.tsx",
           "resolvedModuleId": "./src/components/AppRouter.tsx"
         },
@@ -16489,7 +16813,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "react-router-dom",
-          "loc": "7:44-49",
+          "loc": "8:44-49",
           "moduleId": "./src/components/AppRouter.tsx",
           "resolvedModuleId": "./src/components/AppRouter.tsx"
         },
@@ -16503,9 +16827,37 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "react-router-dom",
-          "loc": "13:44-49",
+          "loc": "13:40-45",
           "moduleId": "./src/components/AppRouter.tsx",
           "resolvedModuleId": "./src/components/AppRouter.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "module": "./src/pages/Registration.tsx",
+          "moduleName": "./src/pages/Registration.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "resolvedModule": "./src/pages/Registration.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "(skipped side-effect-free modules)",
+          "userRequest": "react-router-dom",
+          "loc": "5:42-48",
+          "moduleId": "./src/pages/Registration.tsx",
+          "resolvedModuleId": "./src/pages/Registration.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "module": "./src/pages/Registration.tsx",
+          "moduleName": "./src/pages/Registration.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "resolvedModule": "./src/pages/Registration.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "(skipped side-effect-free modules)",
+          "userRequest": "react-router-dom",
+          "loc": "6:44-49",
+          "moduleId": "./src/pages/Registration.tsx",
+          "resolvedModuleId": "./src/pages/Registration.tsx"
         },
         {
           "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-router-dom\\dist\\index.js",
@@ -17714,8 +18066,8 @@
       "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@remix-run\\router\\dist\\router.js",
       "name": "./node_modules/@remix-run/router/dist/router.js",
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@remix-run\\router\\dist\\router.js",
-      "index": 52,
-      "preOrderIndex": 52,
+      "index": 53,
+      "preOrderIndex": 53,
       "index2": 48,
       "postOrderIndex": 48,
       "cacheable": true,
@@ -19441,7 +19793,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../routes/routes",
-          "loc": "3:0-63",
+          "loc": "3:0-49",
           "moduleId": "./src/components/AppRouter.tsx",
           "resolvedModuleId": "./src/components/AppRouter.tsx"
         },
@@ -19455,23 +19807,37 @@
           "active": true,
           "explanation": "",
           "userRequest": "../routes/routes",
-          "loc": "6:67-84",
+          "loc": "7:67-84",
           "moduleId": "./src/components/AppRouter.tsx",
           "resolvedModuleId": "./src/components/AppRouter.tsx"
         },
         {
-          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
-          "module": "./src/components/AppRouter.tsx",
-          "moduleName": "./src/components/AppRouter.tsx",
-          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
-          "resolvedModule": "./src/components/AppRouter.tsx",
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "module": "./src/pages/Registration.tsx",
+          "moduleName": "./src/pages/Registration.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "resolvedModule": "./src/pages/Registration.tsx",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../routes/routes",
+          "loc": "3:0-48",
+          "moduleId": "./src/pages/Registration.tsx",
+          "resolvedModuleId": "./src/pages/Registration.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "module": "./src/pages/Registration.tsx",
+          "moduleName": "./src/pages/Registration.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+          "resolvedModule": "./src/pages/Registration.tsx",
           "type": "harmony import specifier",
           "active": true,
           "explanation": "",
           "userRequest": "../routes/routes",
-          "loc": "12:7-23",
-          "moduleId": "./src/components/AppRouter.tsx",
-          "resolvedModuleId": "./src/components/AppRouter.tsx"
+          "loc": "5:56-72",
+          "moduleId": "./src/pages/Registration.tsx",
+          "resolvedModuleId": "./src/pages/Registration.tsx"
         }
       ],
       "usedExports": null,
@@ -19479,6 +19845,93 @@
         "adminRoutes",
         "privateRoutes",
         "publicRoutes"
+      ],
+      "optimizationBailout": [],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 478,
+      "sizes": {
+        "javascript": 478
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+      "name": "./src/pages/Registration.tsx",
+      "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Registration.tsx",
+      "index": 51,
+      "preOrderIndex": 51,
+      "index2": 50,
+      "postOrderIndex": 50,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
+      "issuerName": "./src/components/AppRouter.tsx",
+      "issuerPath": [
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\index.tsx",
+          "name": "./src/index.tsx",
+          "id": "./src/index.tsx"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\App.tsx",
+          "name": "./src/App.tsx",
+          "id": "./src/App.tsx"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
+          "name": "./src/components/AppRouter.tsx",
+          "id": "./src/components/AppRouter.tsx"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/pages/Registration.tsx",
+      "issuerId": "./src/components/AppRouter.tsx",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
+          "module": "./src/components/AppRouter.tsx",
+          "moduleName": "./src/components/AppRouter.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
+          "resolvedModule": "./src/components/AppRouter.tsx",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../pages/Registration",
+          "loc": "4:0-49",
+          "moduleId": "./src/components/AppRouter.tsx",
+          "resolvedModuleId": "./src/components/AppRouter.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
+          "module": "./src/components/AppRouter.tsx",
+          "moduleName": "./src/components/AppRouter.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
+          "resolvedModule": "./src/components/AppRouter.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../pages/Registration",
+          "loc": "15:46-58",
+          "moduleId": "./src/components/AppRouter.tsx",
+          "resolvedModuleId": "./src/components/AppRouter.tsx"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "default"
       ],
       "optimizationBailout": [],
       "depth": 3
@@ -20078,9 +20531,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 424,
+      "size": 377,
       "sizes": {
-        "javascript": 424
+        "javascript": 377
       },
       "built": false,
       "codeGenerated": false,
@@ -20175,14 +20628,14 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 151,
+      "size": 377,
       "sizes": {
-        "javascript": 151
+        "javascript": 377
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignIn.tsx",
       "name": "./src/features/Registration/components/SignIn.tsx",
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignIn.tsx",
@@ -20276,10 +20729,10 @@
       "sizes": {
         "javascript": 1451
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
       "name": "./src/features/Registration/components/form/AuthForm.tsx",
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
@@ -20335,6 +20788,34 @@
       "assets": [],
       "reasons": [
         {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignIn.tsx",
+          "module": "./src/features/Registration/components/SignIn.tsx",
+          "moduleName": "./src/features/Registration/components/SignIn.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignIn.tsx",
+          "resolvedModule": "./src/features/Registration/components/SignIn.tsx",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./form/AuthForm",
+          "loc": "2:0-39",
+          "moduleId": "./src/features/Registration/components/SignIn.tsx",
+          "resolvedModuleId": "./src/features/Registration/components/SignIn.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignIn.tsx",
+          "module": "./src/features/Registration/components/SignIn.tsx",
+          "moduleName": "./src/features/Registration/components/SignIn.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignIn.tsx",
+          "resolvedModule": "./src/features/Registration/components/SignIn.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./form/AuthForm",
+          "loc": "7:42-50",
+          "moduleId": "./src/features/Registration/components/SignIn.tsx",
+          "resolvedModuleId": "./src/features/Registration/components/SignIn.tsx"
+        },
+        {
           "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
           "module": "./src/features/Registration/components/SignUp.tsx",
           "moduleName": "./src/features/Registration/components/SignUp.tsx",
@@ -20358,7 +20839,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./form/AuthForm",
-          "loc": "7:88-96",
+          "loc": "7:42-50",
           "moduleId": "./src/features/Registration/components/SignUp.tsx",
           "resolvedModuleId": "./src/features/Registration/components/SignUp.tsx"
         }
@@ -20392,8 +20873,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
-      "issuerName": "./src/features/Registration/hooks/use-change.ts",
+      "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
+      "issuerName": "./src/features/Registration/components/form/AuthForm.tsx",
       "issuerPath": [
         {
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\index.tsx",
@@ -20429,18 +20910,13 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
           "name": "./src/features/Registration/components/form/AuthForm.tsx",
           "id": "./src/features/Registration/components/form/AuthForm.tsx"
-        },
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
-          "name": "./src/features/Registration/hooks/use-change.ts",
-          "id": "./src/features/Registration/hooks/use-change.ts"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
-      "issuerId": "./src/features/Registration/hooks/use-change.ts",
+      "issuerId": "./src/features/Registration/components/form/AuthForm.tsx",
       "chunks": [
         "main"
       ],
@@ -20498,7 +20974,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@babel/runtime/helpers/slicedToArray",
-          "loc": "8:17-31",
+          "loc": "10:17-31",
           "moduleId": "./src/features/Registration/hooks/use-change.ts",
           "resolvedModuleId": "./src/features/Registration/hooks/use-change.ts"
         }
@@ -20635,9 +21111,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1405,
+      "size": 1442,
       "sizes": {
-        "javascript": 1405
+        "javascript": 1442
       },
       "built": false,
       "codeGenerated": false,
@@ -20799,11 +21275,6 @@
           "id": "./src/features/Registration/components/form/AuthForm.tsx"
         },
         {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
-          "name": "./src/features/Registration/hooks/use-change.ts",
-          "id": "./src/features/Registration/hooks/use-change.ts"
-        },
-        {
           "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
           "name": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
           "id": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js"
@@ -20914,11 +21385,6 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
           "name": "./src/features/Registration/components/form/AuthForm.tsx",
           "id": "./src/features/Registration/components/form/AuthForm.tsx"
-        },
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
-          "name": "./src/features/Registration/hooks/use-change.ts",
-          "id": "./src/features/Registration/hooks/use-change.ts"
         },
         {
           "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
@@ -21033,11 +21499,6 @@
           "id": "./src/features/Registration/components/form/AuthForm.tsx"
         },
         {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
-          "name": "./src/features/Registration/hooks/use-change.ts",
-          "id": "./src/features/Registration/hooks/use-change.ts"
-        },
-        {
           "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
           "name": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
           "id": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js"
@@ -21148,11 +21609,6 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
           "name": "./src/features/Registration/components/form/AuthForm.tsx",
           "id": "./src/features/Registration/components/form/AuthForm.tsx"
-        },
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
-          "name": "./src/features/Registration/hooks/use-change.ts",
-          "id": "./src/features/Registration/hooks/use-change.ts"
         },
         {
           "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
@@ -21320,7 +21776,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@babel/runtime/helpers/defineProperty",
-          "loc": "12:57-72",
+          "loc": "14:57-72",
           "moduleId": "./src/features/Registration/hooks/use-change.ts",
           "resolvedModuleId": "./src/features/Registration/hooks/use-change.ts"
         }
@@ -21391,11 +21847,6 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
           "name": "./src/features/Registration/components/form/AuthForm.tsx",
           "id": "./src/features/Registration/components/form/AuthForm.tsx"
-        },
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
-          "name": "./src/features/Registration/hooks/use-change.ts",
-          "id": "./src/features/Registration/hooks/use-change.ts"
         },
         {
           "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
@@ -22300,16 +22751,16 @@
       ],
       "assets": [
         {
-          "name": "main.43d3b7686751d0b9995a.js",
-          "size": 4067540
+          "name": "main.99e260c157720575ce8e.js",
+          "size": 4071068
         },
         {
-          "name": "main.7a1aa2c513edd03e7aef.hot-update.js",
-          "size": 6905
+          "name": "main.316a67eb40e2461a7d42.hot-update.js",
+          "size": 3143
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 4074445,
+      "assetsSize": 4074211,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -22326,16 +22777,16 @@
       ],
       "assets": [
         {
-          "name": "main.43d3b7686751d0b9995a.js",
-          "size": 4067540
+          "name": "main.99e260c157720575ce8e.js",
+          "size": 4071068
         },
         {
-          "name": "main.7a1aa2c513edd03e7aef.hot-update.js",
-          "size": 6905
+          "name": "main.316a67eb40e2461a7d42.hot-update.js",
+          "size": 3143
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 4074445,
+      "assetsSize": 4074211,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -22346,12 +22797,7 @@
   },
   "errors": [],
   "errorsCount": 0,
-  "warnings": [
-    {
-      "message": "[eslint] \u001b[0m\u001b[0m\n\u001b[0m\u001b[4mE:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts\u001b[24m\u001b[0m\n\u001b[0m  \u001b[2m3:33\u001b[22m  \u001b[33mwarning\u001b[39m  Unexpected any. Specify a different type  \u001b[2m@typescript-eslint/no-explicit-any\u001b[22m\u001b[0m\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[33m\u001b[1m✖ 1 problem (0 errors, 1 warning)\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m\u001b[33m\u001b[1m\u001b[22m\u001b[39m\u001b[0m",
-      "stack": ""
-    }
-  ],
-  "warningsCount": 1,
+  "warnings": [],
+  "warningsCount": 0,
   "children": []
 }
