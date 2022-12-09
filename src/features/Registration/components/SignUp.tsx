@@ -1,8 +1,8 @@
 import React from 'react';
 
 import { useActions } from '@/hooks/use-actions';
-import AuthForm from '@/features/Registration/components/form/AuthForm';
 import { useTypedSelector } from '@/hooks/use-typed-selector';
+import AuthForm from '@/features/Registration/components/form/AuthForm';
 
 const SignUp = () => {
 	const { addUser } = useActions();
