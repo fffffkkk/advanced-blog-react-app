@@ -1,10 +1,12 @@
 {
   "users": [
     {
+      "id": 1,
       "name": "admin",
       "token": "admin"
     },
     {
+      "id": 2,
       "name": "someUserEmail",
       "token": "someUserToken"
     }
