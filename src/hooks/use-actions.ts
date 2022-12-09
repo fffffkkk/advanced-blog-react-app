@@ -1,7 +1,7 @@
-import {bindActionCreators} from '@reduxjs/toolkit';
-import {useDispatch} from 'react-redux';
+import { bindActionCreators } from '@reduxjs/toolkit';
+import { useDispatch } from 'react-redux';
 
-import {userAction} from '@/store/user/user.slice';
+import { userAction } from '@/store/user/user.slice';
 
 const allActions = {
 	...userAction,
