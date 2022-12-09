@@ -21,7 +21,7 @@ const AuthForm: FC<AuthFormProps> = ({ title, submit }) => {
 
 	return (
 		<form onSubmit={handleSubmit}>
-			<Wrapper>{title}</Wrapper>
+			<h1>{title}</h1>
 			<label>
 				Введите email:
 				<Input

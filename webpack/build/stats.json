@@ -1,29 +1,29 @@
 {
-  "hash": "42e61d531423351540e7",
+  "hash": "60bdd30cb9fae1ef861a",
   "version": "5.75.0",
-  "time": 558,
-  "builtAt": 1670529895766,
+  "time": 1036,
+  "builtAt": 1670576525558,
   "publicPath": "/",
   "outputPath": "E:\\react-project\\myProject\\advanced-blog-react-app\\webpack\\build",
   "assetsByChunkName": {
     "main": [
-      "main.4ba58c087a199b7af613.js",
-      "main.32a3528e35bd3cbf1fd0.hot-update.js"
+      "main.43d3b7686751d0b9995a.js",
+      "main.7a1aa2c513edd03e7aef.hot-update.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "main.4ba58c087a199b7af613.js",
-      "size": 4067343,
+      "name": "main.43d3b7686751d0b9995a.js",
+      "size": 4067540,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "4ba58c087a199b7af613",
+        "contenthash": "43d3b7686751d0b9995a",
         "javascriptModule": false,
-        "size": 4067343
+        "size": 4067540
       },
       "chunkNames": [
         "main"
@@ -40,16 +40,16 @@
     },
     {
       "type": "asset",
-      "name": "main.32a3528e35bd3cbf1fd0.hot-update.js",
-      "size": 6808,
+      "name": "main.7a1aa2c513edd03e7aef.hot-update.js",
+      "size": 6905,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "32a3528e35bd3cbf1fd0",
-        "size": 6808
+        "fullhash": "7a1aa2c513edd03e7aef",
+        "size": 6905
       },
       "chunkNames": [
         "main"
@@ -61,28 +61,6 @@
       "chunks": [
         "main"
       ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "main.32a3528e35bd3cbf1fd0.hot-update.json",
-      "size": 634,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "32a3528e35bd3cbf1fd0",
-        "size": 634
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
@@ -104,6 +82,28 @@
       "chunks": [],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "main.7a1aa2c513edd03e7aef.hot-update.json",
+      "size": 28,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "7a1aa2c513edd03e7aef",
+        "size": 28
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
     }
   ],
   "chunks": [
@@ -112,10 +112,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 1530608,
+      "size": 1530605,
       "sizes": {
         "runtime": 26994,
-        "javascript": 1503614
+        "javascript": 1503611
       },
       "names": [
         "main"
@@ -125,11 +125,11 @@
         "main"
       ],
       "files": [
-        "main.4ba58c087a199b7af613.js",
-        "main.32a3528e35bd3cbf1fd0.hot-update.js"
+        "main.43d3b7686751d0b9995a.js",
+        "main.7a1aa2c513edd03e7aef.hot-update.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "58cd1210d7c0bbf2942b",
+      "hash": "ced9db551bf9c8697be1",
       "childrenByOrder": {},
       "id": "main",
       "siblings": [],
@@ -196,6 +196,11 @@
               "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
               "name": "./src/features/Registration/components/form/AuthForm.tsx",
               "id": "./src/features/Registration/components/form/AuthForm.tsx"
+            },
+            {
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
+              "name": "./src/features/Registration/hooks/use-change.ts",
+              "id": "./src/features/Registration/hooks/use-change.ts"
             },
             {
               "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
@@ -328,6 +333,11 @@
               "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
               "name": "./src/features/Registration/components/form/AuthForm.tsx",
               "id": "./src/features/Registration/components/form/AuthForm.tsx"
+            },
+            {
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
+              "name": "./src/features/Registration/hooks/use-change.ts",
+              "id": "./src/features/Registration/hooks/use-change.ts"
             },
             {
               "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
@@ -570,6 +580,11 @@
               "id": "./src/features/Registration/components/form/AuthForm.tsx"
             },
             {
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
+              "name": "./src/features/Registration/hooks/use-change.ts",
+              "id": "./src/features/Registration/hooks/use-change.ts"
+            },
+            {
               "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
               "name": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
               "id": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js"
@@ -681,6 +696,11 @@
               "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
               "name": "./src/features/Registration/components/form/AuthForm.tsx",
               "id": "./src/features/Registration/components/form/AuthForm.tsx"
+            },
+            {
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
+              "name": "./src/features/Registration/hooks/use-change.ts",
+              "id": "./src/features/Registration/hooks/use-change.ts"
             },
             {
               "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
@@ -855,8 +875,8 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
-          "issuerName": "./src/features/Registration/components/form/AuthForm.tsx",
+          "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
+          "issuerName": "./src/features/Registration/hooks/use-change.ts",
           "issuerPath": [
             {
               "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\index.tsx",
@@ -892,13 +912,18 @@
               "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
               "name": "./src/features/Registration/components/form/AuthForm.tsx",
               "id": "./src/features/Registration/components/form/AuthForm.tsx"
+            },
+            {
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
+              "name": "./src/features/Registration/hooks/use-change.ts",
+              "id": "./src/features/Registration/hooks/use-change.ts"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
-          "issuerId": "./src/features/Registration/components/form/AuthForm.tsx",
+          "issuerId": "./src/features/Registration/hooks/use-change.ts",
           "chunks": [
             "main"
           ],
@@ -1434,6 +1459,11 @@
               "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
               "name": "./src/features/Registration/components/form/AuthForm.tsx",
               "id": "./src/features/Registration/components/form/AuthForm.tsx"
+            },
+            {
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
+              "name": "./src/features/Registration/hooks/use-change.ts",
+              "id": "./src/features/Registration/hooks/use-change.ts"
             },
             {
               "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
@@ -5525,7 +5555,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "21:74-93",
+              "loc": "21:71-90",
               "moduleId": "./src/features/Registration/components/form/AuthForm.tsx",
               "resolvedModuleId": "./src/features/Registration/components/form/AuthForm.tsx"
             },
@@ -5539,7 +5569,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "21:175-194",
+              "loc": "21:172-191",
               "moduleId": "./src/features/Registration/components/form/AuthForm.tsx",
               "resolvedModuleId": "./src/features/Registration/components/form/AuthForm.tsx"
             },
@@ -9963,7 +9993,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../../../components/ui/Input",
-              "loc": "21:195-200",
+              "loc": "21:192-197",
               "moduleId": "./src/features/Registration/components/form/AuthForm.tsx",
               "resolvedModuleId": "./src/features/Registration/components/form/AuthForm.tsx"
             },
@@ -10189,9 +10219,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1454,
+          "size": 1451,
           "sizes": {
-            "javascript": 1454
+            "javascript": 1451
           },
           "built": true,
           "codeGenerated": true,
@@ -13102,7 +13132,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "21:74-93",
+          "loc": "21:71-90",
           "moduleId": "./src/features/Registration/components/form/AuthForm.tsx",
           "resolvedModuleId": "./src/features/Registration/components/form/AuthForm.tsx"
         },
@@ -13116,7 +13146,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "21:175-194",
+          "loc": "21:172-191",
           "moduleId": "./src/features/Registration/components/form/AuthForm.tsx",
           "resolvedModuleId": "./src/features/Registration/components/form/AuthForm.tsx"
         },
@@ -20242,9 +20272,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1454,
+      "size": 1451,
       "sizes": {
-        "javascript": 1454
+        "javascript": 1451
       },
       "built": true,
       "codeGenerated": true,
@@ -20362,8 +20392,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
-      "issuerName": "./src/features/Registration/components/form/AuthForm.tsx",
+      "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
+      "issuerName": "./src/features/Registration/hooks/use-change.ts",
       "issuerPath": [
         {
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\index.tsx",
@@ -20399,13 +20429,18 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
           "name": "./src/features/Registration/components/form/AuthForm.tsx",
           "id": "./src/features/Registration/components/form/AuthForm.tsx"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
+          "name": "./src/features/Registration/hooks/use-change.ts",
+          "id": "./src/features/Registration/hooks/use-change.ts"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
-      "issuerId": "./src/features/Registration/components/form/AuthForm.tsx",
+      "issuerId": "./src/features/Registration/hooks/use-change.ts",
       "chunks": [
         "main"
       ],
@@ -20570,7 +20605,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../../../components/ui/Input",
-          "loc": "21:195-200",
+          "loc": "21:192-197",
           "moduleId": "./src/features/Registration/components/form/AuthForm.tsx",
           "resolvedModuleId": "./src/features/Registration/components/form/AuthForm.tsx"
         },
@@ -20764,6 +20799,11 @@
           "id": "./src/features/Registration/components/form/AuthForm.tsx"
         },
         {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
+          "name": "./src/features/Registration/hooks/use-change.ts",
+          "id": "./src/features/Registration/hooks/use-change.ts"
+        },
+        {
           "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
           "name": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
           "id": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js"
@@ -20874,6 +20914,11 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
           "name": "./src/features/Registration/components/form/AuthForm.tsx",
           "id": "./src/features/Registration/components/form/AuthForm.tsx"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
+          "name": "./src/features/Registration/hooks/use-change.ts",
+          "id": "./src/features/Registration/hooks/use-change.ts"
         },
         {
           "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
@@ -20988,6 +21033,11 @@
           "id": "./src/features/Registration/components/form/AuthForm.tsx"
         },
         {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
+          "name": "./src/features/Registration/hooks/use-change.ts",
+          "id": "./src/features/Registration/hooks/use-change.ts"
+        },
+        {
           "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
           "name": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
           "id": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js"
@@ -21098,6 +21148,11 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
           "name": "./src/features/Registration/components/form/AuthForm.tsx",
           "id": "./src/features/Registration/components/form/AuthForm.tsx"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
+          "name": "./src/features/Registration/hooks/use-change.ts",
+          "id": "./src/features/Registration/hooks/use-change.ts"
         },
         {
           "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
@@ -21336,6 +21391,11 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx",
           "name": "./src/features/Registration/components/form/AuthForm.tsx",
           "id": "./src/features/Registration/components/form/AuthForm.tsx"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts",
+          "name": "./src/features/Registration/hooks/use-change.ts",
+          "id": "./src/features/Registration/hooks/use-change.ts"
         },
         {
           "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
@@ -22240,16 +22300,16 @@
       ],
       "assets": [
         {
-          "name": "main.4ba58c087a199b7af613.js",
-          "size": 4067343
+          "name": "main.43d3b7686751d0b9995a.js",
+          "size": 4067540
         },
         {
-          "name": "main.32a3528e35bd3cbf1fd0.hot-update.js",
-          "size": 6808
+          "name": "main.7a1aa2c513edd03e7aef.hot-update.js",
+          "size": 6905
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 4074151,
+      "assetsSize": 4074445,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -22266,16 +22326,16 @@
       ],
       "assets": [
         {
-          "name": "main.4ba58c087a199b7af613.js",
-          "size": 4067343
+          "name": "main.43d3b7686751d0b9995a.js",
+          "size": 4067540
         },
         {
-          "name": "main.32a3528e35bd3cbf1fd0.hot-update.js",
-          "size": 6808
+          "name": "main.7a1aa2c513edd03e7aef.hot-update.js",
+          "size": 6905
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 4074151,
+      "assetsSize": 4074445,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -22284,23 +22344,8 @@
       "isOverSizeLimit": false
     }
   },
-  "errors": [
-    {
-      "message": "[eslint] \u001b[0m\u001b[0m\n\u001b[0m\u001b[4mE:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\form\\AuthForm.tsx\u001b[24m\u001b[0m\n\u001b[0m  \u001b[2m24:5\u001b[22m  \u001b[31merror\u001b[39m  'Wrapper' is not defined  \u001b[2mreact/jsx-no-undef\u001b[22m\u001b[0m\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m✖ 1 problem (1 error, 0 warnings)\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m\u001b[22m\u001b[39m\u001b[0m",
-      "stack": ""
-    },
-    {
-      "file": "./src/features/Registration/components/form/AuthForm.tsx:\u001b[32m\u001b[1m24:5\u001b[22m\u001b[39m",
-      "message": "\u001b[90mTS2304: \u001b[39mCannot find name 'Wrapper'.\r\n  \u001b[0m \u001b[90m 22 |\u001b[39m \t\u001b[36mreturn\u001b[39m (\u001b[0m\r\n  \u001b[0m \u001b[90m 23 |\u001b[39m \t\t\u001b[33m<\u001b[39m\u001b[33mform\u001b[39m onSubmit\u001b[33m=\u001b[39m{handleSubmit}\u001b[33m>\u001b[39m\u001b[0m\r\n  \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m \t\t\t\u001b[33m<\u001b[39m\u001b[33mWrapper\u001b[39m\u001b[33m>\u001b[39m{title}\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mWrapper\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\r\n  \u001b[0m \u001b[90m    |\u001b[39m \t\t\t \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\r\n  \u001b[0m \u001b[90m 25 |\u001b[39m \t\t\t\u001b[33m<\u001b[39m\u001b[33mlabel\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\r\n  \u001b[0m \u001b[90m 26 |\u001b[39m \t\t\t\t\u001b[33mВведите\u001b[39m email\u001b[33m:\u001b[39m\u001b[0m\r\n  \u001b[0m \u001b[90m 27 |\u001b[39m \t\t\t\t\u001b[33m<\u001b[39m\u001b[33mInput\u001b[39m\u001b[0m",
-      "stack": "Error: \u001b[90mTS2304: \u001b[39mCannot find name 'Wrapper'.\r\n  \u001b[0m \u001b[90m 22 |\u001b[39m \t\u001b[36mreturn\u001b[39m (\u001b[0m\r\n  \u001b[0m \u001b[90m 23 |\u001b[39m \t\t\u001b[33m<\u001b[39m\u001b[33mform\u001b[39m onSubmit\u001b[33m=\u001b[39m{handleSubmit}\u001b[33m>\u001b[39m\u001b[0m\r\n  \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m \t\t\t\u001b[33m<\u001b[39m\u001b[33mWrapper\u001b[39m\u001b[33m>\u001b[39m{title}\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mWrapper\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\r\n  \u001b[0m \u001b[90m    |\u001b[39m \t\t\t \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\r\n  \u001b[0m \u001b[90m 25 |\u001b[39m \t\t\t\u001b[33m<\u001b[39m\u001b[33mlabel\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\r\n  \u001b[0m \u001b[90m 26 |\u001b[39m \t\t\t\t\u001b[33mВведите\u001b[39m email\u001b[33m:\u001b[39m\u001b[0m\r\n  \u001b[0m \u001b[90m 27 |\u001b[39m \t\t\t\t\u001b[33m<\u001b[39m\u001b[33mInput\u001b[39m\u001b[0m\n    at E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\fork-ts-checker-webpack-plugin\\lib\\hooks\\tap-after-compile-to-get-issues.js:42:27\n    at Array.forEach (<anonymous>)\n    at E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\fork-ts-checker-webpack-plugin\\lib\\hooks\\tap-after-compile-to-get-issues.js:41:16\n    at Generator.next (<anonymous>)\n    at fulfilled (E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\fork-ts-checker-webpack-plugin\\lib\\hooks\\tap-after-compile-to-get-issues.js:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
-    },
-    {
-      "file": "./src/features/Registration/components/form/AuthForm.tsx:\u001b[32m\u001b[1m24:22\u001b[22m\u001b[39m",
-      "message": "\u001b[90mTS2304: \u001b[39mCannot find name 'Wrapper'.\r\n  \u001b[0m \u001b[90m 22 |\u001b[39m \t\u001b[36mreturn\u001b[39m (\u001b[0m\r\n  \u001b[0m \u001b[90m 23 |\u001b[39m \t\t\u001b[33m<\u001b[39m\u001b[33mform\u001b[39m onSubmit\u001b[33m=\u001b[39m{handleSubmit}\u001b[33m>\u001b[39m\u001b[0m\r\n  \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m \t\t\t\u001b[33m<\u001b[39m\u001b[33mWrapper\u001b[39m\u001b[33m>\u001b[39m{title}\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mWrapper\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\r\n  \u001b[0m \u001b[90m    |\u001b[39m \t\t\t                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\r\n  \u001b[0m \u001b[90m 25 |\u001b[39m \t\t\t\u001b[33m<\u001b[39m\u001b[33mlabel\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\r\n  \u001b[0m \u001b[90m 26 |\u001b[39m \t\t\t\t\u001b[33mВведите\u001b[39m email\u001b[33m:\u001b[39m\u001b[0m\r\n  \u001b[0m \u001b[90m 27 |\u001b[39m \t\t\t\t\u001b[33m<\u001b[39m\u001b[33mInput\u001b[39m\u001b[0m",
-      "stack": "Error: \u001b[90mTS2304: \u001b[39mCannot find name 'Wrapper'.\r\n  \u001b[0m \u001b[90m 22 |\u001b[39m \t\u001b[36mreturn\u001b[39m (\u001b[0m\r\n  \u001b[0m \u001b[90m 23 |\u001b[39m \t\t\u001b[33m<\u001b[39m\u001b[33mform\u001b[39m onSubmit\u001b[33m=\u001b[39m{handleSubmit}\u001b[33m>\u001b[39m\u001b[0m\r\n  \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m \t\t\t\u001b[33m<\u001b[39m\u001b[33mWrapper\u001b[39m\u001b[33m>\u001b[39m{title}\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mWrapper\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\r\n  \u001b[0m \u001b[90m    |\u001b[39m \t\t\t                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\r\n  \u001b[0m \u001b[90m 25 |\u001b[39m \t\t\t\u001b[33m<\u001b[39m\u001b[33mlabel\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\r\n  \u001b[0m \u001b[90m 26 |\u001b[39m \t\t\t\t\u001b[33mВведите\u001b[39m email\u001b[33m:\u001b[39m\u001b[0m\r\n  \u001b[0m \u001b[90m 27 |\u001b[39m \t\t\t\t\u001b[33m<\u001b[39m\u001b[33mInput\u001b[39m\u001b[0m\n    at E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\fork-ts-checker-webpack-plugin\\lib\\hooks\\tap-after-compile-to-get-issues.js:42:27\n    at Array.forEach (<anonymous>)\n    at E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\fork-ts-checker-webpack-plugin\\lib\\hooks\\tap-after-compile-to-get-issues.js:41:16\n    at Generator.next (<anonymous>)\n    at fulfilled (E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\fork-ts-checker-webpack-plugin\\lib\\hooks\\tap-after-compile-to-get-issues.js:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
-    }
-  ],
-  "errorsCount": 3,
+  "errors": [],
+  "errorsCount": 0,
   "warnings": [
     {
       "message": "[eslint] \u001b[0m\u001b[0m\n\u001b[0m\u001b[4mE:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\hooks\\use-change.ts\u001b[24m\u001b[0m\n\u001b[0m  \u001b[2m3:33\u001b[22m  \u001b[33mwarning\u001b[39m  Unexpected any. Specify a different type  \u001b[2m@typescript-eslint/no-explicit-any\u001b[22m\u001b[0m\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[33m\u001b[1m✖ 1 problem (0 errors, 1 warning)\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m\u001b[33m\u001b[1m\u001b[22m\u001b[39m\u001b[0m",
