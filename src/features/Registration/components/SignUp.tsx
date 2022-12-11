@@ -1,24 +1,25 @@
 import React from 'react';
 
 import { useActions } from '@/hooks/use-actions';
-import { useTypedSelector } from '@/hooks/use-typed-selector';
+import { useAddUserMutation } from '@/store/user/user.api';
 import AuthForm from '@/features/Registration/components/form/AuthForm';
 
 const SignUp = () => {
 	const { addUser } = useActions();
-	const { user } = useTypedSelector((state) => state.user);
+	const [mutationUser] = useAddUserMutation();
 
-	const handleSignUp = (form: { email: string, password: string }) => {
-		addUser({
+	const handleSignUp = (form: { name: string, token: string }) => {
+		const currentUser = {
 			id: Date.now(),
-			name: form.email,
-			token: form.password,
-		});
+			name: form.name,
+			token: form.token,
+		};
+
+		addUser(currentUser);
+		mutationUser(currentUser);
 	};
 
-	console.log(user);
-
-	return <AuthForm title='Регистрация' submit={handleSignUp} />;
+	return <AuthForm title='Авторизация' submit={handleSignUp} />;
 };
 
 export default SignUp;

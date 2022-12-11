@@ -33,8 +33,8 @@ describe('auth form tests', () => {
 		userEvent.click(submitBtn);
 
 		expect(submit).toHaveBeenCalledWith({
-			email: '1234@123.com',
-			password: '1234567890',
+			name: '1234@123.com',
+			token: '1234567890',
 		});
 	});
 });
