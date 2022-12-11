@@ -2,7 +2,10 @@ import React, { FC } from 'react';
 
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+
 import { useTypedSelector } from '@/hooks/use-typed-selector';
+import DropDown from '@/components/ui/DropDown';
+import { useToggle } from '@/hooks/use-toggle';
 
 const NavbarWrapper = styled.header`
 	width: 100%;
@@ -29,6 +32,8 @@ const NavbarTitle = styled.h1`
 `;
 const NavbarNavigation = styled.nav`
 	display: flex;
+	align-items: center;
+	justify-content: center;
 `;
 const NavigationItem = styled.div`
 	padding: 10px;
@@ -38,20 +43,33 @@ const NavigationItem = styled.div`
 		background-color: #41affa;
 	}
 `;
+const UserImage = styled.div`
+	width: 50px;
+	height: 50px;
+	background-color: #333333;
+	border-radius: 50%;
+`;
 
 const Navbar: FC = () => {
 	const { user } = useTypedSelector((state) => state.user);
-
+	const [visible, setVisible] = useToggle();
+	
 	return (
 		<NavbarWrapper>
 			<NavbarInner>
 				<NavbarTitle>BLOG</NavbarTitle>
 				<NavbarNavigation>
 					<NavigationItem>
-						<Link role='nav' to='/'>home</Link>
+						<Link role='nav' to='/'>
+							home
+						</Link>
 					</NavigationItem>
 					<NavigationItem>
-						<Link role='nav' to={`/profile/${user.id}`}>profile</Link>
+						<Link onClick={setVisible} role='nav' to={`/profile/${user.id}`}>
+							<UserImage>
+								<DropDown active={visible}>text</DropDown>
+							</UserImage>
+						</Link>
 					</NavigationItem>
 				</NavbarNavigation>
 			</NavbarInner>
