@@ -43,13 +43,13 @@ const Label = styled.label`
 
 interface AuthFormProps {
 	title: string;
-	submit: (data: { email: string, password: string }) => void;
+	submit: (data: { name: string, token: string }) => void;
 }
 
 const AuthForm: FC<AuthFormProps> = ({ title, submit }) => {
 	const [form, setForm] = useChange({
-		email: '',
-		password: '',
+		name: '',
+		token: '',
 	});
 
 	const handleSubmit = (e: React.FormEvent) => {
@@ -65,18 +65,18 @@ const AuthForm: FC<AuthFormProps> = ({ title, submit }) => {
 					Введите email:
 					<Input
 						type='email'
-						value={form.email}
+						value={form.name}
 						change={(e) => setForm(e)}
-						name='email'
+						name='name'
 					/>
 				</Label>
 				<Label>
 					Введите пароль:
 					<Input
 						type='password'
-						value={form.password}
+						value={form.token}
 						change={(e) => setForm(e)}
-						name='password'
+						name='token'
 					/>
 				</Label>
 				<Button type='submit'>{stringUpper('Отправить')}</Button>
