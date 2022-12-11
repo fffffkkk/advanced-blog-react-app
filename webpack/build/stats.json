@@ -1,55 +1,28 @@
 {
-  "hash": "0136e7857726deff7398",
+  "hash": "8744deacb18c8e5e52c7",
   "version": "5.75.0",
-  "time": 674,
-  "builtAt": 1670761349483,
+  "time": 1633,
+  "builtAt": 1670771140871,
   "publicPath": "/",
   "outputPath": "E:\\react-project\\myProject\\advanced-blog-react-app\\webpack\\build",
   "assetsByChunkName": {
     "main": [
-      "main.389be61601bc3cad3c59.js",
-      "main.966bf0d65f88935c4ffc.hot-update.js"
+      "main.ecc5c992d33d2d5ef42e.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "main.389be61601bc3cad3c59.js",
-      "size": 5282199,
-      "emitted": true,
+      "name": "main.ecc5c992d33d2d5ef42e.js",
+      "size": 5285828,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "immutable": true,
-        "contenthash": "389be61601bc3cad3c59",
+        "contenthash": "ecc5c992d33d2d5ef42e",
         "javascriptModule": false,
-        "size": 5282199
-      },
-      "chunkNames": [
-        "main"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        "main"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "main.966bf0d65f88935c4ffc.hot-update.js",
-      "size": 10810,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "966bf0d65f88935c4ffc",
-        "size": 10810
+        "size": 5285828
       },
       "chunkNames": [
         "main"
@@ -82,40 +55,18 @@
       "chunks": [],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "main.966bf0d65f88935c4ffc.hot-update.json",
-      "size": 28,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "966bf0d65f88935c4ffc",
-        "size": 28
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
     }
   ],
   "chunks": [
     {
-      "rendered": true,
+      "rendered": false,
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 1959373,
+      "size": 1960389,
       "sizes": {
-        "runtime": 27250,
-        "javascript": 1932123
+        "javascript": 1933139,
+        "runtime": 27250
       },
       "names": [
         "main"
@@ -125,11 +76,10 @@
         "main"
       ],
       "files": [
-        "main.389be61601bc3cad3c59.js",
-        "main.966bf0d65f88935c4ffc.hot-update.js"
+        "main.ecc5c992d33d2d5ef42e.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "fe40323c22ab5cd7fbc5",
+      "hash": "c69e00df6f7319cba5bd",
       "childrenByOrder": {},
       "id": "main",
       "siblings": [],
@@ -930,104 +880,6 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 127,
-          "sizes": {
-            "javascript": 127
-          },
-          "built": false,
-          "codeGenerated": false,
-          "buildTimeExecuted": false,
-          "cached": true,
-          "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\objectDestructuringEmpty.js",
-          "name": "./node_modules/@babel/runtime/helpers/esm/objectDestructuringEmpty.js",
-          "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\objectDestructuringEmpty.js",
-          "index": 88,
-          "preOrderIndex": 88,
-          "index2": 83,
-          "postOrderIndex": 83,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": true,
-          "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
-          "issuerName": "./src/pages/Home.tsx",
-          "issuerPath": [
-            {
-              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\index.tsx",
-              "name": "./src/index.tsx",
-              "id": "./src/index.tsx"
-            },
-            {
-              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\App.tsx",
-              "name": "./src/App.tsx",
-              "id": "./src/App.tsx"
-            },
-            {
-              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
-              "name": "./src/components/AppRouter.tsx",
-              "id": "./src/components/AppRouter.tsx"
-            },
-            {
-              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\routes\\routes.ts",
-              "name": "./src/routes/routes.ts",
-              "id": "./src/routes/routes.ts"
-            },
-            {
-              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
-              "name": "./src/pages/Home.tsx",
-              "id": "./src/pages/Home.tsx"
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "./node_modules/@babel/runtime/helpers/esm/objectDestructuringEmpty.js",
-          "issuerId": "./src/pages/Home.tsx",
-          "chunks": [
-            "main"
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
-              "module": "./src/pages/Home.tsx",
-              "moduleName": "./src/pages/Home.tsx",
-              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
-              "resolvedModule": "./src/pages/Home.tsx",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@babel/runtime/helpers/objectDestructuringEmpty",
-              "loc": "1:0-88",
-              "moduleId": "./src/pages/Home.tsx",
-              "resolvedModuleId": "./src/pages/Home.tsx"
-            },
-            {
-              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
-              "module": "./src/pages/Home.tsx",
-              "moduleName": "./src/pages/Home.tsx",
-              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
-              "resolvedModule": "./src/pages/Home.tsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@babel/runtime/helpers/objectDestructuringEmpty",
-              "loc": "7:2-27",
-              "moduleId": "./src/pages/Home.tsx",
-              "resolvedModuleId": "./src/pages/Home.tsx"
-            }
-          ],
-          "usedExports": null,
-          "providedExports": [
-            "default"
-          ],
-          "optimizationBailout": [],
-          "depth": 5
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/esm",
-          "layer": null,
           "size": 973,
           "sizes": {
             "javascript": 973
@@ -1324,7 +1176,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@babel/runtime/helpers/slicedToArray",
-              "loc": "1:0-66",
+              "loc": "2:0-66",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -1338,7 +1190,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@babel/runtime/helpers/slicedToArray",
-              "loc": "22:18-32",
+              "loc": "19:18-32",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -1477,10 +1329,10 @@
           "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\taggedTemplateLiteral.js",
           "name": "./node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral.js",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\taggedTemplateLiteral.js",
-          "index": 97,
-          "preOrderIndex": 97,
-          "index2": 90,
-          "postOrderIndex": 90,
+          "index": 90,
+          "preOrderIndex": 90,
+          "index2": 83,
+          "postOrderIndex": 83,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -1650,7 +1502,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-              "loc": "2:0-82",
+              "loc": "1:0-82",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -1664,7 +1516,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-              "loc": "10:72-94",
+              "loc": "42:72-94",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -1678,7 +1530,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-              "loc": "11:69-91",
+              "loc": "43:69-91",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -1692,7 +1544,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-              "loc": "12:68-90",
+              "loc": "44:68-90",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -1706,7 +1558,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-              "loc": "13:74-96",
+              "loc": "45:74-96",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -1720,7 +1572,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-              "loc": "14:72-94",
+              "loc": "46:72-94",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -1734,7 +1586,35 @@
               "active": true,
               "explanation": "",
               "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-              "loc": "15:67-89",
+              "loc": "47:71-93",
+              "moduleId": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "module": "./src/features/Home/components/Navbar.tsx",
+              "moduleName": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
+              "loc": "48:74-96",
+              "moduleId": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "module": "./src/features/Home/components/Navbar.tsx",
+              "moduleName": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
+              "loc": "49:67-89",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -2297,10 +2177,10 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@emotion\\is-prop-valid\\dist\\emotion-is-prop-valid.esm.js",
           "name": "./node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.esm.js",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@emotion\\is-prop-valid\\dist\\emotion-is-prop-valid.esm.js",
-          "index": 104,
-          "preOrderIndex": 104,
-          "index2": 96,
-          "postOrderIndex": 96,
+          "index": 105,
+          "preOrderIndex": 105,
+          "index2": 97,
+          "postOrderIndex": 97,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -2404,10 +2284,10 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@emotion\\memoize\\dist\\emotion-memoize.esm.js",
           "name": "./node_modules/@emotion/memoize/dist/emotion-memoize.esm.js",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@emotion\\memoize\\dist\\emotion-memoize.esm.js",
-          "index": 105,
-          "preOrderIndex": 105,
-          "index2": 95,
-          "postOrderIndex": 95,
+          "index": 106,
+          "preOrderIndex": 106,
+          "index2": 96,
+          "postOrderIndex": 96,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -2502,10 +2382,10 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@emotion\\stylis\\dist\\stylis.browser.esm.js",
           "name": "./node_modules/@emotion/stylis/dist/stylis.browser.esm.js",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@emotion\\stylis\\dist\\stylis.browser.esm.js",
-          "index": 102,
-          "preOrderIndex": 102,
-          "index2": 93,
-          "postOrderIndex": 93,
+          "index": 103,
+          "preOrderIndex": 103,
+          "index2": 94,
+          "postOrderIndex": 94,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -2595,10 +2475,10 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@emotion\\unitless\\dist\\unitless.browser.esm.js",
           "name": "./node_modules/@emotion/unitless/dist/unitless.browser.esm.js",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@emotion\\unitless\\dist\\unitless.browser.esm.js",
-          "index": 103,
-          "preOrderIndex": 103,
-          "index2": 94,
-          "postOrderIndex": 94,
+          "index": 104,
+          "preOrderIndex": 104,
+          "index2": 95,
+          "postOrderIndex": 95,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -11763,7 +11643,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react-router-dom",
-              "loc": "25:321-325",
+              "loc": "25:200-204",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -11777,7 +11657,21 @@
               "active": true,
               "explanation": "",
               "userRequest": "react-router-dom",
-              "loc": "28:103-107",
+              "loc": "32:93-97",
+              "moduleId": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "module": "./src/features/Home/components/Navbar.tsx",
+              "moduleName": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react-router-dom",
+              "loc": "35:106-110",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -11819,7 +11713,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "react-router-dom",
-              "loc": "3:0-49",
+              "loc": "2:0-49",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
             },
@@ -11833,7 +11727,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "react-router-dom",
-              "loc": "8:145-151",
+              "loc": "7:145-151",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
             },
@@ -11847,7 +11741,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "react-router-dom",
-              "loc": "8:192-197",
+              "loc": "7:192-197",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
             },
@@ -11861,7 +11755,21 @@
               "active": false,
               "explanation": "",
               "userRequest": "react-router-dom",
-              "loc": "11:39-44",
+              "loc": "10:39-44",
+              "moduleId": "./src/pages/Home.tsx",
+              "resolvedModuleId": "./src/pages/Home.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+              "module": "./src/pages/Home.tsx",
+              "moduleName": "./src/pages/Home.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+              "resolvedModule": "./src/pages/Home.tsx",
+              "type": "harmony import specifier",
+              "active": false,
+              "explanation": "",
+              "userRequest": "react-router-dom",
+              "loc": "13:39-44",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
             },
@@ -12080,7 +11988,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "react-router-dom",
-              "loc": "8:145-151",
+              "loc": "7:145-151",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
             },
@@ -12094,7 +12002,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "react-router-dom",
-              "loc": "8:192-197",
+              "loc": "7:192-197",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
             },
@@ -12108,7 +12016,21 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "react-router-dom",
-              "loc": "11:39-44",
+              "loc": "10:39-44",
+              "moduleId": "./src/pages/Home.tsx",
+              "resolvedModuleId": "./src/pages/Home.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+              "module": "./src/pages/Home.tsx",
+              "moduleName": "./src/pages/Home.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+              "resolvedModule": "./src/pages/Home.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "(skipped side-effect-free modules)",
+              "userRequest": "react-router-dom",
+              "loc": "13:39-44",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
             },
@@ -14403,7 +14325,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "25:189-208",
+              "loc": "25:180-199",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -14417,7 +14339,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "25:246-265",
+              "loc": "27:18-37",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -14431,7 +14353,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "25:301-320",
+              "loc": "27:84-103",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -14445,7 +14367,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "28:28-47",
+              "loc": "27:141-160",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -14459,7 +14381,21 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "28:83-102",
+              "loc": "30:18-37",
+              "moduleId": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "module": "./src/features/Home/components/Navbar.tsx",
+              "moduleName": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "30:68-87",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -14487,7 +14423,63 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "32:68-87",
+              "loc": "32:73-92",
+              "moduleId": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "module": "./src/features/Home/components/Navbar.tsx",
+              "moduleName": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "35:31-50",
+              "moduleId": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "module": "./src/features/Home/components/Navbar.tsx",
+              "moduleName": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "35:86-105",
+              "moduleId": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "module": "./src/features/Home/components/Navbar.tsx",
+              "moduleName": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "38:32-51",
+              "moduleId": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "module": "./src/features/Home/components/Navbar.tsx",
+              "moduleName": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "38:87-106",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -14865,7 +14857,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "2:0-26",
+              "loc": "1:0-26",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
             },
@@ -14879,7 +14871,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "8:22-41",
+              "loc": "7:22-41",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
             },
@@ -14893,7 +14885,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "8:42-56",
+              "loc": "7:42-56",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
             },
@@ -14907,7 +14899,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "8:77-96",
+              "loc": "7:77-96",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
             },
@@ -14921,7 +14913,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "8:125-144",
+              "loc": "7:125-144",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
             },
@@ -14935,7 +14927,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "8:172-191",
+              "loc": "7:172-191",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
             },
@@ -14949,7 +14941,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "10:26-45",
+              "loc": "9:26-45",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
             },
@@ -14963,7 +14955,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "11:19-38",
+              "loc": "10:19-38",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
             },
@@ -14977,7 +14969,35 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "13:26-45",
+              "loc": "12:26-45",
+              "moduleId": "./src/pages/Home.tsx",
+              "resolvedModuleId": "./src/pages/Home.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+              "module": "./src/pages/Home.tsx",
+              "moduleName": "./src/pages/Home.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+              "resolvedModule": "./src/pages/Home.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "13:19-38",
+              "moduleId": "./src/pages/Home.tsx",
+              "resolvedModuleId": "./src/pages/Home.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+              "module": "./src/pages/Home.tsx",
+              "moduleName": "./src/pages/Home.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+              "resolvedModule": "./src/pages/Home.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "15:26-45",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
             },
@@ -15064,6 +15084,34 @@
               "loc": "8:28-47",
               "moduleId": "./src/pages/Registration.tsx",
               "resolvedModuleId": "./src/pages/Registration.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Settings.tsx",
+              "module": "./src/pages/Settings.tsx",
+              "moduleName": "./src/pages/Settings.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Settings.tsx",
+              "resolvedModule": "./src/pages/Settings.tsx",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "1:0-26",
+              "moduleId": "./src/pages/Settings.tsx",
+              "resolvedModuleId": "./src/pages/Settings.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Settings.tsx",
+              "module": "./src/pages/Settings.tsx",
+              "moduleName": "./src/pages/Settings.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Settings.tsx",
+              "resolvedModule": "./src/pages/Settings.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "3:22-41",
+              "moduleId": "./src/pages/Settings.tsx",
+              "resolvedModuleId": "./src/pages/Settings.tsx"
             },
             {
               "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-dom\\cjs\\react-dom.development.js",
@@ -19000,10 +19048,10 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\shallowequal\\index.js",
           "name": "./node_modules/shallowequal/index.js",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\shallowequal\\index.js",
-          "index": 101,
-          "preOrderIndex": 101,
-          "index2": 92,
-          "postOrderIndex": 92,
+          "index": 102,
+          "preOrderIndex": 102,
+          "index2": 93,
+          "postOrderIndex": 93,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -19675,10 +19723,10 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
           "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
-          "index": 100,
-          "preOrderIndex": 100,
-          "index2": 97,
-          "postOrderIndex": 97,
+          "index": 101,
+          "preOrderIndex": 101,
+          "index2": 98,
+          "postOrderIndex": 98,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -19862,7 +19910,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "styled-components",
-              "loc": "10:20-33",
+              "loc": "42:20-33",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -19876,7 +19924,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "styled-components",
-              "loc": "11:18-28",
+              "loc": "43:18-28",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -19890,7 +19938,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "styled-components",
-              "loc": "12:18-27",
+              "loc": "44:18-27",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -19904,7 +19952,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "styled-components",
-              "loc": "13:23-33",
+              "loc": "45:23-33",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -19918,7 +19966,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "styled-components",
-              "loc": "14:21-31",
+              "loc": "46:21-31",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -19932,7 +19980,35 @@
               "active": true,
               "explanation": "",
               "userRequest": "styled-components",
-              "loc": "15:16-26",
+              "loc": "47:21-30",
+              "moduleId": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "module": "./src/features/Home/components/Navbar.tsx",
+              "moduleName": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "styled-components",
+              "loc": "48:20-33",
+              "moduleId": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "module": "./src/features/Home/components/Navbar.tsx",
+              "moduleName": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "styled-components",
+              "loc": "49:16-26",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -22594,9 +22670,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 908,
+          "size": 912,
           "sizes": {
-            "javascript": 908
+            "javascript": 912
           },
           "built": false,
           "codeGenerated": false,
@@ -22605,10 +22681,10 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\ui\\DropDown.tsx",
           "name": "./src/components/ui/DropDown.tsx",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\ui\\DropDown.tsx",
-          "index": 99,
-          "preOrderIndex": 99,
-          "index2": 98,
-          "postOrderIndex": 98,
+          "index": 100,
+          "preOrderIndex": 100,
+          "index2": 99,
+          "postOrderIndex": 99,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -22672,7 +22748,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../../components/ui/DropDown",
-              "loc": "8:0-55",
+              "loc": "10:0-55",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -22686,7 +22762,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../../components/ui/DropDown",
-              "loc": "32:88-96",
+              "loc": "30:88-96",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             }
@@ -22927,19 +23003,19 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 2832,
+          "size": 3768,
           "sizes": {
-            "javascript": 2832
+            "javascript": 3768
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
           "name": "./src/features/Home/components/Navbar.tsx",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
-          "index": 90,
-          "preOrderIndex": 90,
+          "index": 89,
+          "preOrderIndex": 89,
           "index2": 103,
           "postOrderIndex": 103,
           "cacheable": true,
@@ -23041,8 +23117,8 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\index.ts",
           "name": "./src/features/Home/index.ts",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\index.ts",
-          "index": 89,
-          "preOrderIndex": 89,
+          "index": 88,
+          "preOrderIndex": 88,
           "index2": 105,
           "postOrderIndex": 105,
           "cacheable": true,
@@ -23098,7 +23174,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../features/Home",
-              "loc": "4:0-48",
+              "loc": "3:0-48",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
             },
@@ -23112,7 +23188,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../features/Home",
-              "loc": "8:97-103",
+              "loc": "7:97-103",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
             },
@@ -23126,7 +23202,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../features/Home",
-              "loc": "10:46-50",
+              "loc": "15:46-50",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
             }
@@ -23154,8 +23230,8 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
           "name": "./src/features/Registration/components/SignUp.tsx",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
-          "index": 113,
-          "preOrderIndex": 113,
+          "index": 114,
+          "preOrderIndex": 114,
           "index2": 114,
           "postOrderIndex": 114,
           "cacheable": true,
@@ -23463,8 +23539,8 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\index.ts",
           "name": "./src/features/Registration/index.ts",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\index.ts",
-          "index": 112,
-          "preOrderIndex": 112,
+          "index": 113,
+          "preOrderIndex": 113,
           "index2": 115,
           "postOrderIndex": 115,
           "cacheable": true,
@@ -23678,10 +23754,10 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\hooks\\use-actions.ts",
           "name": "./src/hooks/use-actions.ts",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\hooks\\use-actions.ts",
-          "index": 114,
-          "preOrderIndex": 114,
-          "index2": 108,
-          "postOrderIndex": 108,
+          "index": 99,
+          "preOrderIndex": 99,
+          "index2": 92,
+          "postOrderIndex": 92,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -23730,6 +23806,34 @@
           ],
           "assets": [],
           "reasons": [
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "module": "./src/features/Home/components/Navbar.tsx",
+              "moduleName": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../../hooks/use-actions",
+              "loc": "9:0-56",
+              "moduleId": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "module": "./src/features/Home/components/Navbar.tsx",
+              "moduleName": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+              "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../../hooks/use-actions",
+              "loc": "16:20-30",
+              "moduleId": "./src/features/Home/components/Navbar.tsx",
+              "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+            },
             {
               "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
               "module": "./src/features/Registration/components/SignUp.tsx",
@@ -23869,10 +23973,10 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\hooks\\use-toggle.ts",
           "name": "./src/hooks/use-toggle.ts",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\hooks\\use-toggle.ts",
-          "index": 106,
-          "preOrderIndex": 106,
-          "index2": 99,
-          "postOrderIndex": 99,
+          "index": 98,
+          "preOrderIndex": 98,
+          "index2": 91,
+          "postOrderIndex": 91,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -23936,7 +24040,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../../hooks/use-toggle",
-              "loc": "9:0-54",
+              "loc": "8:0-54",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -23950,7 +24054,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../../hooks/use-toggle",
-              "loc": "21:19-28",
+              "loc": "18:19-28",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             }
@@ -23977,10 +24081,10 @@
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\hooks\\use-typed-selector.ts",
           "name": "./src/hooks/use-typed-selector.ts",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\hooks\\use-typed-selector.ts",
-          "index": 98,
-          "preOrderIndex": 98,
-          "index2": 91,
-          "postOrderIndex": 91,
+          "index": 97,
+          "preOrderIndex": 97,
+          "index2": 90,
+          "postOrderIndex": 90,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -24043,7 +24147,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../../hooks/use-typed-selector",
-              "loc": "17:26-42",
+              "loc": "12:26-42",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -24226,9 +24330,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 757,
+          "size": 801,
           "sizes": {
-            "javascript": 757
+            "javascript": 801
           },
           "built": false,
           "codeGenerated": false,
@@ -24239,8 +24343,8 @@
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
           "index": 87,
           "preOrderIndex": 87,
-          "index2": 107,
-          "postOrderIndex": 107,
+          "index2": 108,
+          "postOrderIndex": 108,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -24401,7 +24505,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./Profile",
-              "loc": "5:0-32",
+              "loc": "4:0-32",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
             },
@@ -24415,7 +24519,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./Profile",
-              "loc": "13:46-53",
+              "loc": "12:46-53",
               "moduleId": "./src/pages/Home.tsx",
               "resolvedModuleId": "./src/pages/Home.tsx"
             }
@@ -24514,6 +24618,104 @@
           ],
           "optimizationBailout": [],
           "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 159,
+          "sizes": {
+            "javascript": 159
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Settings.tsx",
+          "name": "./src/pages/Settings.tsx",
+          "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Settings.tsx",
+          "index": 112,
+          "preOrderIndex": 112,
+          "index2": 107,
+          "postOrderIndex": 107,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+          "issuerName": "./src/pages/Home.tsx",
+          "issuerPath": [
+            {
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\index.tsx",
+              "name": "./src/index.tsx",
+              "id": "./src/index.tsx"
+            },
+            {
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\App.tsx",
+              "name": "./src/App.tsx",
+              "id": "./src/App.tsx"
+            },
+            {
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
+              "name": "./src/components/AppRouter.tsx",
+              "id": "./src/components/AppRouter.tsx"
+            },
+            {
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\routes\\routes.ts",
+              "name": "./src/routes/routes.ts",
+              "id": "./src/routes/routes.ts"
+            },
+            {
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+              "name": "./src/pages/Home.tsx",
+              "id": "./src/pages/Home.tsx"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/pages/Settings.tsx",
+          "issuerId": "./src/pages/Home.tsx",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+              "module": "./src/pages/Home.tsx",
+              "moduleName": "./src/pages/Home.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+              "resolvedModule": "./src/pages/Home.tsx",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./Settings",
+              "loc": "5:0-34",
+              "moduleId": "./src/pages/Home.tsx",
+              "resolvedModuleId": "./src/pages/Home.tsx"
+            },
+            {
+              "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+              "module": "./src/pages/Home.tsx",
+              "moduleName": "./src/pages/Home.tsx",
+              "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+              "resolvedModule": "./src/pages/Home.tsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./Settings",
+              "loc": "9:46-54",
+              "moduleId": "./src/pages/Home.tsx",
+              "resolvedModuleId": "./src/pages/Home.tsx"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 5
         },
         {
           "type": "module",
@@ -24975,9 +25177,9 @@
             "runtime": 267
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/compat get default export",
           "name": "webpack/runtime/compat get default export",
           "nameForCondition": null,
@@ -25011,9 +25213,9 @@
             "runtime": 308
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/define property getters",
           "name": "webpack/runtime/define property getters",
           "nameForCondition": null,
@@ -25047,9 +25249,9 @@
             "runtime": 209
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/get javascript update chunk filename",
           "name": "webpack/runtime/get javascript update chunk filename",
           "nameForCondition": null,
@@ -25083,9 +25285,9 @@
             "runtime": 90
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/get update manifest filename",
           "name": "webpack/runtime/get update manifest filename",
           "nameForCondition": null,
@@ -25119,9 +25321,9 @@
             "runtime": 54
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/getFullHash",
           "name": "webpack/runtime/getFullHash",
           "nameForCondition": null,
@@ -25155,9 +25357,9 @@
             "runtime": 221
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/global",
           "name": "webpack/runtime/global",
           "nameForCondition": null,
@@ -25191,9 +25393,9 @@
             "runtime": 88
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/hasOwnProperty shorthand",
           "name": "webpack/runtime/hasOwnProperty shorthand",
           "nameForCondition": null,
@@ -25227,9 +25429,9 @@
             "runtime": 9347
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/hot module replacement",
           "name": "webpack/runtime/hot module replacement",
           "nameForCondition": null,
@@ -25263,9 +25465,9 @@
             "runtime": 14705
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/jsonp chunk loading",
           "name": "webpack/runtime/jsonp chunk loading",
           "nameForCondition": null,
@@ -25299,9 +25501,9 @@
             "runtime": 1501
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/load script",
           "name": "webpack/runtime/load script",
           "nameForCondition": null,
@@ -25335,9 +25537,9 @@
             "runtime": 274
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/make namespace object",
           "name": "webpack/runtime/make namespace object",
           "nameForCondition": null,
@@ -25371,9 +25573,9 @@
             "runtime": 123
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/node module decorator",
           "name": "webpack/runtime/node module decorator",
           "nameForCondition": null,
@@ -25407,9 +25609,9 @@
             "runtime": 35
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/nonce",
           "name": "webpack/runtime/nonce",
           "nameForCondition": null,
@@ -25443,9 +25645,9 @@
             "runtime": 28
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/publicPath",
           "name": "webpack/runtime/publicPath",
           "nameForCondition": null,
@@ -28027,7 +28229,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "25:189-208",
+          "loc": "25:180-199",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -28041,7 +28243,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "25:246-265",
+          "loc": "27:18-37",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -28055,7 +28257,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "25:301-320",
+          "loc": "27:84-103",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -28069,7 +28271,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "28:28-47",
+          "loc": "27:141-160",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -28083,7 +28285,21 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "28:83-102",
+          "loc": "30:18-37",
+          "moduleId": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "module": "./src/features/Home/components/Navbar.tsx",
+          "moduleName": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "30:68-87",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -28111,7 +28327,63 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "32:68-87",
+          "loc": "32:73-92",
+          "moduleId": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "module": "./src/features/Home/components/Navbar.tsx",
+          "moduleName": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "35:31-50",
+          "moduleId": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "module": "./src/features/Home/components/Navbar.tsx",
+          "moduleName": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "35:86-105",
+          "moduleId": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "module": "./src/features/Home/components/Navbar.tsx",
+          "moduleName": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "38:32-51",
+          "moduleId": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "module": "./src/features/Home/components/Navbar.tsx",
+          "moduleName": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "38:87-106",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -28489,7 +28761,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "2:0-26",
+          "loc": "1:0-26",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
         },
@@ -28503,7 +28775,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "8:22-41",
+          "loc": "7:22-41",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
         },
@@ -28517,7 +28789,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "8:42-56",
+          "loc": "7:42-56",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
         },
@@ -28531,7 +28803,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "8:77-96",
+          "loc": "7:77-96",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
         },
@@ -28545,7 +28817,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "8:125-144",
+          "loc": "7:125-144",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
         },
@@ -28559,7 +28831,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "8:172-191",
+          "loc": "7:172-191",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
         },
@@ -28573,7 +28845,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "10:26-45",
+          "loc": "9:26-45",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
         },
@@ -28587,7 +28859,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "11:19-38",
+          "loc": "10:19-38",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
         },
@@ -28601,7 +28873,35 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "13:26-45",
+          "loc": "12:26-45",
+          "moduleId": "./src/pages/Home.tsx",
+          "resolvedModuleId": "./src/pages/Home.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+          "module": "./src/pages/Home.tsx",
+          "moduleName": "./src/pages/Home.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+          "resolvedModule": "./src/pages/Home.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "13:19-38",
+          "moduleId": "./src/pages/Home.tsx",
+          "resolvedModuleId": "./src/pages/Home.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+          "module": "./src/pages/Home.tsx",
+          "moduleName": "./src/pages/Home.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+          "resolvedModule": "./src/pages/Home.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "15:26-45",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
         },
@@ -28688,6 +28988,34 @@
           "loc": "8:28-47",
           "moduleId": "./src/pages/Registration.tsx",
           "resolvedModuleId": "./src/pages/Registration.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Settings.tsx",
+          "module": "./src/pages/Settings.tsx",
+          "moduleName": "./src/pages/Settings.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Settings.tsx",
+          "resolvedModule": "./src/pages/Settings.tsx",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "1:0-26",
+          "moduleId": "./src/pages/Settings.tsx",
+          "resolvedModuleId": "./src/pages/Settings.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Settings.tsx",
+          "module": "./src/pages/Settings.tsx",
+          "moduleName": "./src/pages/Settings.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Settings.tsx",
+          "resolvedModule": "./src/pages/Settings.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "3:22-41",
+          "moduleId": "./src/pages/Settings.tsx",
+          "resolvedModuleId": "./src/pages/Settings.tsx"
         },
         {
           "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-dom\\cjs\\react-dom.development.js",
@@ -32272,7 +32600,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react-router-dom",
-          "loc": "25:321-325",
+          "loc": "25:200-204",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -32286,7 +32614,21 @@
           "active": true,
           "explanation": "",
           "userRequest": "react-router-dom",
-          "loc": "28:103-107",
+          "loc": "32:93-97",
+          "moduleId": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "module": "./src/features/Home/components/Navbar.tsx",
+          "moduleName": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react-router-dom",
+          "loc": "35:106-110",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -32328,7 +32670,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "react-router-dom",
-          "loc": "3:0-49",
+          "loc": "2:0-49",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
         },
@@ -32342,7 +32684,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "react-router-dom",
-          "loc": "8:145-151",
+          "loc": "7:145-151",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
         },
@@ -32356,7 +32698,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "react-router-dom",
-          "loc": "8:192-197",
+          "loc": "7:192-197",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
         },
@@ -32370,7 +32712,21 @@
           "active": false,
           "explanation": "",
           "userRequest": "react-router-dom",
-          "loc": "11:39-44",
+          "loc": "10:39-44",
+          "moduleId": "./src/pages/Home.tsx",
+          "resolvedModuleId": "./src/pages/Home.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+          "module": "./src/pages/Home.tsx",
+          "moduleName": "./src/pages/Home.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+          "resolvedModule": "./src/pages/Home.tsx",
+          "type": "harmony import specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "react-router-dom",
+          "loc": "13:39-44",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
         },
@@ -37858,7 +38214,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "react-router-dom",
-          "loc": "8:145-151",
+          "loc": "7:145-151",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
         },
@@ -37872,7 +38228,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "react-router-dom",
-          "loc": "8:192-197",
+          "loc": "7:192-197",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
         },
@@ -37886,7 +38242,21 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "react-router-dom",
-          "loc": "11:39-44",
+          "loc": "10:39-44",
+          "moduleId": "./src/pages/Home.tsx",
+          "resolvedModuleId": "./src/pages/Home.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+          "module": "./src/pages/Home.tsx",
+          "moduleName": "./src/pages/Home.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+          "resolvedModule": "./src/pages/Home.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "(skipped side-effect-free modules)",
+          "userRequest": "react-router-dom",
+          "loc": "13:39-44",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
         },
@@ -44378,10 +44748,10 @@
       "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\taggedTemplateLiteral.js",
       "name": "./node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral.js",
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\taggedTemplateLiteral.js",
-      "index": 97,
-      "preOrderIndex": 97,
-      "index2": 90,
-      "postOrderIndex": 90,
+      "index": 90,
+      "preOrderIndex": 90,
+      "index2": 83,
+      "postOrderIndex": 83,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -44550,7 +44920,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-          "loc": "2:0-82",
+          "loc": "1:0-82",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -44564,7 +44934,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-          "loc": "10:72-94",
+          "loc": "42:72-94",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -44578,7 +44948,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-          "loc": "11:69-91",
+          "loc": "43:69-91",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -44592,7 +44962,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-          "loc": "12:68-90",
+          "loc": "44:68-90",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -44606,7 +44976,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-          "loc": "13:74-96",
+          "loc": "45:74-96",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -44620,7 +44990,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-          "loc": "14:72-94",
+          "loc": "46:72-94",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -44634,7 +45004,35 @@
           "active": true,
           "explanation": "",
           "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-          "loc": "15:67-89",
+          "loc": "47:71-93",
+          "moduleId": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "module": "./src/features/Home/components/Navbar.tsx",
+          "moduleName": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
+          "loc": "48:74-96",
+          "moduleId": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "module": "./src/features/Home/components/Navbar.tsx",
+          "moduleName": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
+          "loc": "49:67-89",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -44773,10 +45171,10 @@
       "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
       "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
-      "index": 100,
-      "preOrderIndex": 100,
-      "index2": 97,
-      "postOrderIndex": 97,
+      "index": 101,
+      "preOrderIndex": 101,
+      "index2": 98,
+      "postOrderIndex": 98,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -44959,7 +45357,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "styled-components",
-          "loc": "10:20-33",
+          "loc": "42:20-33",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -44973,7 +45371,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "styled-components",
-          "loc": "11:18-28",
+          "loc": "43:18-28",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -44987,7 +45385,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "styled-components",
-          "loc": "12:18-27",
+          "loc": "44:18-27",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -45001,7 +45399,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "styled-components",
-          "loc": "13:23-33",
+          "loc": "45:23-33",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -45015,7 +45413,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "styled-components",
-          "loc": "14:21-31",
+          "loc": "46:21-31",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -45029,7 +45427,35 @@
           "active": true,
           "explanation": "",
           "userRequest": "styled-components",
-          "loc": "15:16-26",
+          "loc": "47:21-30",
+          "moduleId": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "module": "./src/features/Home/components/Navbar.tsx",
+          "moduleName": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "styled-components",
+          "loc": "48:20-33",
+          "moduleId": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "module": "./src/features/Home/components/Navbar.tsx",
+          "moduleName": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "styled-components",
+          "loc": "49:16-26",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -46748,9 +47174,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 757,
+      "size": 801,
       "sizes": {
-        "javascript": 757
+        "javascript": 801
       },
       "built": false,
       "codeGenerated": false,
@@ -46761,8 +47187,8 @@
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
       "index": 87,
       "preOrderIndex": 87,
-      "index2": 107,
-      "postOrderIndex": 107,
+      "index2": 108,
+      "postOrderIndex": 108,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -46865,10 +47291,10 @@
       "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\hooks\\use-typed-selector.ts",
       "name": "./src/hooks/use-typed-selector.ts",
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\hooks\\use-typed-selector.ts",
-      "index": 98,
-      "preOrderIndex": 98,
-      "index2": 91,
-      "postOrderIndex": 91,
+      "index": 97,
+      "preOrderIndex": 97,
+      "index2": 90,
+      "postOrderIndex": 90,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -46930,7 +47356,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../../hooks/use-typed-selector",
-          "loc": "17:26-42",
+          "loc": "12:26-42",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -46985,10 +47411,10 @@
       "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\shallowequal\\index.js",
       "name": "./node_modules/shallowequal/index.js",
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\shallowequal\\index.js",
-      "index": 101,
-      "preOrderIndex": 101,
-      "index2": 92,
-      "postOrderIndex": 92,
+      "index": 102,
+      "preOrderIndex": 102,
+      "index2": 93,
+      "postOrderIndex": 93,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -47089,10 +47515,10 @@
       "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@emotion\\stylis\\dist\\stylis.browser.esm.js",
       "name": "./node_modules/@emotion/stylis/dist/stylis.browser.esm.js",
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@emotion\\stylis\\dist\\stylis.browser.esm.js",
-      "index": 102,
-      "preOrderIndex": 102,
-      "index2": 93,
-      "postOrderIndex": 93,
+      "index": 103,
+      "preOrderIndex": 103,
+      "index2": 94,
+      "postOrderIndex": 94,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -47181,10 +47607,10 @@
       "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@emotion\\unitless\\dist\\unitless.browser.esm.js",
       "name": "./node_modules/@emotion/unitless/dist/unitless.browser.esm.js",
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@emotion\\unitless\\dist\\unitless.browser.esm.js",
-      "index": 103,
-      "preOrderIndex": 103,
-      "index2": 94,
-      "postOrderIndex": 94,
+      "index": 104,
+      "preOrderIndex": 104,
+      "index2": 95,
+      "postOrderIndex": 95,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -47273,10 +47699,10 @@
       "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@emotion\\is-prop-valid\\dist\\emotion-is-prop-valid.esm.js",
       "name": "./node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.esm.js",
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@emotion\\is-prop-valid\\dist\\emotion-is-prop-valid.esm.js",
-      "index": 104,
-      "preOrderIndex": 104,
-      "index2": 96,
-      "postOrderIndex": 96,
+      "index": 105,
+      "preOrderIndex": 105,
+      "index2": 97,
+      "postOrderIndex": 97,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -47379,8 +47805,8 @@
       "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\index.ts",
       "name": "./src/features/Registration/index.ts",
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\index.ts",
-      "index": 112,
-      "preOrderIndex": 112,
+      "index": 113,
+      "preOrderIndex": 113,
       "index2": 115,
       "postOrderIndex": 115,
       "cacheable": true,
@@ -47850,103 +48276,6 @@
     },
     {
       "type": "module",
-      "moduleType": "javascript/esm",
-      "layer": null,
-      "size": 127,
-      "sizes": {
-        "javascript": 127
-      },
-      "built": false,
-      "codeGenerated": false,
-      "buildTimeExecuted": false,
-      "cached": true,
-      "identifier": "javascript/esm|E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\objectDestructuringEmpty.js",
-      "name": "./node_modules/@babel/runtime/helpers/esm/objectDestructuringEmpty.js",
-      "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@babel\\runtime\\helpers\\esm\\objectDestructuringEmpty.js",
-      "index": 88,
-      "preOrderIndex": 88,
-      "index2": 83,
-      "postOrderIndex": 83,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
-      "issuerName": "./src/pages/Home.tsx",
-      "issuerPath": [
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\index.tsx",
-          "name": "./src/index.tsx",
-          "id": "./src/index.tsx"
-        },
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\App.tsx",
-          "name": "./src/App.tsx",
-          "id": "./src/App.tsx"
-        },
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
-          "name": "./src/components/AppRouter.tsx",
-          "id": "./src/components/AppRouter.tsx"
-        },
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\routes\\routes.ts",
-          "name": "./src/routes/routes.ts",
-          "id": "./src/routes/routes.ts"
-        },
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
-          "name": "./src/pages/Home.tsx",
-          "id": "./src/pages/Home.tsx"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "./node_modules/@babel/runtime/helpers/esm/objectDestructuringEmpty.js",
-      "issuerId": "./src/pages/Home.tsx",
-      "chunks": [
-        "main"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
-          "module": "./src/pages/Home.tsx",
-          "moduleName": "./src/pages/Home.tsx",
-          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
-          "resolvedModule": "./src/pages/Home.tsx",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@babel/runtime/helpers/objectDestructuringEmpty",
-          "loc": "1:0-88",
-          "moduleId": "./src/pages/Home.tsx",
-          "resolvedModuleId": "./src/pages/Home.tsx"
-        },
-        {
-          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
-          "module": "./src/pages/Home.tsx",
-          "moduleName": "./src/pages/Home.tsx",
-          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
-          "resolvedModule": "./src/pages/Home.tsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@babel/runtime/helpers/objectDestructuringEmpty",
-          "loc": "7:2-27",
-          "moduleId": "./src/pages/Home.tsx",
-          "resolvedModuleId": "./src/pages/Home.tsx"
-        }
-      ],
-      "usedExports": null,
-      "providedExports": [
-        "default"
-      ],
-      "optimizationBailout": [],
-      "depth": 5
-    },
-    {
-      "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
       "size": 109,
@@ -47960,8 +48289,8 @@
       "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\index.ts",
       "name": "./src/features/Home/index.ts",
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\index.ts",
-      "index": 89,
-      "preOrderIndex": 89,
+      "index": 88,
+      "preOrderIndex": 88,
       "index2": 105,
       "postOrderIndex": 105,
       "cacheable": true,
@@ -48016,7 +48345,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../features/Home",
-          "loc": "4:0-48",
+          "loc": "3:0-48",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
         },
@@ -48030,7 +48359,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../features/Home",
-          "loc": "8:97-103",
+          "loc": "7:97-103",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
         },
@@ -48044,7 +48373,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../features/Home",
-          "loc": "10:46-50",
+          "loc": "15:46-50",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
         }
@@ -48072,10 +48401,10 @@
       "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@emotion\\memoize\\dist\\emotion-memoize.esm.js",
       "name": "./node_modules/@emotion/memoize/dist/emotion-memoize.esm.js",
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\@emotion\\memoize\\dist\\emotion-memoize.esm.js",
-      "index": 105,
-      "preOrderIndex": 105,
-      "index2": 95,
-      "postOrderIndex": 95,
+      "index": 106,
+      "preOrderIndex": 106,
+      "index2": 96,
+      "postOrderIndex": 96,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -48225,7 +48554,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./Profile",
-          "loc": "5:0-32",
+          "loc": "4:0-32",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
         },
@@ -48239,7 +48568,104 @@
           "active": true,
           "explanation": "",
           "userRequest": "./Profile",
-          "loc": "13:46-53",
+          "loc": "12:46-53",
+          "moduleId": "./src/pages/Home.tsx",
+          "resolvedModuleId": "./src/pages/Home.tsx"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 5
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 159,
+      "sizes": {
+        "javascript": 159
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Settings.tsx",
+      "name": "./src/pages/Settings.tsx",
+      "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Settings.tsx",
+      "index": 112,
+      "preOrderIndex": 112,
+      "index2": 107,
+      "postOrderIndex": 107,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+      "issuerName": "./src/pages/Home.tsx",
+      "issuerPath": [
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\index.tsx",
+          "name": "./src/index.tsx",
+          "id": "./src/index.tsx"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\App.tsx",
+          "name": "./src/App.tsx",
+          "id": "./src/App.tsx"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
+          "name": "./src/components/AppRouter.tsx",
+          "id": "./src/components/AppRouter.tsx"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\routes\\routes.ts",
+          "name": "./src/routes/routes.ts",
+          "id": "./src/routes/routes.ts"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+          "name": "./src/pages/Home.tsx",
+          "id": "./src/pages/Home.tsx"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/pages/Settings.tsx",
+      "issuerId": "./src/pages/Home.tsx",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+          "module": "./src/pages/Home.tsx",
+          "moduleName": "./src/pages/Home.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+          "resolvedModule": "./src/pages/Home.tsx",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./Settings",
+          "loc": "5:0-34",
+          "moduleId": "./src/pages/Home.tsx",
+          "resolvedModuleId": "./src/pages/Home.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+          "module": "./src/pages/Home.tsx",
+          "moduleName": "./src/pages/Home.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+          "resolvedModule": "./src/pages/Home.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./Settings",
+          "loc": "9:46-54",
           "moduleId": "./src/pages/Home.tsx",
           "resolvedModuleId": "./src/pages/Home.tsx"
         }
@@ -48266,8 +48692,8 @@
       "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
       "name": "./src/features/Registration/components/SignUp.tsx",
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
-      "index": 113,
-      "preOrderIndex": 113,
+      "index": 114,
+      "preOrderIndex": 114,
       "index2": 114,
       "postOrderIndex": 114,
       "cacheable": true,
@@ -48352,19 +48778,19 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 2832,
+      "size": 3768,
       "sizes": {
-        "javascript": 2832
+        "javascript": 3768
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
       "name": "./src/features/Home/components/Navbar.tsx",
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
-      "index": 90,
-      "preOrderIndex": 90,
+      "index": 89,
+      "preOrderIndex": 89,
       "index2": 103,
       "postOrderIndex": 103,
       "cacheable": true,
@@ -48526,7 +48952,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@babel/runtime/helpers/slicedToArray",
-          "loc": "1:0-66",
+          "loc": "2:0-66",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -48540,7 +48966,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@babel/runtime/helpers/slicedToArray",
-          "loc": "22:18-32",
+          "loc": "19:18-32",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -48668,6 +49094,136 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
+      "size": 1252,
+      "sizes": {
+        "javascript": 1252
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\hooks\\use-actions.ts",
+      "name": "./src/hooks/use-actions.ts",
+      "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\hooks\\use-actions.ts",
+      "index": 99,
+      "preOrderIndex": 99,
+      "index2": 92,
+      "postOrderIndex": 92,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
+      "issuerName": "./src/features/Registration/components/SignUp.tsx",
+      "issuerPath": [
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\index.tsx",
+          "name": "./src/index.tsx",
+          "id": "./src/index.tsx"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\App.tsx",
+          "name": "./src/App.tsx",
+          "id": "./src/App.tsx"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
+          "name": "./src/components/AppRouter.tsx",
+          "id": "./src/components/AppRouter.tsx"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\routes\\routes.ts",
+          "name": "./src/routes/routes.ts",
+          "id": "./src/routes/routes.ts"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\index.ts",
+          "name": "./src/features/Registration/index.ts",
+          "id": "./src/features/Registration/index.ts"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
+          "name": "./src/features/Registration/components/SignUp.tsx",
+          "id": "./src/features/Registration/components/SignUp.tsx"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/hooks/use-actions.ts",
+      "issuerId": "./src/features/Registration/components/SignUp.tsx",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "module": "./src/features/Home/components/Navbar.tsx",
+          "moduleName": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../../hooks/use-actions",
+          "loc": "9:0-56",
+          "moduleId": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "module": "./src/features/Home/components/Navbar.tsx",
+          "moduleName": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../../hooks/use-actions",
+          "loc": "16:20-30",
+          "moduleId": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
+          "module": "./src/features/Registration/components/SignUp.tsx",
+          "moduleName": "./src/features/Registration/components/SignUp.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
+          "resolvedModule": "./src/features/Registration/components/SignUp.tsx",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../../hooks/use-actions",
+          "loc": "3:0-56",
+          "moduleId": "./src/features/Registration/components/SignUp.tsx",
+          "resolvedModuleId": "./src/features/Registration/components/SignUp.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
+          "module": "./src/features/Registration/components/SignUp.tsx",
+          "moduleName": "./src/features/Registration/components/SignUp.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
+          "resolvedModule": "./src/features/Registration/components/SignUp.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../../hooks/use-actions",
+          "loc": "7:20-30",
+          "moduleId": "./src/features/Registration/components/SignUp.tsx",
+          "resolvedModuleId": "./src/features/Registration/components/SignUp.tsx"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "useActions"
+      ],
+      "optimizationBailout": [],
+      "depth": 6
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
       "size": 421,
       "sizes": {
         "javascript": 421
@@ -48762,108 +49318,6 @@
       "usedExports": null,
       "providedExports": [
         "default"
-      ],
-      "optimizationBailout": [],
-      "depth": 6
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 1252,
-      "sizes": {
-        "javascript": 1252
-      },
-      "built": false,
-      "codeGenerated": false,
-      "buildTimeExecuted": false,
-      "cached": true,
-      "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\hooks\\use-actions.ts",
-      "name": "./src/hooks/use-actions.ts",
-      "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\hooks\\use-actions.ts",
-      "index": 114,
-      "preOrderIndex": 114,
-      "index2": 108,
-      "postOrderIndex": 108,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
-      "issuerName": "./src/features/Registration/components/SignUp.tsx",
-      "issuerPath": [
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\index.tsx",
-          "name": "./src/index.tsx",
-          "id": "./src/index.tsx"
-        },
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\App.tsx",
-          "name": "./src/App.tsx",
-          "id": "./src/App.tsx"
-        },
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
-          "name": "./src/components/AppRouter.tsx",
-          "id": "./src/components/AppRouter.tsx"
-        },
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\routes\\routes.ts",
-          "name": "./src/routes/routes.ts",
-          "id": "./src/routes/routes.ts"
-        },
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\index.ts",
-          "name": "./src/features/Registration/index.ts",
-          "id": "./src/features/Registration/index.ts"
-        },
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
-          "name": "./src/features/Registration/components/SignUp.tsx",
-          "id": "./src/features/Registration/components/SignUp.tsx"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "./src/hooks/use-actions.ts",
-      "issuerId": "./src/features/Registration/components/SignUp.tsx",
-      "chunks": [
-        "main"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
-          "module": "./src/features/Registration/components/SignUp.tsx",
-          "moduleName": "./src/features/Registration/components/SignUp.tsx",
-          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
-          "resolvedModule": "./src/features/Registration/components/SignUp.tsx",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "../../../hooks/use-actions",
-          "loc": "3:0-56",
-          "moduleId": "./src/features/Registration/components/SignUp.tsx",
-          "resolvedModuleId": "./src/features/Registration/components/SignUp.tsx"
-        },
-        {
-          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
-          "module": "./src/features/Registration/components/SignUp.tsx",
-          "moduleName": "./src/features/Registration/components/SignUp.tsx",
-          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Registration\\components\\SignUp.tsx",
-          "resolvedModule": "./src/features/Registration/components/SignUp.tsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "../../../hooks/use-actions",
-          "loc": "7:20-30",
-          "moduleId": "./src/features/Registration/components/SignUp.tsx",
-          "resolvedModuleId": "./src/features/Registration/components/SignUp.tsx"
-        }
-      ],
-      "usedExports": null,
-      "providedExports": [
-        "useActions"
       ],
       "optimizationBailout": [],
       "depth": 6
@@ -49402,113 +49856,6 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 908,
-      "sizes": {
-        "javascript": 908
-      },
-      "built": false,
-      "codeGenerated": false,
-      "buildTimeExecuted": false,
-      "cached": true,
-      "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\ui\\DropDown.tsx",
-      "name": "./src/components/ui/DropDown.tsx",
-      "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\ui\\DropDown.tsx",
-      "index": 99,
-      "preOrderIndex": 99,
-      "index2": 98,
-      "postOrderIndex": 98,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
-      "issuerName": "./src/features/Home/components/Navbar.tsx",
-      "issuerPath": [
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\index.tsx",
-          "name": "./src/index.tsx",
-          "id": "./src/index.tsx"
-        },
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\App.tsx",
-          "name": "./src/App.tsx",
-          "id": "./src/App.tsx"
-        },
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
-          "name": "./src/components/AppRouter.tsx",
-          "id": "./src/components/AppRouter.tsx"
-        },
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\routes\\routes.ts",
-          "name": "./src/routes/routes.ts",
-          "id": "./src/routes/routes.ts"
-        },
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
-          "name": "./src/pages/Home.tsx",
-          "id": "./src/pages/Home.tsx"
-        },
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\index.ts",
-          "name": "./src/features/Home/index.ts",
-          "id": "./src/features/Home/index.ts"
-        },
-        {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
-          "name": "./src/features/Home/components/Navbar.tsx",
-          "id": "./src/features/Home/components/Navbar.tsx"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "./src/components/ui/DropDown.tsx",
-      "issuerId": "./src/features/Home/components/Navbar.tsx",
-      "chunks": [
-        "main"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
-          "module": "./src/features/Home/components/Navbar.tsx",
-          "moduleName": "./src/features/Home/components/Navbar.tsx",
-          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
-          "resolvedModule": "./src/features/Home/components/Navbar.tsx",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "../../../components/ui/DropDown",
-          "loc": "8:0-55",
-          "moduleId": "./src/features/Home/components/Navbar.tsx",
-          "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
-        },
-        {
-          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
-          "module": "./src/features/Home/components/Navbar.tsx",
-          "moduleName": "./src/features/Home/components/Navbar.tsx",
-          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
-          "resolvedModule": "./src/features/Home/components/Navbar.tsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "../../../components/ui/DropDown",
-          "loc": "32:88-96",
-          "moduleId": "./src/features/Home/components/Navbar.tsx",
-          "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
-        }
-      ],
-      "usedExports": null,
-      "providedExports": [
-        "default"
-      ],
-      "optimizationBailout": [],
-      "depth": 7
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
       "size": 549,
       "sizes": {
         "javascript": 549
@@ -49520,10 +49867,10 @@
       "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\hooks\\use-toggle.ts",
       "name": "./src/hooks/use-toggle.ts",
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\hooks\\use-toggle.ts",
-      "index": 106,
-      "preOrderIndex": 106,
-      "index2": 99,
-      "postOrderIndex": 99,
+      "index": 98,
+      "preOrderIndex": 98,
+      "index2": 91,
+      "postOrderIndex": 91,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -49586,7 +49933,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../../hooks/use-toggle",
-          "loc": "9:0-54",
+          "loc": "8:0-54",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -49600,7 +49947,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../../hooks/use-toggle",
-          "loc": "21:19-28",
+          "loc": "18:19-28",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         }
@@ -49608,6 +49955,113 @@
       "usedExports": null,
       "providedExports": [
         "useToggle"
+      ],
+      "optimizationBailout": [],
+      "depth": 7
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 912,
+      "sizes": {
+        "javascript": 912
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\ui\\DropDown.tsx",
+      "name": "./src/components/ui/DropDown.tsx",
+      "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\ui\\DropDown.tsx",
+      "index": 100,
+      "preOrderIndex": 100,
+      "index2": 99,
+      "postOrderIndex": 99,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+      "issuerName": "./src/features/Home/components/Navbar.tsx",
+      "issuerPath": [
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\index.tsx",
+          "name": "./src/index.tsx",
+          "id": "./src/index.tsx"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\App.tsx",
+          "name": "./src/App.tsx",
+          "id": "./src/App.tsx"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\components\\AppRouter.tsx",
+          "name": "./src/components/AppRouter.tsx",
+          "id": "./src/components/AppRouter.tsx"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\routes\\routes.ts",
+          "name": "./src/routes/routes.ts",
+          "id": "./src/routes/routes.ts"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\pages\\Home.tsx",
+          "name": "./src/pages/Home.tsx",
+          "id": "./src/pages/Home.tsx"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\index.ts",
+          "name": "./src/features/Home/index.ts",
+          "id": "./src/features/Home/index.ts"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "name": "./src/features/Home/components/Navbar.tsx",
+          "id": "./src/features/Home/components/Navbar.tsx"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/components/ui/DropDown.tsx",
+      "issuerId": "./src/features/Home/components/Navbar.tsx",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "module": "./src/features/Home/components/Navbar.tsx",
+          "moduleName": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../../components/ui/DropDown",
+          "loc": "10:0-55",
+          "moduleId": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+        },
+        {
+          "moduleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "module": "./src/features/Home/components/Navbar.tsx",
+          "moduleName": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleIdentifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
+          "resolvedModule": "./src/features/Home/components/Navbar.tsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../../components/ui/DropDown",
+          "loc": "30:88-96",
+          "moduleId": "./src/features/Home/components/Navbar.tsx",
+          "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "default"
       ],
       "optimizationBailout": [],
       "depth": 7
@@ -50203,9 +50657,9 @@
         "runtime": 267
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/compat get default export",
       "name": "webpack/runtime/compat get default export",
       "nameForCondition": null,
@@ -50238,9 +50692,9 @@
         "runtime": 308
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/define property getters",
       "name": "webpack/runtime/define property getters",
       "nameForCondition": null,
@@ -50273,9 +50727,9 @@
         "runtime": 209
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/get javascript update chunk filename",
       "name": "webpack/runtime/get javascript update chunk filename",
       "nameForCondition": null,
@@ -50308,9 +50762,9 @@
         "runtime": 90
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/get update manifest filename",
       "name": "webpack/runtime/get update manifest filename",
       "nameForCondition": null,
@@ -50343,9 +50797,9 @@
         "runtime": 54
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/getFullHash",
       "name": "webpack/runtime/getFullHash",
       "nameForCondition": null,
@@ -50378,9 +50832,9 @@
         "runtime": 221
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/global",
       "name": "webpack/runtime/global",
       "nameForCondition": null,
@@ -50413,9 +50867,9 @@
         "runtime": 88
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/hasOwnProperty shorthand",
       "name": "webpack/runtime/hasOwnProperty shorthand",
       "nameForCondition": null,
@@ -50448,9 +50902,9 @@
         "runtime": 9347
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/hot module replacement",
       "name": "webpack/runtime/hot module replacement",
       "nameForCondition": null,
@@ -50483,9 +50937,9 @@
         "runtime": 14705
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/jsonp chunk loading",
       "name": "webpack/runtime/jsonp chunk loading",
       "nameForCondition": null,
@@ -50518,9 +50972,9 @@
         "runtime": 1501
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/load script",
       "name": "webpack/runtime/load script",
       "nameForCondition": null,
@@ -50553,9 +51007,9 @@
         "runtime": 274
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/make namespace object",
       "name": "webpack/runtime/make namespace object",
       "nameForCondition": null,
@@ -50588,9 +51042,9 @@
         "runtime": 123
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/node module decorator",
       "name": "webpack/runtime/node module decorator",
       "nameForCondition": null,
@@ -50623,9 +51077,9 @@
         "runtime": 35
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/nonce",
       "name": "webpack/runtime/nonce",
       "nameForCondition": null,
@@ -50658,9 +51112,9 @@
         "runtime": 28
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/publicPath",
       "name": "webpack/runtime/publicPath",
       "nameForCondition": null,
@@ -50693,16 +51147,12 @@
       ],
       "assets": [
         {
-          "name": "main.389be61601bc3cad3c59.js",
-          "size": 5282199
-        },
-        {
-          "name": "main.966bf0d65f88935c4ffc.hot-update.js",
-          "size": 10810
+          "name": "main.ecc5c992d33d2d5ef42e.js",
+          "size": 5285828
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 5293009,
+      "assetsSize": 5285828,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -50719,16 +51169,12 @@
       ],
       "assets": [
         {
-          "name": "main.389be61601bc3cad3c59.js",
-          "size": 5282199
-        },
-        {
-          "name": "main.966bf0d65f88935c4ffc.hot-update.js",
-          "size": 10810
+          "name": "main.ecc5c992d33d2d5ef42e.js",
+          "size": 5285828
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 5293009,
+      "assetsSize": 5285828,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,

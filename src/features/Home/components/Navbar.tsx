@@ -4,8 +4,48 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 import { useTypedSelector } from '@/hooks/use-typed-selector';
-import DropDown from '@/components/ui/DropDown';
 import { useToggle } from '@/hooks/use-toggle';
+import { useActions } from '@/hooks/use-actions';
+import DropDown from '@/components/ui/DropDown';
+
+const Navbar: FC = () => {
+	const { user } = useTypedSelector((state) => state.user);
+	const { removeUser } = useActions();
+	const [visible, setVisible] = useToggle();
+
+	const logOut = () => {
+		removeUser();
+	};
+
+	return (
+		<NavbarWrapper>
+			<NavbarInner>
+				<NavbarTitle>
+					<Link to='/'>
+						<NavigationText>BLOG</NavigationText>
+					</Link>
+				</NavbarTitle>
+				<NavbarNavigation>
+					<NavigationItem role='dropdown' onClick={setVisible}>
+						<UserImage>
+							<DropDown active={visible}>
+								<NavigationItem>
+									<Link role='nav' to={`profile/${user.id}`}>Profile</Link>
+								</NavigationItem>
+								<NavigationItem>
+									<Link role='nav' to={`settings/${user.id}`}>Settings</Link>
+								</NavigationItem>
+								<NavigationItem>
+									<NavigationBtn onClick={logOut}>LogOut</NavigationBtn>
+								</NavigationItem>
+							</DropDown>
+						</UserImage>
+					</NavigationItem>
+				</NavbarNavigation>
+			</NavbarInner>
+		</NavbarWrapper>
+	);
+};
 
 const NavbarWrapper = styled.header`
 	width: 100%;
@@ -39,9 +79,19 @@ const NavigationItem = styled.div`
 	padding: 10px;
 	cursor: pointer;
 	border-radius: 15px;
+	display: block;
 	:hover {
 		background-color: #41affa;
 	}
+`;
+const NavigationText = styled.h1`
+	font-size: 30px;
+	font-weight: bold;
+`;
+const NavigationBtn = styled.button`
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
 `;
 const UserImage = styled.div`
 	width: 50px;
@@ -49,32 +99,5 @@ const UserImage = styled.div`
 	background-color: #333333;
 	border-radius: 50%;
 `;
-
-const Navbar: FC = () => {
-	const { user } = useTypedSelector((state) => state.user);
-	const [visible, setVisible] = useToggle();
-	
-	return (
-		<NavbarWrapper>
-			<NavbarInner>
-				<NavbarTitle>BLOG</NavbarTitle>
-				<NavbarNavigation>
-					<NavigationItem>
-						<Link role='nav' to='/'>
-							home
-						</Link>
-					</NavigationItem>
-					<NavigationItem>
-						<Link onClick={setVisible} role='nav' to={`/profile/${user.id}`}>
-							<UserImage>
-								<DropDown active={visible}>text</DropDown>
-							</UserImage>
-						</Link>
-					</NavigationItem>
-				</NavbarNavigation>
-			</NavbarInner>
-		</NavbarWrapper>
-	);
-};
 
 export default Navbar;
