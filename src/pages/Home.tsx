@@ -2,9 +2,8 @@ import React from 'react';
 
 import { Route, Routes } from 'react-router-dom';
 
-import { Navbar, Feed } from '@/features/Home';
-import Profile from '@/pages/Profile';
-import Settings from '@/pages/Settings';
+import { Navbar } from '@/features/Home';
+import { Profile, Settings, Feed } from '@/pages';
 
 const Home = () => {
 	return (

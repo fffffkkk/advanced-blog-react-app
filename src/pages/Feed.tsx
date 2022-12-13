@@ -1,16 +1,21 @@
 import React, { FC } from 'react';
+
 import styled from 'styled-components';
 
-const FeedWrapper = styled.div`
-	padding: 0 10px 0 10px;
-`;
+import { Sidebar, Posts } from '@/features/Feed';
 
 const Feed: FC = () => {
 	return (
 		<FeedWrapper>
-			Feed
+			<Sidebar />
+			<Posts />
 		</FeedWrapper>
 	);
 };
+
+const FeedWrapper = styled.div`
+	margin-top: 50px;
+	display: flex;
+`;
 
 export default Feed;

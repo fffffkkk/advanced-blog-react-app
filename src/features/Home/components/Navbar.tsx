@@ -3,13 +3,13 @@ import React, { FC } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-import { useTypedSelector } from '@/hooks/use-typed-selector';
 import { useToggle } from '@/hooks/use-toggle';
 import { useActions } from '@/hooks/use-actions';
-import DropDown from '@/components/ui/DropDown';
+import { useAuth } from '@/hooks/use-auth';
+import { DropDown } from '@/components/ui';
 
 const Navbar: FC = () => {
-	const { user } = useTypedSelector((state) => state.user);
+	const { id } = useAuth();
 	const { removeUser } = useActions();
 	const [visible, setVisible] = useToggle();
 
@@ -30,12 +30,12 @@ const Navbar: FC = () => {
 						<UserImage>
 							<DropDown active={visible}>
 								<NavigationItem>
-									<Link role='nav' to={`profile/${user.id}`}>
+									<Link role='nav' to={`profile/${id}`}>
 										Profile
 									</Link>
 								</NavigationItem>
 								<NavigationItem>
-									<Link role='nav' to={`settings/${user.id}`}>
+									<Link role='nav' to={`settings/${id}`}>
 										Settings
 									</Link>
 								</NavigationItem>
