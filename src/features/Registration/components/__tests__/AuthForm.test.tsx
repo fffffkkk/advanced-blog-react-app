@@ -11,8 +11,8 @@ describe('auth form tests', () => {
 		render(<AuthForm title='Регистрация' submit={submit}/>);
 
 		const title = screen.getByText('РЕГИСТРАЦИЯ');
-		const userEmailFiled = screen.getByLabelText('Введите email:');
-		const userPasswordFiled = screen.getByLabelText('Введите пароль:');
+		const userEmailFiled = screen.getByLabelText(/Введите email:/i);
+		const userPasswordFiled = screen.getByLabelText(/Введите пароль:/i);
 		const submitBtn = screen.getByRole('button');
 
 		expect(title).toBeInTheDocument();
