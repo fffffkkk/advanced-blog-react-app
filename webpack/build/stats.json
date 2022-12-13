@@ -1,28 +1,55 @@
 {
-  "hash": "8744deacb18c8e5e52c7",
+  "hash": "f7a2dee58198b18e0ff0",
   "version": "5.75.0",
-  "time": 1633,
-  "builtAt": 1670771140871,
+  "time": 2885,
+  "builtAt": 1670915884588,
   "publicPath": "/",
   "outputPath": "E:\\react-project\\myProject\\advanced-blog-react-app\\webpack\\build",
   "assetsByChunkName": {
     "main": [
-      "main.ecc5c992d33d2d5ef42e.js"
+      "main.a435c0d66a732a150ec7.js",
+      "main.2a17005d121b3f901a88.hot-update.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "main.ecc5c992d33d2d5ef42e.js",
-      "size": 5285828,
-      "emitted": false,
+      "name": "main.a435c0d66a732a150ec7.js",
+      "size": 5285939,
+      "emitted": true,
       "comparedForEmit": false,
-      "cached": true,
+      "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "ecc5c992d33d2d5ef42e",
+        "contenthash": "a435c0d66a732a150ec7",
         "javascriptModule": false,
-        "size": 5285828
+        "size": 5285939
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "main.2a17005d121b3f901a88.hot-update.js",
+      "size": 14052,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "2a17005d121b3f901a88",
+        "size": 14052
       },
       "chunkNames": [
         "main"
@@ -55,18 +82,40 @@
       "chunks": [],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "main.2a17005d121b3f901a88.hot-update.json",
+      "size": 28,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "2a17005d121b3f901a88",
+        "size": 28
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
     }
   ],
   "chunks": [
     {
-      "rendered": false,
+      "rendered": true,
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 1960389,
+      "size": 1960388,
       "sizes": {
-        "javascript": 1933139,
-        "runtime": 27250
+        "runtime": 27250,
+        "javascript": 1933138
       },
       "names": [
         "main"
@@ -76,10 +125,11 @@
         "main"
       ],
       "files": [
-        "main.ecc5c992d33d2d5ef42e.js"
+        "main.a435c0d66a732a150ec7.js",
+        "main.2a17005d121b3f901a88.hot-update.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "c69e00df6f7319cba5bd",
+      "hash": "fc83528bd58c4da71c99",
       "childrenByOrder": {},
       "id": "main",
       "siblings": [],
@@ -1390,7 +1440,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-              "loc": "5:72-94",
+              "loc": "12:72-94",
               "moduleId": "./src/components/ui/Button.tsx",
               "resolvedModuleId": "./src/components/ui/Button.tsx"
             },
@@ -1418,7 +1468,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-              "loc": "5:71-93",
+              "loc": "10:71-93",
               "moduleId": "./src/components/ui/DropDown.tsx",
               "resolvedModuleId": "./src/components/ui/DropDown.tsx"
             },
@@ -1432,7 +1482,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-              "loc": "6:73-95",
+              "loc": "11:73-95",
               "moduleId": "./src/components/ui/DropDown.tsx",
               "resolvedModuleId": "./src/components/ui/DropDown.tsx"
             },
@@ -1460,7 +1510,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-              "loc": "5:70-92",
+              "loc": "19:70-92",
               "moduleId": "./src/components/ui/Input.tsx",
               "resolvedModuleId": "./src/components/ui/Input.tsx"
             },
@@ -1572,7 +1622,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-              "loc": "46:72-94",
+              "loc": "46:71-93",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -6194,9 +6244,14 @@
           "issuerName": "./node_modules/webpack/hot/emitter.js",
           "issuerPath": [
             {
-              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack\\hot\\dev-server.js",
-              "name": "./node_modules/webpack/hot/dev-server.js",
-              "id": "./node_modules/webpack/hot/dev-server.js"
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+              "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+              "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
+            },
+            {
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
+              "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
+              "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js"
             },
             {
               "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack\\hot\\emitter.js",
@@ -7603,19 +7658,19 @@
               "id": "./src/index.tsx"
             },
             {
-              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-redux\\es\\index.js",
-              "name": "./node_modules/react-redux/es/index.js",
-              "id": "./node_modules/react-redux/es/index.js"
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\App.tsx",
+              "name": "./src/App.tsx",
+              "id": "./src/App.tsx"
             },
             {
-              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-redux\\es\\components\\connect.js",
-              "name": "./node_modules/react-redux/es/components/connect.js",
-              "id": "./node_modules/react-redux/es/components/connect.js"
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\layouts\\ContentLayout.tsx",
+              "name": "./src/layouts/ContentLayout.tsx",
+              "id": "./src/layouts/ContentLayout.tsx"
             },
             {
-              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\hoist-non-react-statics\\dist\\hoist-non-react-statics.cjs.js",
-              "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
-              "id": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js"
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+              "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+              "id": "./node_modules/styled-components/dist/styled-components.browser.esm.js"
             },
             {
               "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-is\\index.js",
@@ -7705,8 +7760,8 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\hoist-non-react-statics\\dist\\hoist-non-react-statics.cjs.js",
-          "issuerName": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+          "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "issuerName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
           "issuerPath": [
             {
               "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\index.tsx",
@@ -7714,26 +7769,26 @@
               "id": "./src/index.tsx"
             },
             {
-              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-redux\\es\\index.js",
-              "name": "./node_modules/react-redux/es/index.js",
-              "id": "./node_modules/react-redux/es/index.js"
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\App.tsx",
+              "name": "./src/App.tsx",
+              "id": "./src/App.tsx"
             },
             {
-              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-redux\\es\\components\\connect.js",
-              "name": "./node_modules/react-redux/es/components/connect.js",
-              "id": "./node_modules/react-redux/es/components/connect.js"
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\layouts\\ContentLayout.tsx",
+              "name": "./src/layouts/ContentLayout.tsx",
+              "id": "./src/layouts/ContentLayout.tsx"
             },
             {
-              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\hoist-non-react-statics\\dist\\hoist-non-react-statics.cjs.js",
-              "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
-              "id": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js"
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+              "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+              "id": "./node_modules/styled-components/dist/styled-components.browser.esm.js"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/react-is/index.js",
-          "issuerId": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+          "issuerId": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
           "chunks": [
             "main"
           ],
@@ -14157,7 +14212,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "9:22-41",
+              "loc": "8:22-41",
               "moduleId": "./src/components/ui/Button.tsx",
               "resolvedModuleId": "./src/components/ui/Button.tsx"
             },
@@ -14185,7 +14240,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "10:22-41",
+              "loc": "8:22-41",
               "moduleId": "./src/components/ui/DropDown.tsx",
               "resolvedModuleId": "./src/components/ui/DropDown.tsx"
             },
@@ -14199,7 +14254,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "10:88-107",
+              "loc": "8:88-107",
               "moduleId": "./src/components/ui/DropDown.tsx",
               "resolvedModuleId": "./src/components/ui/DropDown.tsx"
             },
@@ -14227,7 +14282,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "12:22-41",
+              "loc": "11:22-41",
               "moduleId": "./src/components/ui/Input.tsx",
               "resolvedModuleId": "./src/components/ui/Input.tsx"
             },
@@ -19784,7 +19839,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "styled-components",
-              "loc": "5:20-33",
+              "loc": "12:20-33",
               "moduleId": "./src/components/ui/Button.tsx",
               "resolvedModuleId": "./src/components/ui/Button.tsx"
             },
@@ -19812,7 +19867,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "styled-components",
-              "loc": "5:22-32",
+              "loc": "10:22-32",
               "moduleId": "./src/components/ui/DropDown.tsx",
               "resolvedModuleId": "./src/components/ui/DropDown.tsx"
             },
@@ -19826,7 +19881,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "styled-components",
-              "loc": "6:22-32",
+              "loc": "11:22-32",
               "moduleId": "./src/components/ui/DropDown.tsx",
               "resolvedModuleId": "./src/components/ui/DropDown.tsx"
             },
@@ -19854,7 +19909,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "styled-components",
-              "loc": "5:19-31",
+              "loc": "19:19-31",
               "moduleId": "./src/components/ui/Input.tsx",
               "resolvedModuleId": "./src/components/ui/Input.tsx"
             },
@@ -19966,7 +20021,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "styled-components",
-              "loc": "46:21-31",
+              "loc": "46:21-30",
               "moduleId": "./src/features/Home/components/Navbar.tsx",
               "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
             },
@@ -22058,20 +22113,25 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack\\hot\\dev-server.js",
-          "issuerName": "./node_modules/webpack/hot/dev-server.js",
+          "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
+          "issuerName": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
           "issuerPath": [
             {
-              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack\\hot\\dev-server.js",
-              "name": "./node_modules/webpack/hot/dev-server.js",
-              "id": "./node_modules/webpack/hot/dev-server.js"
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+              "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+              "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
+            },
+            {
+              "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
+              "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
+              "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/webpack/hot/emitter.js",
-          "issuerId": "./node_modules/webpack/hot/dev-server.js",
+          "issuerId": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
           "chunks": [
             "main"
           ],
@@ -23003,14 +23063,14 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 3768,
+          "size": 3767,
           "sizes": {
-            "javascript": 3768
+            "javascript": 3767
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
           "name": "./src/features/Home/components/Navbar.tsx",
           "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
@@ -25177,9 +25237,9 @@
             "runtime": 267
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/compat get default export",
           "name": "webpack/runtime/compat get default export",
           "nameForCondition": null,
@@ -25213,9 +25273,9 @@
             "runtime": 308
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/define property getters",
           "name": "webpack/runtime/define property getters",
           "nameForCondition": null,
@@ -25249,9 +25309,9 @@
             "runtime": 209
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/get javascript update chunk filename",
           "name": "webpack/runtime/get javascript update chunk filename",
           "nameForCondition": null,
@@ -25285,9 +25345,9 @@
             "runtime": 90
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/get update manifest filename",
           "name": "webpack/runtime/get update manifest filename",
           "nameForCondition": null,
@@ -25321,9 +25381,9 @@
             "runtime": 54
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/getFullHash",
           "name": "webpack/runtime/getFullHash",
           "nameForCondition": null,
@@ -25357,9 +25417,9 @@
             "runtime": 221
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/global",
           "name": "webpack/runtime/global",
           "nameForCondition": null,
@@ -25393,9 +25453,9 @@
             "runtime": 88
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/hasOwnProperty shorthand",
           "name": "webpack/runtime/hasOwnProperty shorthand",
           "nameForCondition": null,
@@ -25429,9 +25489,9 @@
             "runtime": 9347
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/hot module replacement",
           "name": "webpack/runtime/hot module replacement",
           "nameForCondition": null,
@@ -25465,9 +25525,9 @@
             "runtime": 14705
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/jsonp chunk loading",
           "name": "webpack/runtime/jsonp chunk loading",
           "nameForCondition": null,
@@ -25501,9 +25561,9 @@
             "runtime": 1501
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/load script",
           "name": "webpack/runtime/load script",
           "nameForCondition": null,
@@ -25537,9 +25597,9 @@
             "runtime": 274
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/make namespace object",
           "name": "webpack/runtime/make namespace object",
           "nameForCondition": null,
@@ -25573,9 +25633,9 @@
             "runtime": 123
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/node module decorator",
           "name": "webpack/runtime/node module decorator",
           "nameForCondition": null,
@@ -25609,9 +25669,9 @@
             "runtime": 35
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/nonce",
           "name": "webpack/runtime/nonce",
           "nameForCondition": null,
@@ -25645,9 +25705,9 @@
             "runtime": 28
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/publicPath",
           "name": "webpack/runtime/publicPath",
           "nameForCondition": null,
@@ -27035,20 +27095,25 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack\\hot\\dev-server.js",
-      "issuerName": "./node_modules/webpack/hot/dev-server.js",
+      "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
+      "issuerName": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
       "issuerPath": [
         {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack\\hot\\dev-server.js",
-          "name": "./node_modules/webpack/hot/dev-server.js",
-          "id": "./node_modules/webpack/hot/dev-server.js"
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
+          "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
+          "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/webpack/hot/emitter.js",
-      "issuerId": "./node_modules/webpack/hot/dev-server.js",
+      "issuerId": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
       "chunks": [
         "main"
       ],
@@ -28061,7 +28126,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "9:22-41",
+          "loc": "8:22-41",
           "moduleId": "./src/components/ui/Button.tsx",
           "resolvedModuleId": "./src/components/ui/Button.tsx"
         },
@@ -28089,7 +28154,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "10:22-41",
+          "loc": "8:22-41",
           "moduleId": "./src/components/ui/DropDown.tsx",
           "resolvedModuleId": "./src/components/ui/DropDown.tsx"
         },
@@ -28103,7 +28168,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "10:88-107",
+          "loc": "8:88-107",
           "moduleId": "./src/components/ui/DropDown.tsx",
           "resolvedModuleId": "./src/components/ui/DropDown.tsx"
         },
@@ -28131,7 +28196,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "12:22-41",
+          "loc": "11:22-41",
           "moduleId": "./src/components/ui/Input.tsx",
           "resolvedModuleId": "./src/components/ui/Input.tsx"
         },
@@ -33479,9 +33544,14 @@
       "issuerName": "./node_modules/webpack/hot/emitter.js",
       "issuerPath": [
         {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack\\hot\\dev-server.js",
-          "name": "./node_modules/webpack/hot/dev-server.js",
-          "id": "./node_modules/webpack/hot/dev-server.js"
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
+        },
+        {
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
+          "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
+          "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js"
         },
         {
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\webpack\\hot\\emitter.js",
@@ -44808,7 +44878,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-          "loc": "5:72-94",
+          "loc": "12:72-94",
           "moduleId": "./src/components/ui/Button.tsx",
           "resolvedModuleId": "./src/components/ui/Button.tsx"
         },
@@ -44836,7 +44906,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-          "loc": "5:71-93",
+          "loc": "10:71-93",
           "moduleId": "./src/components/ui/DropDown.tsx",
           "resolvedModuleId": "./src/components/ui/DropDown.tsx"
         },
@@ -44850,7 +44920,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-          "loc": "6:73-95",
+          "loc": "11:73-95",
           "moduleId": "./src/components/ui/DropDown.tsx",
           "resolvedModuleId": "./src/components/ui/DropDown.tsx"
         },
@@ -44878,7 +44948,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-          "loc": "5:70-92",
+          "loc": "19:70-92",
           "moduleId": "./src/components/ui/Input.tsx",
           "resolvedModuleId": "./src/components/ui/Input.tsx"
         },
@@ -44990,7 +45060,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
-          "loc": "46:72-94",
+          "loc": "46:71-93",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -45231,7 +45301,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "styled-components",
-          "loc": "5:20-33",
+          "loc": "12:20-33",
           "moduleId": "./src/components/ui/Button.tsx",
           "resolvedModuleId": "./src/components/ui/Button.tsx"
         },
@@ -45259,7 +45329,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "styled-components",
-          "loc": "5:22-32",
+          "loc": "10:22-32",
           "moduleId": "./src/components/ui/DropDown.tsx",
           "resolvedModuleId": "./src/components/ui/DropDown.tsx"
         },
@@ -45273,7 +45343,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "styled-components",
-          "loc": "6:22-32",
+          "loc": "11:22-32",
           "moduleId": "./src/components/ui/DropDown.tsx",
           "resolvedModuleId": "./src/components/ui/DropDown.tsx"
         },
@@ -45301,7 +45371,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "styled-components",
-          "loc": "5:19-31",
+          "loc": "19:19-31",
           "moduleId": "./src/components/ui/Input.tsx",
           "resolvedModuleId": "./src/components/ui/Input.tsx"
         },
@@ -45413,7 +45483,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "styled-components",
-          "loc": "46:21-31",
+          "loc": "46:21-30",
           "moduleId": "./src/features/Home/components/Navbar.tsx",
           "resolvedModuleId": "./src/features/Home/components/Navbar.tsx"
         },
@@ -46084,8 +46154,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\hoist-non-react-statics\\dist\\hoist-non-react-statics.cjs.js",
-      "issuerName": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "issuer": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+      "issuerName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
       "issuerPath": [
         {
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\index.tsx",
@@ -46093,26 +46163,26 @@
           "id": "./src/index.tsx"
         },
         {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-redux\\es\\index.js",
-          "name": "./node_modules/react-redux/es/index.js",
-          "id": "./node_modules/react-redux/es/index.js"
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\App.tsx",
+          "name": "./src/App.tsx",
+          "id": "./src/App.tsx"
         },
         {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-redux\\es\\components\\connect.js",
-          "name": "./node_modules/react-redux/es/components/connect.js",
-          "id": "./node_modules/react-redux/es/components/connect.js"
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\layouts\\ContentLayout.tsx",
+          "name": "./src/layouts/ContentLayout.tsx",
+          "id": "./src/layouts/ContentLayout.tsx"
         },
         {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\hoist-non-react-statics\\dist\\hoist-non-react-statics.cjs.js",
-          "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
-          "id": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js"
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "id": "./node_modules/styled-components/dist/styled-components.browser.esm.js"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/react-is/index.js",
-      "issuerId": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "issuerId": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
       "chunks": [
         "main"
       ],
@@ -48098,19 +48168,19 @@
           "id": "./src/index.tsx"
         },
         {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-redux\\es\\index.js",
-          "name": "./node_modules/react-redux/es/index.js",
-          "id": "./node_modules/react-redux/es/index.js"
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\App.tsx",
+          "name": "./src/App.tsx",
+          "id": "./src/App.tsx"
         },
         {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-redux\\es\\components\\connect.js",
-          "name": "./node_modules/react-redux/es/components/connect.js",
-          "id": "./node_modules/react-redux/es/components/connect.js"
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\layouts\\ContentLayout.tsx",
+          "name": "./src/layouts/ContentLayout.tsx",
+          "id": "./src/layouts/ContentLayout.tsx"
         },
         {
-          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\hoist-non-react-statics\\dist\\hoist-non-react-statics.cjs.js",
-          "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
-          "id": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js"
+          "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "id": "./node_modules/styled-components/dist/styled-components.browser.esm.js"
         },
         {
           "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\react-is\\index.js",
@@ -48778,14 +48848,14 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 3768,
+      "size": 3767,
       "sizes": {
-        "javascript": 3768
+        "javascript": 3767
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "E:\\react-project\\myProject\\advanced-blog-react-app\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
       "name": "./src/features/Home/components/Navbar.tsx",
       "nameForCondition": "E:\\react-project\\myProject\\advanced-blog-react-app\\src\\features\\Home\\components\\Navbar.tsx",
@@ -50657,9 +50727,9 @@
         "runtime": 267
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/compat get default export",
       "name": "webpack/runtime/compat get default export",
       "nameForCondition": null,
@@ -50692,9 +50762,9 @@
         "runtime": 308
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/define property getters",
       "name": "webpack/runtime/define property getters",
       "nameForCondition": null,
@@ -50727,9 +50797,9 @@
         "runtime": 209
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/get javascript update chunk filename",
       "name": "webpack/runtime/get javascript update chunk filename",
       "nameForCondition": null,
@@ -50762,9 +50832,9 @@
         "runtime": 90
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/get update manifest filename",
       "name": "webpack/runtime/get update manifest filename",
       "nameForCondition": null,
@@ -50797,9 +50867,9 @@
         "runtime": 54
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/getFullHash",
       "name": "webpack/runtime/getFullHash",
       "nameForCondition": null,
@@ -50832,9 +50902,9 @@
         "runtime": 221
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/global",
       "name": "webpack/runtime/global",
       "nameForCondition": null,
@@ -50867,9 +50937,9 @@
         "runtime": 88
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/hasOwnProperty shorthand",
       "name": "webpack/runtime/hasOwnProperty shorthand",
       "nameForCondition": null,
@@ -50902,9 +50972,9 @@
         "runtime": 9347
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/hot module replacement",
       "name": "webpack/runtime/hot module replacement",
       "nameForCondition": null,
@@ -50937,9 +51007,9 @@
         "runtime": 14705
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/jsonp chunk loading",
       "name": "webpack/runtime/jsonp chunk loading",
       "nameForCondition": null,
@@ -50972,9 +51042,9 @@
         "runtime": 1501
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/load script",
       "name": "webpack/runtime/load script",
       "nameForCondition": null,
@@ -51007,9 +51077,9 @@
         "runtime": 274
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/make namespace object",
       "name": "webpack/runtime/make namespace object",
       "nameForCondition": null,
@@ -51042,9 +51112,9 @@
         "runtime": 123
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/node module decorator",
       "name": "webpack/runtime/node module decorator",
       "nameForCondition": null,
@@ -51077,9 +51147,9 @@
         "runtime": 35
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/nonce",
       "name": "webpack/runtime/nonce",
       "nameForCondition": null,
@@ -51112,9 +51182,9 @@
         "runtime": 28
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/publicPath",
       "name": "webpack/runtime/publicPath",
       "nameForCondition": null,
@@ -51147,12 +51217,16 @@
       ],
       "assets": [
         {
-          "name": "main.ecc5c992d33d2d5ef42e.js",
-          "size": 5285828
+          "name": "main.a435c0d66a732a150ec7.js",
+          "size": 5285939
+        },
+        {
+          "name": "main.2a17005d121b3f901a88.hot-update.js",
+          "size": 14052
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 5285828,
+      "assetsSize": 5299991,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -51169,12 +51243,16 @@
       ],
       "assets": [
         {
-          "name": "main.ecc5c992d33d2d5ef42e.js",
-          "size": 5285828
+          "name": "main.a435c0d66a732a150ec7.js",
+          "size": 5285939
+        },
+        {
+          "name": "main.2a17005d121b3f901a88.hot-update.js",
+          "size": 14052
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 5285828,
+      "assetsSize": 5299991,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,

@@ -2,6 +2,19 @@ import React, { FC } from 'react';
 
 import styled from 'styled-components';
 
+interface DropDownProps {
+	children: React.ReactNode;
+	active: boolean;
+}
+
+const DropDown: FC<DropDownProps> = ({ children, active }) => {
+	return (
+		<DropDownWrapper>
+			{active && <DropDownContent>{children}</DropDownContent>}
+		</DropDownWrapper>
+	);
+};
+
 const DropDownWrapper = styled.div`
 	position: relative;
 	display: inline-block;
@@ -16,18 +29,5 @@ const DropDownContent = styled.div`
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 `;
-
-interface DropDownProps {
-	children: React.ReactNode;
-	active: boolean;
-}
-
-const DropDown: FC<DropDownProps> = ({ children, active }) => {
-	return (
-		<DropDownWrapper>
-			{active && <DropDownContent>{children}</DropDownContent>}
-		</DropDownWrapper>
-	);
-};
 
 export default DropDown;

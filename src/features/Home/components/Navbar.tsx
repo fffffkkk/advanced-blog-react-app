@@ -30,10 +30,14 @@ const Navbar: FC = () => {
 						<UserImage>
 							<DropDown active={visible}>
 								<NavigationItem>
-									<Link role='nav' to={`profile/${user.id}`}>Profile</Link>
+									<Link role='nav' to={`profile/${user.id}`}>
+										Profile
+									</Link>
 								</NavigationItem>
 								<NavigationItem>
-									<Link role='nav' to={`settings/${user.id}`}>Settings</Link>
+									<Link role='nav' to={`settings/${user.id}`}>
+										Settings
+									</Link>
 								</NavigationItem>
 								<NavigationItem>
 									<NavigationBtn onClick={logOut}>LogOut</NavigationBtn>
@@ -75,7 +79,7 @@ const NavbarNavigation = styled.nav`
 	align-items: center;
 	justify-content: center;
 `;
-const NavigationItem = styled.div`
+const NavigationItem = styled.li`
 	padding: 10px;
 	cursor: pointer;
 	border-radius: 15px;
