@@ -10,6 +10,6 @@ export const useChange = (data) => {
 		},
 		[input]
 	);
-	
+
 	return [input, handleChange];
 };

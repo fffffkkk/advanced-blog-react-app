@@ -16,6 +16,7 @@ const Home = () => {
 			</Routes>
 		</>
 	);
+
 };
 
 export default Home;

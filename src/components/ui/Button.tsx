@@ -11,7 +11,6 @@ interface ButtonProps {
 const Button: FC<ButtonProps> = ({ type, children }) => {
 	return <ButtonWrapper type={type}>{children}</ButtonWrapper>;
 };
-
 const ButtonWrapper = styled.button`
   padding: 10px 5px;
   border-radius: 10px;
