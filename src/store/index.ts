@@ -2,17 +2,17 @@ import { combineReducers, configureStore } from '@reduxjs/toolkit';
 import { setupListeners } from '@reduxjs/toolkit/query';
 
 import { userReducer } from '@/store/user/user.slice';
-// import {playlistAPI} from "@/services/playlistService";
+import { usersAPI } from '@/store/user/user.api';
 
 export const rootReducer = combineReducers({
-	// [playlistAPI.reducerPath]: playlistAPI.reducer,
+	[usersAPI.reducerPath]: usersAPI.reducer,
 	user: userReducer,
 });
 
 export const store = configureStore({
 	reducer: rootReducer,
-	// middleware: (getDefaultMiddleware) =>
-	// 	getDefaultMiddleware().concat(playlistAPI.middleware),
+	middleware: (getDefaultMiddleware) =>
+		getDefaultMiddleware().concat(usersAPI.middleware),
 });
 
 setupListeners(store.dispatch);

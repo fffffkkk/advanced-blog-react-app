@@ -3,6 +3,8 @@
 /.pnp
 .pnp.js
 
+webpack/build
+
 # testing
 /coverage
 

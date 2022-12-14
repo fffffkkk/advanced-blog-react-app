@@ -1,7 +1,22 @@
 import React from 'react';
 
-const Home = ({}) => {
-	return <div>Home</div>;
+import { Route, Routes } from 'react-router-dom';
+
+import { Navbar } from '@/features/Home';
+import { Profile, Settings, Feed } from '@/pages';
+
+const Home = () => {
+	return (
+		<>
+			<Navbar />
+			<Routes>
+				<Route path='/settings/:id' element={<Settings />} />
+				<Route path='/profile/:id' element={<Profile />} />
+				<Route path='/*' element={<Feed />} />
+			</Routes>
+		</>
+	);
+
 };
 
 export default Home;
