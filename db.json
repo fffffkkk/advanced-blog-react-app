@@ -1,26 +1,34 @@
 {
   "posts": [
     {
+      "id": "1",
       "date": "15.12.2022",
       "author": {
         "authorImage": "",
         "authorName": "admin"
       },
       "image": "",
-      "categories": ["IT"],
+      "categories": [
+        "IT"
+      ],
       "title": "JS - best",
-      "desc": "because this JS"
+      "desc": "because this JS",
+      "countWatch": 5
     },
     {
+      "id": "2",
       "date": "15.12.2022",
       "author": {
         "authorImage": "",
         "authorName": "alex"
       },
       "image": "",
-      "categories": ["IT"],
+      "categories": [
+        "IT"
+      ],
       "title": "REACT - best",
-      "desc": "because this REACT"
+      "desc": "because this REACT",
+      "countWatch": 2
     }
   ],
   "users": [
@@ -63,6 +71,11 @@
       "id": 1670754342661,
       "name": "ggwger@greg.com",
       "token": "ferwferwgfgtrtrtgrbbbb"
+    },
+    {
+      "id": 1671142404107,
+      "name": "ggwger@greg.com",
+      "token": "wgjnbnklgwnklgenklewrnklewnkl"
     }
   ]
 }

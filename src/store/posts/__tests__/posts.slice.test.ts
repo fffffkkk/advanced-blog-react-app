@@ -5,6 +5,8 @@ describe('test posts slice', () => {
 		expect(
 			postsReducer(
 				{
+					countWatch: 0,
+					id: '',
 					date: '',
 					author: { authorImage: '', authorName: '' },
 					image: '',
@@ -13,6 +15,8 @@ describe('test posts slice', () => {
 					desc: '',
 				},
 				postsAction.addPosts({
+					countWatch: 5,
+					id: '1',
 					date: '15.12.2022',
 					author: {
 						authorImage: '',
@@ -25,6 +29,8 @@ describe('test posts slice', () => {
 				})
 			)
 		).toEqual({
+			countWatch: 5,
+			id: '1',
 			date: '15.12.2022',
 			author: {
 				authorImage: '',
@@ -40,6 +46,8 @@ describe('test posts slice', () => {
 		expect(
 			postsReducer(
 				{
+					countWatch: 0,
+					id: '1',
 					date: '15.12.2022',
 					author: {
 						authorImage: '',
@@ -53,6 +61,8 @@ describe('test posts slice', () => {
 				postsAction.removePosts()
 			)
 		).toEqual({
+			countWatch: 0,
+			id: '',
 			date: '',
 			author: { authorImage: '', authorName: '' },
 			image: '',
