@@ -1,11 +1,8 @@
 import React from 'react';
 
 import { render, screen } from '@testing-library/react';
-import { MemoryRouter } from 'react-router-dom';
-import { Provider } from 'react-redux';
 
 import { Sidebar } from '@/features/Feed';
-import { store } from '@/store';
 import { HelpersProvider, HelpersRoutes } from '@/helpers';
 
 describe('Sidebar test', () => {
