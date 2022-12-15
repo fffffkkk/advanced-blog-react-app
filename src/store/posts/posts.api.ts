@@ -9,12 +9,20 @@ export const postAPI = createApi({
 	}),
 	tagTypes: ['Posts'],
 	endpoints: (build) => ({
+		getAllPosts: build.query<IPost[], void>({
+			query: () => ({
+				url: `posts`,
+				method: 'GET',
+			}),
+			providesTags: ['Posts'],
+		}),
 		getPosts: build.query<IPost, string>({
 			query: (id: string) => ({
 				url: `posts?id=${id}`,
 				method: 'GET',
 			}),
 			providesTags: ['Posts'],
+			transformResponse: (response: IPost[]) => response[0],
 		}),
 		addPost: build.mutation<IPost[], IPost>({
 			query: (post: IPost) => ({
@@ -35,4 +43,4 @@ export const postAPI = createApi({
 	}),
 });
 
-export const { useAddPostMutation, useGetPostsQuery, useUpdatePostMutation } = postAPI;
+export const { useAddPostMutation, useGetPostsQuery, useUpdatePostMutation, useGetAllPostsQuery } = postAPI;

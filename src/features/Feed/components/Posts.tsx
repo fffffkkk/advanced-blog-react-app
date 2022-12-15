@@ -3,12 +3,23 @@ import React, { FC } from 'react';
 import styled from 'styled-components';
 
 import { useActions } from '@/hooks/use-actions';
+import { useGetAllPostsQuery } from '@/store/posts/posts.api';
+import { Spinner, Wrong } from '@/components/ui';
 import GridLayout from '@/layouts/GridLayout';
 import GridOption from '@/assets/image/grid.png';
 import FlexOption from '@/assets/image/menu-burger.png';
+import PostsItem from '@/features/Feed/components/PostsItem';
 
 const Posts: FC = () => {
 	const { changeGrid } = useActions();
+	const {
+		isLoading: isLoadingPosts,
+		data: posts,
+		isError: isErrorPosts,
+	} = useGetAllPostsQuery();
+
+	if (isLoadingPosts) return <Spinner />;
+	if (isErrorPosts) return <Wrong />;
 
 	return (
 		<PostsWrapper>
@@ -21,10 +32,7 @@ const Posts: FC = () => {
 				</PostsBtn>
 			</PostsBtns>
 			<GridLayout>
-				<GridItem>1</GridItem>
-				<GridItem>1</GridItem>
-				<GridItem>1</GridItem>
-				<GridItem>1</GridItem>
+				{posts && posts.map((post) => <PostsItem post={post} key={post.id} />)}
 			</GridLayout>
 		</PostsWrapper>
 	);
@@ -60,12 +68,6 @@ const PostsOptionsImage = styled.img`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-`;
-const GridItem = styled.div`
-	width: 100%;
-	height: 100px;
-	background-color: #333333;
-	justify-self: center;
 `;
 
 export default Posts;

@@ -16,7 +16,7 @@ export const rootReducer = combineReducers({
 export const store = configureStore({
 	reducer: rootReducer,
 	middleware: (getDefaultMiddleware) =>
-		getDefaultMiddleware().concat(usersAPI.middleware),
+		getDefaultMiddleware().concat(usersAPI.middleware, postAPI.middleware),
 });
 
 setupListeners(store.dispatch);
