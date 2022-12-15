@@ -26,6 +26,7 @@ const Navbar: FC = () => {
 					</Link>
 				</NavbarTitle>
 				<NavbarNavigation>
+					{/*TODO: remove li in li this is mistake!*/}
 					<NavigationItem role='dropdown' onClick={setVisible}>
 						<UserImage>
 							<DropDown active={visible}>

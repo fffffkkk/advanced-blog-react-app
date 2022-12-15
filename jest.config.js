@@ -1,22 +1,14 @@
-// /** @type {import('ts-jest').JestConfigWithTsJest} */
-//
-// module.exports = {
-// 	preset: 'ts-jest',
-// 	verbose: true,
-// 	testEnvironment: 'jsdom',
-// 	setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
-// };
-
-//@ts-ignore
-
 module.exports = {
 	verbose: true,
 	testEnvironment: 'jsdom',
 	setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
 	preset: 'ts-jest',
+	transform: {
+		'\\.[jt]sx?$': 'babel-jest',
+		'\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
+			'<rootDir>/fileTransformer.js',
+	},
 	moduleNameMapper: {
 		'^@/(.*)$': '<rootDir>/src/$1',
 	},
 };
-
-// export default jestConfig;
