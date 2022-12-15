@@ -1,6 +1,7 @@
 {
   "posts": [
     {
+      "id": "1",
       "date": "15.12.2022",
       "author": {
         "authorImage": "",
@@ -12,6 +13,7 @@
       "desc": "because this JS"
     },
     {
+      "id": "2",
       "date": "15.12.2022",
       "author": {
         "authorImage": "",
