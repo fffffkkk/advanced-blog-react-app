@@ -1,22 +1,9 @@
 import React, { FC } from 'react';
 
-import styled from 'styled-components';
-
-import { Sidebar, Posts } from '@/features/Feed';
+import { Posts } from '@/features/Feed';
 
 const Feed: FC = () => {
-	return (
-		<FeedWrapper>
-			<Sidebar />
-			<Posts />
-		</FeedWrapper>
-	);
+	return <Posts />;
 };
-
-const FeedWrapper = styled.div`
-	margin-top: 50px;
-	display: flex;
-	gap: 50px;
-`;
 
 export default Feed;
