@@ -9,7 +9,7 @@ import FlexOption from '@/assets/image/menu-burger.png';
 
 const Posts: FC = () => {
 	const { changeGrid } = useActions();
-	
+
 	return (
 		<PostsWrapper>
 			<PostsBtns>
@@ -21,20 +21,15 @@ const Posts: FC = () => {
 				</PostsBtn>
 			</PostsBtns>
 			<GridLayout>
-				<Test>1</Test>
-				<Test>1</Test>
-				<Test>1</Test>
-				<Test>1</Test>
+				<GridItem>1</GridItem>
+				<GridItem>1</GridItem>
+				<GridItem>1</GridItem>
+				<GridItem>1</GridItem>
 			</GridLayout>
 		</PostsWrapper>
 	);
 };
 
-const Test = styled.div`
-	width: 100px;
-	height: 100px;
-	background-color: #333333;
-`;
 const PostsWrapper = styled.div`
 	width: 100%;
 	background-color: #1ea7fd;
@@ -45,6 +40,7 @@ const PostsBtns = styled.div`
 	display: flex;
 	justify-content: flex-end;
 	gap: 10px;
+	margin-bottom: 10px;
 `;
 const PostsBtn = styled.button`
 	padding: 5px;
@@ -52,13 +48,10 @@ const PostsBtn = styled.button`
 	border: none;
 	cursor: pointer;
 	transition: all 0.2s ease-in;
+	:active,
+	:focus,
 	:hover {
 		background-color: #b7b7b7;
-	}
-	:active,
-	:focus {
-		outline: 0;
-		border: 2px solid #0062a2;
 	}
 `;
 const PostsOptionsImage = styled.img`
@@ -67,6 +60,12 @@ const PostsOptionsImage = styled.img`
 	display: flex;
 	align-items: center;
 	justify-content: center;
+`;
+const GridItem = styled.div`
+	width: 100%;
+	height: 100px;
+	background-color: #333333;
+	justify-self: center;
 `;
 
 export default Posts;

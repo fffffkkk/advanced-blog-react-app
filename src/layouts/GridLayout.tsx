@@ -25,7 +25,7 @@ const GridLayout: FC<GridLayoutProps> = ({ children }) => {
 const GridWrapper = styled.div`
 	display: grid;
 	grid-template-columns: repeat(4, minmax(0, 1fr));
-	background-color: #66bf3c;
+	gap: 30px;
 	@media (max-width: 1000px) {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
@@ -40,6 +40,8 @@ const FlexWrapper = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	flex-direction: column;
+	gap: 30px;
 	background-color: #66bf3c;
 `;
 

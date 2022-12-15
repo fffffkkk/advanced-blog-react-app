@@ -20,7 +20,8 @@
     "react/prop-types": "off",
     "prettier/prettier": "off",
     "@typescript-eslint/ban-ts-comment": "off",
-    "react/no-unescaped-entities": "off"
+    "react/no-unescaped-entities": "off",
+    "@typescript-eslint/no-var-requires": "off"
   },
   "settings": {
     "react": {
