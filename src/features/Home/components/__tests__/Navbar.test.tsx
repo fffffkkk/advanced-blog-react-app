@@ -1,21 +1,19 @@
 import React from 'react';
 
-import { MemoryRouter } from 'react-router-dom';
-import { Provider } from 'react-redux';
 import { render, screen } from '@testing-library/react';
 import { userEvent } from '@storybook/testing-library';
 
 import { Navbar } from '@/features/Home';
-import { store } from '@/store';
+import { HelpersProvider, HelpersRoutes } from '@/helpers';
 
 describe('navbar test', () => {
 	test('have a title and navigation', () => {
 		render(
-			<Provider store={store}>
-				<MemoryRouter>
+			<HelpersProvider>
+				<HelpersRoutes>
 					<Navbar />
-				</MemoryRouter>
-			</Provider>
+				</HelpersRoutes>
+			</HelpersProvider>
 		);
 
 		const title = screen.getByText(/BLOG/i);

@@ -25,7 +25,6 @@ const Sidebar: FC = () => {
 						<SidebarListItem>POSTS</SidebarListItem>
 					</Link>
 				</SidebarList>
-				
 			</SidebarInner>
 		</SidebarWrapper>
 	);

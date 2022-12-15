@@ -16,6 +16,7 @@ const Feed: FC = () => {
 const FeedWrapper = styled.div`
 	margin-top: 50px;
 	display: flex;
+	gap: 50px;
 `;
 
 export default Feed;

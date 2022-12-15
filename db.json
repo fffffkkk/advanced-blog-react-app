@@ -1,4 +1,28 @@
 {
+  "posts": [
+    {
+      "date": "15.12.2022",
+      "author": {
+        "authorImage": "",
+        "authorName": "admin"
+      },
+      "image": "",
+      "categories": ["IT"],
+      "title": "JS - best",
+      "desc": "because this JS"
+    },
+    {
+      "date": "15.12.2022",
+      "author": {
+        "authorImage": "",
+        "authorName": "alex"
+      },
+      "image": "",
+      "categories": ["IT"],
+      "title": "REACT - best",
+      "desc": "because this REACT"
+    }
+  ],
   "users": [
     {
       "id": 1,

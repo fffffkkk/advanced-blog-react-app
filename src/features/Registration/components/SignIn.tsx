@@ -3,7 +3,7 @@ import React from 'react';
 import AuthForm from '@/features/Registration/components/form/AuthForm';
 
 const SignIn = () => {
-	const handleSignIn = (form: { email: string, password: string }) => {
+	const handleSignIn = (form: { name: string, token: string }) => {
 		console.log('yes', form);
 	};
 	
