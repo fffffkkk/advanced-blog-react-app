@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, { FC, useState } from 'react';
 
 import { useNavigate, useParams } from 'react-router-dom';
 import styled from 'styled-components';
@@ -12,7 +12,8 @@ import {
 import { useToggle } from '@/hooks/use-toggle';
 import { useChange } from '@/hooks/use-change';
 import { PostDetailInfo } from '@/features/postDetail';
-import UploadPostImage from '@/features/Feed/components/UploadPostImage';
+import { assignObj } from '@/features/postDetail/utils/assignObj';
+import UploadPostImage from '@/features/postDetail/components/UploadPostImage';
 
 const PostDetail: FC = () => {
 	const navigate = useNavigate();
@@ -28,8 +29,8 @@ const PostDetail: FC = () => {
 		id: id,
 		title: '',
 		desc: '',
-		image: ''
 	});
+	const [file, setFile] = useState<File>();
 	const [visibleInput, setVisibleInput] = useToggle(true);
 
 	if (isLoadingPost || !post) return <Spinner />;
@@ -40,16 +41,31 @@ const PostDetail: FC = () => {
 		deletePost(post.id);
 	};
 	const handleClickCreatePost = () => {
+		if (file) assignObj(form, { image: URL.createObjectURL(file) });
 		setVisibleInput();
 		updatePost(form);
 	};
-
+	const handleChangeFile = (e: React.ChangeEvent<HTMLInputElement>) => {
+		//@ts-ignore
+		setFile(e.target.files[0]);
+	};
+	
 	return (
 		<PostDetailWrapper>
 			<PostDetailInner>
-				<UploadPostImage image={post.image} visible={visibleInput} />
+				<UploadPostImage
+					image={post.image}
+					visible={visibleInput}
+					file={file}
+					changeFile={handleChangeFile}
+				/>
 				<PostDetailInfoWrapper>
-					<PostDetailInfo post={post} visibleInput={visibleInput} form={form} setForm={setForm}/>
+					<PostDetailInfo
+						post={post}
+						visibleInput={visibleInput}
+						form={form}
+						setForm={setForm}
+					/>
 					<PostDetailBtns>
 						{visibleInput ? (
 							<>

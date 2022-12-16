@@ -1,27 +1,23 @@
-import React, { FC, useCallback, useState } from 'react';
+import React, { FC } from 'react';
 
 import styled from 'styled-components';
 
-import UploadImg from '@/assets/image/upload.png';
 import { Input } from '@/components/ui';
+import UploadImg from '@/assets/image/upload.png';
 
 interface UploadPostImageProps {
 	visible: boolean;
 	image: string;
+	file?: File;
+	changeFile: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
-const UploadPostImage: FC<UploadPostImageProps> = ({ visible, image }) => {
-	const [file, setFile] = useState();
-
-	const handleChangeFile = useCallback(
-		(e: React.ChangeEvent<HTMLInputElement>) => {
-			//TODO: i have no idea why it doesn't work
-			//@ts-ignore
-			setFile(e.target.files[0]);
-		},
-		[]
-	);
-	
+const UploadPostImage: FC<UploadPostImageProps> = ({
+	visible,
+	image,
+	file,
+	changeFile,
+}) => {
 	return (
 		<>
 			{!visible ? (
@@ -43,7 +39,7 @@ const UploadPostImage: FC<UploadPostImageProps> = ({ visible, image }) => {
 						<Input
 							type='file'
 							value=''
-							change={handleChangeFile}
+							change={changeFile}
 							name='file'
 							accept='image/*'
 						/>

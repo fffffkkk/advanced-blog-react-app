@@ -8,12 +8,12 @@
         "authorImage": "",
         "authorName": "admin"
       },
-      "image": "",
+      "image": "blob:http://localhost:4000/fe64cbd1-2274-4c40-b32b-0cd83e9c0dd5",
       "categories": [
         "IT"
       ],
-      "title": "ferwfewr",
-      "desc": "grewgewrgerwg"
+      "title": "",
+      "desc": ""
     }
   ],
   "users": [
