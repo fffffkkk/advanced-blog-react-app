@@ -5,15 +5,14 @@
       "id": "2",
       "date": "15.12.2022",
       "author": {
-        "authorImage": "",
-        "authorName": "admin"
+        "authorName": "ggwger@greg.com"
       },
-      "image": "blob:http://localhost:4000/fe64cbd1-2274-4c40-b32b-0cd83e9c0dd5",
+      "image": "blob:http://localhost:4000/78193a25-9590-4ee6-8a7e-dd30bdaa96be",
       "categories": [
         "IT"
       ],
-      "title": "",
-      "desc": ""
+      "title": "f",
+      "desc": "f"
     }
   ],
   "users": [
@@ -61,6 +60,11 @@
       "id": 1671142404107,
       "name": "ggwger@greg.com",
       "token": "wgjnbnklgwnklgenklewrnklewnkl"
+    },
+    {
+      "id": 1671174223467,
+      "name": "rtkrtngkrtnktbn@ktbnktnbtrk.com",
+      "token": "trlrtmhrlnmrtnmerl"
     }
   ]
 }

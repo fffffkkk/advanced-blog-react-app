@@ -14,6 +14,7 @@ import { useChange } from '@/hooks/use-change';
 import { PostDetailInfo } from '@/features/postDetail';
 import { assignObj } from '@/features/postDetail/utils/assignObj';
 import UploadPostImage from '@/features/postDetail/components/UploadPostImage';
+import { useTypedSelector } from '@/hooks/use-typed-selector';
 
 const PostDetail: FC = () => {
 	const navigate = useNavigate();
@@ -23,6 +24,7 @@ const PostDetail: FC = () => {
 		data: post,
 		isError: isErrorPost,
 	} = useGetPostsQuery(id as string);
+	const { user } = useTypedSelector((state) => state.user);
 	const [deletePost] = useDeletePostMutation();
 	const [updatePost] = useUpdatePostMutation();
 	const [form, setForm] = useChange({
@@ -40,8 +42,16 @@ const PostDetail: FC = () => {
 		navigate('/');
 		deletePost(post.id);
 	};
-	const handleClickCreatePost = () => {
-		if (file) assignObj(form, { image: URL.createObjectURL(file) });
+	const handleClickUpdatePost = () => {
+		if (file) {
+			assignObj(form, [
+				{ image: URL.createObjectURL(file) },
+				{ author: { authorName: user.name } },
+			]);
+		} else {
+			assignObj(form, [{ author: { authorName: user.name } }]);
+		}
+
 		setVisibleInput();
 		updatePost(form);
 	};
@@ -49,7 +59,7 @@ const PostDetail: FC = () => {
 		//@ts-ignore
 		setFile(e.target.files[0]);
 	};
-	
+
 	return (
 		<PostDetailWrapper>
 			<PostDetailInner>
@@ -78,7 +88,7 @@ const PostDetail: FC = () => {
 							</>
 						) : (
 							<>
-								<Button type='button' click={handleClickCreatePost}>
+								<Button type='button' click={handleClickUpdatePost}>
 									Save Change
 								</Button>
 							</>
