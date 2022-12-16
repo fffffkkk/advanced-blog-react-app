@@ -11,10 +11,10 @@ import {
 } from '@/store/posts/posts.api';
 import { useToggle } from '@/hooks/use-toggle';
 import { useChange } from '@/hooks/use-change';
-import { PostDetailInfo } from '@/features/postDetail';
+import { PostDetailForm } from '@/features/postDetail';
 import { assignObj } from '@/features/postDetail/utils/assignObj';
-import UploadPostImage from '@/features/postDetail/components/UploadPostImage';
 import { useTypedSelector } from '@/hooks/use-typed-selector';
+import UploadPostImage from '@/features/postDetail/components/UploadPostImage';
 
 const PostDetail: FC = () => {
 	const navigate = useNavigate();
@@ -70,7 +70,7 @@ const PostDetail: FC = () => {
 					changeFile={handleChangeFile}
 				/>
 				<PostDetailInfoWrapper>
-					<PostDetailInfo
+					<PostDetailForm
 						post={post}
 						visibleInput={visibleInput}
 						form={form}

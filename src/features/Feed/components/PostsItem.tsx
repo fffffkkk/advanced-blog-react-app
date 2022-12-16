@@ -17,10 +17,7 @@ const PostsItem: FC<PostsItemProps> = ({ post }) => {
 	return (
 		<PostWrapper>
 			<PostInner>
-				<>
-					<PostDate>{post.date}</PostDate>
-					<PostAuthor>{post.author.authorName}</PostAuthor>
-				</>
+				<PostDate>{post.date}</PostDate>
 				<PostCountWatch>
 					{post.countWatch}
 					<CountWatchImg src={EyeIcon} alt='eye-icon' />
@@ -82,10 +79,6 @@ const PostImg = styled.img`
 `;
 const PostDate = styled.p`
 	text-align: end;
-`;
-const PostAuthor = styled.div`
-	font-weight: bold;
-	font-size: 10px;
 `;
 
 export default PostsItem;

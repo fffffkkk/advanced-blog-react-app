@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 import { Input } from '@/components/ui';
 import { IPost } from '@/models/IPost';
+import { Categories } from '@/features/postDetail';
 import EyeIcon from '@/assets/image/eye.png';
 
 interface IForm {
@@ -19,7 +20,7 @@ interface PostDetailInfoProps {
 	setForm: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
-const PostDetailInfo: FC<PostDetailInfoProps> = ({
+const PostDetailForm: FC<PostDetailInfoProps> = ({
 	post,
 	visibleInput,
 	form,
@@ -52,6 +53,11 @@ const PostDetailInfo: FC<PostDetailInfoProps> = ({
 				<PostDetailWatchCountImg src={EyeIcon} alt='eye-icon' />
 				<PostDetailWatchCountText>{post.countWatch}</PostDetailWatchCountText>
 			</PostDetailWatchCount>
+			<PostDetailAuthor>
+				<PostDetailAuthorName>{post.author.authorName}</PostDetailAuthorName>
+				<PostDetailAuthorImg src={post.author.authorImage} alt='author-img'/>
+			</PostDetailAuthor>
+			<Categories data={post.categories}/>
 		</PostDetailText>
 	);
 };
@@ -82,5 +88,19 @@ const PostDetailWatchCountText = styled.p`
 	font-weight: bold;
 	font-size: 20px;
 `;
+const PostDetailAuthor = styled.div`
+	display: flex;
+	align-items: center;
+	gap: 10px;
+`;
+const PostDetailAuthorName = styled.h2`
+	font-weight: normal;
+	font-size: 20px;
+`;
+const PostDetailAuthorImg = styled.img`
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+`;
 
-export default PostDetailInfo;
+export default PostDetailForm;
