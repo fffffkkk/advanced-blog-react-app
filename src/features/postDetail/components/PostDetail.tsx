@@ -3,7 +3,7 @@ import React, { FC } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import styled from 'styled-components';
 
-import { Button, Input, Spinner, Wrong } from '@/components/ui';
+import { Button, Spinner, Wrong } from '@/components/ui';
 import {
 	useDeletePostMutation,
 	useGetPostsQuery,
@@ -11,7 +11,8 @@ import {
 } from '@/store/posts/posts.api';
 import { useToggle } from '@/hooks/use-toggle';
 import { useChange } from '@/hooks/use-change';
-import EyeIcon from '@/assets/image/eye.png';
+import { PostDetailInfo } from '@/features/postDetail';
+import UploadPostImage from '@/features/Feed/components/UploadPostImage';
 
 const PostDetail: FC = () => {
 	const navigate = useNavigate();
@@ -27,6 +28,7 @@ const PostDetail: FC = () => {
 		id: id,
 		title: '',
 		desc: '',
+		image: ''
 	});
 	const [visibleInput, setVisibleInput] = useToggle(true);
 
@@ -34,8 +36,8 @@ const PostDetail: FC = () => {
 	if (isErrorPost) return <Wrong />;
 
 	const handleClickRemovePost = () => {
-		deletePost(post.id);
 		navigate('/');
+		deletePost(post.id);
 	};
 	const handleClickCreatePost = () => {
 		setVisibleInput();
@@ -45,37 +47,9 @@ const PostDetail: FC = () => {
 	return (
 		<PostDetailWrapper>
 			<PostDetailInner>
-				<PostDetailImg src={post.image} alt='post-img' />
-				<PostDetailInfo>
-					<PostDetailText>
-						<PostDetailID> id: {post.id} </PostDetailID>
-						<PostDetailTitle>
-							title:
-							<Input
-								disabled={visibleInput}
-								type='text'
-								value={visibleInput ? post.title : form.title}
-								change={(e) => setForm(e)}
-								name='title'
-							/>
-						</PostDetailTitle>
-						<PostDetailAbout>
-							about:
-							<Input
-								disabled={visibleInput}
-								type='text'
-								value={visibleInput ? post.desc : form.desc}
-								change={(e) => setForm(e)}
-								name='desc'
-							/>
-						</PostDetailAbout>
-						<PostDetailWatchCount>
-							<PostDetailWatchCountImg src={EyeIcon} alt='eye-icon' />
-							<PostDetailWatchCountText>
-								{post.countWatch}
-							</PostDetailWatchCountText>
-						</PostDetailWatchCount>
-					</PostDetailText>
+				<UploadPostImage image={post.image} visible={visibleInput} />
+				<PostDetailInfoWrapper>
+					<PostDetailInfo post={post} visibleInput={visibleInput} form={form} setForm={setForm}/>
 					<PostDetailBtns>
 						{visibleInput ? (
 							<>
@@ -94,7 +68,7 @@ const PostDetail: FC = () => {
 							</>
 						)}
 					</PostDetailBtns>
-				</PostDetailInfo>
+				</PostDetailInfoWrapper>
 			</PostDetailInner>
 		</PostDetailWrapper>
 	);
@@ -107,16 +81,7 @@ const PostDetailInner = styled.div`
 	display: flex;
 	gap: 20px;
 `;
-const PostDetailText = styled.div`
-	font-weight: normal;
-	font-size: 20px;
-`;
-const PostDetailImg = styled.img`
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-`;
-const PostDetailInfo = styled.div`
+const PostDetailInfoWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -124,28 +89,6 @@ const PostDetailInfo = styled.div`
 const PostDetailBtns = styled.div`
 	display: flex;
 	gap: 10px;
-`;
-const PostDetailTitle = styled.h1`
-	display: flex;
-`;
-const PostDetailID = styled.div`
-	font-weight: bold;
-`;
-const PostDetailAbout = styled.div`
-	display: flex;
-`;
-const PostDetailWatchCount = styled.div`
-	display: flex;
-	align-items: center;
-	gap: 10px;
-`;
-const PostDetailWatchCountImg = styled.img`
-	width: 30px;
-	height: 30px;
-`;
-const PostDetailWatchCountText = styled.p`
-	font-weight: bold;
-	font-size: 20px;
 `;
 
 export default PostDetail;
