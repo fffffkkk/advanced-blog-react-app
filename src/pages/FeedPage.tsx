@@ -2,8 +2,8 @@ import React, { FC } from 'react';
 
 import { Posts } from '@/features/Feed';
 
-const Feed: FC = () => {
+const FeedPage: FC = () => {
 	return <Posts />;
 };
 
-export default Feed;
+export default FeedPage;

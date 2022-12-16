@@ -1,7 +1,8 @@
 {
   "posts": [
     {
-      "id": "1",
+      "countWatch": 5,
+      "id": "2",
       "date": "15.12.2022",
       "author": {
         "authorImage": "",
@@ -11,24 +12,8 @@
       "categories": [
         "IT"
       ],
-      "title": "JS - best",
-      "desc": "because this JS",
-      "countWatch": 5
-    },
-    {
-      "id": "2",
-      "date": "15.12.2022",
-      "author": {
-        "authorImage": "",
-        "authorName": "alex"
-      },
-      "image": "",
-      "categories": [
-        "IT"
-      ],
-      "title": "REACT - best",
-      "desc": "because this REACT",
-      "countWatch": 2
+      "title": "g",
+      "desc": ""
     }
   ],
   "users": [

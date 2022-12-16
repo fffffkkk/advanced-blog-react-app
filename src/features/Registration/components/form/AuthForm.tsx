@@ -2,44 +2,9 @@ import React, { FC } from 'react';
 
 import styled from 'styled-components';
 
-import { useChange } from '@/features/Registration/hooks/use-change';
+import { useChange } from '@/hooks/use-change';
 import { stringUpper } from '@/features/Registration/utils/stringUpper';
-import Input from '@/components/ui/Input';
-import Button from '@/components/ui/Button';
-
-const FormWrapper = styled.form`
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-`;
-const FormInner = styled.div`
-	width: 500px;
-	height: 500px;
-	margin: 0 auto;
-	padding: 20px;
-	background-color: #1ea7fd;
-	border-radius: 15px;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-`;
-const Header = styled.h1`
-	font-weight: bold;
-	font-size: 30px;
-	padding-bottom: 10px;
-`;
-const Label = styled.label`
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 5px;
-	padding-bottom: 10px;
-	font-size: 20px;
-	font-weight: bolder;
-`;
+import { Input, Button } from '@/components/ui';
 
 interface AuthFormProps {
 	title: string;
@@ -84,5 +49,39 @@ const AuthForm: FC<AuthFormProps> = ({ title, submit }) => {
 		</FormWrapper>
 	);
 };
+
+const FormWrapper = styled.form`
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+`;
+const FormInner = styled.div`
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #1ea7fd;
+	border-radius: 15px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+`;
+const Header = styled.h1`
+	font-weight: bold;
+	font-size: 30px;
+	padding-bottom: 10px;
+`;
+const Label = styled.label`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-weight: bolder;
+`;
 
 export default AuthForm;

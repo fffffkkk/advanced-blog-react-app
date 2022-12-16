@@ -1,27 +1,23 @@
 import React, { FC } from 'react';
-
 import styled from 'styled-components';
-
-const BodyWrapper = styled.div`
-	width: 100vw;
-	height: 100vh;
-`;
-const BodyInner = styled.div`
-	max-width: 1400px;
-	margin: 0 auto;
-	height: 100%;
-`;
 
 interface ContentLayoutProps {
 	children: React.ReactNode;
 }
 
-const ContentLayout: FC<ContentLayoutProps> = ({ children }) => {
+const ContentLayout: FC<ContentLayoutProps> = ({children}) => {
 	return (
-		<BodyWrapper>
-			<BodyInner>{children}</BodyInner>
-		</BodyWrapper>
+		<ContentWrapper>
+			{children}
+		</ContentWrapper>
 	);
 };
+
+const ContentWrapper = styled.div`
+  width: 100%;
+  background-color: #1ea7fd;
+  border-radius: 15px;
+  padding: 10px;
+`;
 
 export default ContentLayout;

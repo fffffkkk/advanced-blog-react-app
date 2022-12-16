@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 
 import { privateRoutes } from '@/routes/routes';
 import { useAuth } from '@/hooks/use-auth';
-import Registration from '@/pages/Registration';
+import RegistrationPage from '@/pages/RegistrationPage';
 
 const AppRouter = () => {
 	const {isAuth} = useAuth();
@@ -20,7 +20,7 @@ const AppRouter = () => {
 					/>
 				))
 			) : (
-				<Route path='/*' element={<Registration />} />
+				<Route path='/*' element={<RegistrationPage />} />
 			)}
 		</Routes>
 	);
