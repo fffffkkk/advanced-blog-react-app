@@ -6,33 +6,46 @@ import { inputTypes } from '@/types/input.type';
 
 interface InputProps {
 	type: inputTypes;
-	placeholder?: string;
 	value: string;
 	change: (e: React.ChangeEvent<HTMLInputElement>) => void;
 	name: string;
+	placeholder?: string;
+	disabled?: boolean;
+	accept?: string;
 }
 
-const Input: FC<InputProps> = ({ type, placeholder, value, change, name }) => {
+const Input: FC<InputProps> = ({
+	type,
+	placeholder,
+	value,
+	change,
+	name,
+	disabled,
+	accept
+}) => {
 	return (
-		<InputWrapper
+		<StyledInput
 			type={type}
 			value={value}
 			onChange={change}
 			placeholder={placeholder}
 			name={name}
+			disabled={disabled}
+			accept={accept}
 		/>
 	);
 };
 
-const InputWrapper = styled.input`
-  width: 100%;
-  padding: 5px 10px;
-  border-radius: 10px;
-  border: none;
-  :active, :focus {
-    outline: 0;
-    border: 2px solid #0062a2;
-  }
-`
+const StyledInput = styled.input`
+	width: 100%;
+	padding: 5px 10px;
+	border-radius: 10px;
+	border: none;
+	background-color: ${(props) => (props.disabled ? 'transparent' : '')};
+	:active,
+	:focus {
+		border: ${(props) => (props.disabled ? 'none' : '2px solid #0062a2')};
+	}
+`;
 
 export default Input;

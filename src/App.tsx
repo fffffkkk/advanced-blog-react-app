@@ -1,13 +1,13 @@
 import React from 'react';
 
 import AppRouter from '@/components/AppRouter';
-import ContentLayout from '@/layouts/ContentLayout';
+import MainLayout from '@/layouts/MainLayout';
 
 const App = () => {
 	return (
-		<ContentLayout>
+		<MainLayout>
 			<AppRouter />
-		</ContentLayout>
+		</MainLayout>
 	);
 };
 

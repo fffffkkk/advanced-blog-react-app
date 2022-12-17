@@ -14,7 +14,7 @@ const initialState: IPost = {
 };
 
 export const postsSlice = createSlice({
-	name: 'grid',
+	name: 'posts',
 	initialState,
 	reducers: {
 		addPosts(state, action: PayloadAction<IPost>) {

@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 
 import { publicRoutes } from '@/routes/routes';
 
-const Registration = () => {
+const RegistrationPage = () => {
 	return (
 		<Routes>
 			{publicRoutes.map((route) => (
@@ -14,4 +14,4 @@ const Registration = () => {
 	);
 };
 
-export default Registration;
+export default RegistrationPage;
