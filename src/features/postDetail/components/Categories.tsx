@@ -7,6 +7,7 @@ interface CategoriesProps {
 }
 
 const Categories: FC<CategoriesProps> = ({ data }) => {
+	
 	return (
 		<CategoriesWrapper>
 			{data.map((category) => (
@@ -18,7 +19,7 @@ const Categories: FC<CategoriesProps> = ({ data }) => {
 
 const CategoriesWrapper = styled.div`
 	display: flex;
-	margin: 5px 0 5px 0;
+	gap: 10px;
 `;
 const CategoryInner = styled.div`
 	padding: 5px;

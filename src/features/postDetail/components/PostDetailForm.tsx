@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 import { Input } from '@/components/ui';
 import { IPost } from '@/models/IPost';
-import { Categories } from '@/features/postDetail';
+import { Categories, CategoriesForm } from '@/features/postDetail';
 import EyeIcon from '@/assets/image/eye.png';
 
 interface IForm {
@@ -57,7 +57,7 @@ const PostDetailForm: FC<PostDetailInfoProps> = ({
 				<PostDetailAuthorName>{post.author.authorName}</PostDetailAuthorName>
 				<PostDetailAuthorImg src={post.author.authorImage} alt='author-img'/>
 			</PostDetailAuthor>
-			<Categories data={post.categories}/>
+			{!visibleInput ? <Categories data={post.categories}/> : <CategoriesForm />}
 		</PostDetailText>
 	);
 };
@@ -65,6 +65,10 @@ const PostDetailForm: FC<PostDetailInfoProps> = ({
 const PostDetailText = styled.div`
 	font-weight: normal;
 	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	margin-bottom: 5px;
 `;
 const PostDetailTitle = styled.h1`
 	display: flex;
