@@ -23,16 +23,11 @@ const PostsItem: FC<PostsItemProps> = ({ post }) => {
 					<CountWatchImg src={EyeIcon} alt='eye-icon' />
 				</PostCountWatch>
 			</PostInner>
-			<PostImg
-				src={
-					'https://img3.akspic.ru/previews/9/6/1/9/6/169169/169169-ty_zasluzhivaesh_vsyacheskogo_schastya-schaste-strah-voda-polety_na_vozdushnom_share-500x.jpg'
-				}
-				alt='post-img'
-			/>
+			<PostImg src={post.image} alt='post-img' />
 			<PostInner>
 				<PostText>
 					<PostTitle>{post.title}</PostTitle>
-					<PostAbout>{post.desc}</PostAbout>
+					<PostAbout>{post.desc.slice(0, 15)}...</PostAbout>
 				</PostText>
 				<Button type='button' click={() => navigate(`/post/${post.id}`)}>
 					MORE...

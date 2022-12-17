@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import { useActions } from '@/hooks/use-actions';
 import { useGetAllPostsQuery } from '@/store/posts/posts.api';
 import { Spinner, Wrong } from '@/components/ui';
-import GridLayout from '@/layouts/GridLayout';
+import { ContentLayout, GridLayout } from '@/layouts';
 import GridOption from '@/assets/image/grid.png';
 import FlexOption from '@/assets/image/menu-burger.png';
 import PostsItem from '@/features/Feed/components/PostsItem';
@@ -22,7 +22,7 @@ const Posts: FC = () => {
 	if (isErrorPosts) return <Wrong />;
 
 	return (
-		<PostsWrapper>
+		<ContentLayout>
 			<PostsBtns>
 				<PostsBtn onClick={() => changeGrid({ grid: 'grid' })}>
 					<PostsOptionsImage src={GridOption} alt='gridOption' />
@@ -34,16 +34,10 @@ const Posts: FC = () => {
 			<GridLayout>
 				{posts && posts.map((post) => <PostsItem post={post} key={post.id} />)}
 			</GridLayout>
-		</PostsWrapper>
+		</ContentLayout>
 	);
 };
 
-const PostsWrapper = styled.div`
-	width: 100%;
-	background-color: #1ea7fd;
-	border-radius: 15px;
-	padding: 10px;
-`;
 const PostsBtns = styled.div`
 	display: flex;
 	justify-content: flex-end;

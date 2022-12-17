@@ -1,4 +1,4 @@
-export { default as Profile } from './Profile';
-export { default as Settings } from './Settings';
-export { default as Feed } from './Feed';
-export { default as PostDetail } from './PostDetail';
+export { default as ProfilePage } from './ProfilePage';
+export { default as SettingsPage } from './SettingsPage';
+export { default as FeedPage } from './FeedPage';
+export { default as PostDetailPage } from './PostDetailPage';
