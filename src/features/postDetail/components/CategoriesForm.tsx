@@ -2,18 +2,23 @@ import React, { FC, useState } from 'react';
 
 import styled from 'styled-components';
 
-import { categories } from '@/constants/categories';
+import { categories, categoriesType } from '@/constants/categories';
 import { Modal } from '@/components/ui';
 import { CategoriesSelect } from '@/features/postDetail';
 
-// interface CategoriesFormProps {}
+interface CategoriesFormProps {
+	changeTopics: (v: categoriesType[]) => void
+}
 
-const CategoriesForm: FC = () => {
-	const [modal, setModal] = useState(true);
+const CategoriesForm: FC<CategoriesFormProps> = ({ changeTopics }) => {
+	const [modal, setModal] = useState(false);
 
 	const handleClickModal = (e: React.MouseEvent) => {
 		setModal(true);
 		e.stopPropagation();
+	};
+	const handleCloseModal = () => {
+		setModal(false);
 	};
 
 	return (
@@ -22,8 +27,14 @@ const CategoriesForm: FC = () => {
 				+
 			</CategoriesBtn>
 			{modal && (
-				<Modal handleClose={() => setModal(false)}>
-					{<CategoriesSelect data={categories} />}
+				<Modal handleClose={handleCloseModal}>
+					{
+						<CategoriesSelect
+							data={categories}
+							changeTopics={changeTopics}
+							visibleModal={() => setModal(false)}
+						/>
+					}
 				</Modal>
 			)}
 		</CategoriesWrapper>

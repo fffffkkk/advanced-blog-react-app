@@ -32,7 +32,7 @@ const Posts: FC = () => {
 				</PostsBtn>
 			</PostsBtns>
 			<GridLayout>
-				{posts && posts.map((post) => <PostsItem post={post} key={post.id} />)}
+				{posts && posts.map((post) => <PostsItem test-id='items' post={post} key={post.id} />)}
 			</GridLayout>
 		</ContentLayout>
 	);

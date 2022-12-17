@@ -1,20 +1,20 @@
-import React, { FC, useEffect, useRef, useState } from 'react';
+import React, { FC, useRef, useState } from 'react';
 
 import styled from 'styled-components';
 
 import { categoriesType } from '@/constants/categories';
+import { useKeyboard } from '@/hooks/use-keyboard';
 
 interface SelectProps {
-	isMultiple: boolean;
 	options: categoriesType[];
 	value: categoriesType[];
 	change: (value: categoriesType[]) => void;
 }
 
-const Select: FC<SelectProps> = ({ isMultiple, options, value, change }) => {
+const Select: FC<SelectProps> = ({ options, value, change }) => {
 	const [isOpen, setIsOpen] = useState(false);
 	const [highlightedIndex, setHighlightedIndex] = useState(0);
-	const containerRef = useRef<HTMLDivElement>(null);
+	const containerRef = useRef<HTMLDivElement | null>(null);
 
 	const handleClearOptions = (e: React.MouseEvent<HTMLButtonElement>) => {
 		e.stopPropagation();
@@ -36,11 +36,13 @@ const Select: FC<SelectProps> = ({ isMultiple, options, value, change }) => {
 		return value.includes(option);
 	};
 
-	useEffect(() => {
-		const currentRef = containerRef.current;
-
-		const handler = (e: KeyboardEvent) => {
-			if (e.target != currentRef) {
+	useKeyboard(
+		containerRef,
+		isOpen,
+		options,
+		highlightedIndex,
+		(e: KeyboardEvent) => {
+			if (e.target != containerRef.current) {
 				return;
 			}
 
@@ -68,14 +70,8 @@ const Select: FC<SelectProps> = ({ isMultiple, options, value, change }) => {
 					setIsOpen(false);
 					break;
 			}
-		};
-
-		currentRef?.addEventListener('keydown', handler);
-
-		return () => {
-			currentRef?.removeEventListener('keydown', handler);
-		};
-	}, [isOpen, highlightedIndex, options]);
+		}
+	);
 
 	return (
 		<SelectContainer
@@ -116,8 +112,6 @@ const Select: FC<SelectProps> = ({ isMultiple, options, value, change }) => {
 					))}
 				</SelectOptionsList>
 			)}
-
-			<SelectStyled multiple={isMultiple}>Select</SelectStyled>
 		</SelectContainer>
 	);
 };
@@ -172,9 +166,8 @@ const SelectCaret = styled.div`
 	border-top-color: #777;
 `;
 const SelectOptionsList = styled.ul`
-	//display: none;
 	position: absolute;
-	max-height: 200px;
+	max-height: 150px;
 	overflow-y: auto;
 	border: 1px solid #777;
 	border-radius: 5px;
@@ -189,15 +182,8 @@ const SelectOptionsItem =
 	`
 	padding: 2.5px 5px;
 	cursor: pointer;
-  //:hover, :focus {
-  //  background-color: #1ea7fd;
-  //  color: #fff;
-  //}
   background-color: ${(props) => props.Bg};
 	color: ${(props) => props.Txt};
-`;
-const SelectStyled = styled.select`
-	display: none;
 `;
 
 interface ISelectOptionsItem {
