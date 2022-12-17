@@ -2,11 +2,11 @@ import React from 'react';
 
 import { render, waitFor, screen } from '@testing-library/react';
 import { ApiProvider } from '@reduxjs/toolkit/dist/query/react';
+import { rest } from 'msw';
 
 import { server } from '@/mocks/api/server';
 import { postAPI } from '@/store/posts/posts.api';
 import { Posts } from '@/features/Feed';
-import { rest } from 'msw';
 
 describe('tests api posts', () => {
 	beforeAll(() => {
@@ -36,7 +36,7 @@ describe('tests api posts', () => {
 			expect(rows).toHaveLength(4);
 		})
 	})
-	test('if some wrong int posts load', async () => {
+	test('if some wrong in posts load', async () => {
 		server.use(
 			rest.get('*', (_req, res, ctx) =>
 				res.once(ctx.status(500), ctx.json({message: "It`s WRONG..."}))
