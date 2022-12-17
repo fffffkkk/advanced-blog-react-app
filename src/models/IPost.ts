@@ -8,7 +8,7 @@ export interface IPost {
 	date: string;
 	author: IAuthor;
 	image: string;
-	categories: string[];
+	topics: string[];
 	title: string;
 	desc: string;
 	countWatch: number;
