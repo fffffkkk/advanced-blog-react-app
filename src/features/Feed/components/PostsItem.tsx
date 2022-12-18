@@ -1,10 +1,11 @@
-import React, { FC } from 'react';
+import React, { FC, useCallback } from 'react';
 
 import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 
 import { IPost } from '@/models/IPost';
 import { Button } from '@/components/ui';
+import { useUpdatePostMutation } from '@/store/posts/posts.api';
 import EyeIcon from '@/assets/image/eye.png';
 
 interface PostsItemProps {
@@ -13,6 +14,15 @@ interface PostsItemProps {
 
 const PostsItem: FC<PostsItemProps> = ({ post }) => {
 	const navigate = useNavigate();
+	const [updatePost] = useUpdatePostMutation();
+
+	const handleClick = useCallback(() => {
+		navigate(`/post/${post.id}`);
+		updatePost({
+			...post,
+			countWatch: post.countWatch + 1,
+		});
+	}, []);
 
 	return (
 		<PostWrapper>
@@ -26,10 +36,10 @@ const PostsItem: FC<PostsItemProps> = ({ post }) => {
 			<PostImg src={post.image} alt='post-img' />
 			<PostInner>
 				<PostText>
-					<PostTitle>{post.title}</PostTitle>
+					<PostTitle>{post.title.slice(0, 15)}...</PostTitle>
 					<PostAbout>{post.desc.slice(0, 15)}...</PostAbout>
 				</PostText>
-				<Button type='button' click={() => navigate(`/post/${post.id}`)}>
+				<Button type='button' click={handleClick}>
 					MORE...
 				</Button>
 			</PostInner>

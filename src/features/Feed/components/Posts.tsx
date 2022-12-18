@@ -6,6 +6,7 @@ import { useActions } from '@/hooks/use-actions';
 import { useGetAllPostsQuery } from '@/store/posts/posts.api';
 import { Spinner, Wrong } from '@/components/ui';
 import { ContentLayout, GridLayout } from '@/layouts';
+import { Search } from '@/features/Search';
 import GridOption from '@/assets/image/grid.png';
 import FlexOption from '@/assets/image/menu-burger.png';
 import PostsItem from '@/features/Feed/components/PostsItem';
@@ -23,14 +24,18 @@ const Posts: FC = () => {
 
 	return (
 		<ContentLayout>
-			<PostsBtns>
-				<PostsBtn onClick={() => changeGrid({ grid: 'grid' })}>
-					<PostsOptionsImage src={GridOption} alt='gridOption' />
-				</PostsBtn>
-				<PostsBtn onClick={() => changeGrid({ grid: 'flex' })}>
-					<PostsOptionsImage src={FlexOption} alt='flexOption' />
-				</PostsBtn>
-			</PostsBtns>
+			<PostsWrapper>
+				<>select</>
+				<PostsBtns>
+					<PostsBtn onClick={() => changeGrid({ grid: 'grid' })}>
+						<PostsOptionsImage src={GridOption} alt='gridOption' />
+					</PostsBtn>
+					<PostsBtn onClick={() => changeGrid({ grid: 'flex' })}>
+						<PostsOptionsImage src={FlexOption} alt='flexOption' />
+					</PostsBtn>
+				</PostsBtns>
+			</PostsWrapper>
+			<Search />
 			<GridLayout>
 				{posts && posts.map((post) => <PostsItem test-id='items' post={post} key={post.id} />)}
 			</GridLayout>
@@ -38,9 +43,12 @@ const Posts: FC = () => {
 	);
 };
 
+const PostsWrapper = styled.div`
+	display: flex;
+	justify-content: space-between;
+`;
 const PostsBtns = styled.div`
 	display: flex;
-	justify-content: flex-end;
 	gap: 10px;
 	margin-bottom: 10px;
 `;

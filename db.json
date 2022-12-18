@@ -1,21 +1,23 @@
 {
   "posts": [
     {
-      "countWatch": 5,
+      "countWatch": 7,
       "id": "2",
       "date": "15.12.2022",
       "author": {
         "authorName": "ggwger@greg.com"
       },
-      "image": "blob:http://localhost:4000/5b58c009-b7eb-4c2b-97e0-06f78e362af9",
+      "image": "blob:http://localhost:4000/88359011-1ec0-4aa3-8f55-81a38c387e7c",
       "categories": [
         "IT"
       ],
-      "title": "knbkrwn",
-      "desc": "krtnbkr",
+      "title": "kjvhrtkjbntrkbjnKRTBNEKBNTB",
+      "desc": "KRTBNERKBNRTKBN",
       "topics": [
         "IT",
-        "DISCOVERY"
+        "ANIMAL",
+        "DISCOVERY",
+        "MOVIE"
       ]
     }
   ],

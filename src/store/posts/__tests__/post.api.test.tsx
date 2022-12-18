@@ -38,7 +38,7 @@ describe('tests api posts', () => {
 	})
 	test('if some wrong in posts load', async () => {
 		server.use(
-			rest.get('*', (_req, res, ctx) =>
+			rest.get('/posts', (_req, res, ctx) =>
 				res.once(ctx.status(500), ctx.json({message: "It`s WRONG..."}))
 			)
 		);
