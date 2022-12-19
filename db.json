@@ -1,21 +1,42 @@
 {
   "posts": [
     {
-      "countWatch": 5,
+      "countWatch": 11,
       "id": "2",
       "date": "15.12.2022",
       "author": {
         "authorName": "ggwger@greg.com"
       },
-      "image": "blob:http://localhost:4000/5b58c009-b7eb-4c2b-97e0-06f78e362af9",
+      "image": "blob:http://localhost:4000/b1c40878-a45e-40fb-bd42-2a342bc5d63e",
       "categories": [
         "IT"
       ],
-      "title": "knbkrwn",
-      "desc": "krtnbkr",
+      "title": "123",
+      "desc": "123",
       "topics": [
         "IT",
+        "MOVIE",
         "DISCOVERY"
+      ]
+    },
+    {
+      "countWatch": 11,
+      "id": "1",
+      "date": "15.12.2022",
+      "author": {
+        "authorName": "ggwger@greg.com"
+      },
+      "image": "blob:http://localhost:4000/8d08a816-235c-4684-9ede-92ddd03ba3fa",
+      "categories": [
+        "IT"
+      ],
+      "title": "title",
+      "desc": "about",
+      "topics": [
+        "IT",
+        "ANIMAL",
+        "DISCOVERY",
+        "MOVIE"
       ]
     }
   ],

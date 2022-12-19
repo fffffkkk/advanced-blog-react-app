@@ -8,7 +8,7 @@ interface InputProps {
 	type: inputTypes;
 	value: string;
 	change: (e: React.ChangeEvent<HTMLInputElement>) => void;
-	name: string;
+	name?: string;
 	placeholder?: string;
 	disabled?: boolean;
 	accept?: string;
@@ -32,13 +32,14 @@ const Input: FC<InputProps> = ({
 			name={name}
 			disabled={disabled}
 			accept={accept}
+			search={`${type === 'search' ? '10px 20px' : '5px 10px'}`}
 		/>
 	);
 };
 
-const StyledInput = styled.input`
+const StyledInput = styled.input<IStyledInput>`
 	width: 100%;
-	padding: 5px 10px;
+	padding: ${(props) => (props.search)};
 	border-radius: 10px;
 	border: none;
 	background-color: ${(props) => (props.disabled ? 'transparent' : '')};
@@ -47,5 +48,10 @@ const StyledInput = styled.input`
 		border: ${(props) => (props.disabled ? 'none' : '2px solid #0062a2')};
 	}
 `;
+
+interface IStyledInput {
+	search: '10px 20px' | '5px 10px';
+	disabled: boolean | undefined;
+}
 
 export default Input;
