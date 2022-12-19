@@ -14,7 +14,6 @@
     "build": "webpack --config webpack/webpack.prod.config.ts",
     "build:storybook": "build-storybook",
     "test:unit": "jest",
-    "test:2e2": "node ./scripts/2e2.mock.test.ts",
     "test:coverage": "jest --coverage",
     "json-server": "json-server --watch db.json",
     "loki": "loki",

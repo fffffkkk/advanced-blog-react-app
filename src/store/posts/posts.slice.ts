@@ -8,7 +8,7 @@ const initialState: IPost = {
 	date: '',
 	author: { authorImage: '', authorName: '' },
 	image: '',
-	categories: [''],
+	topics: [''],
 	title: '',
 	desc: '',
 };
@@ -23,7 +23,7 @@ export const postsSlice = createSlice({
 			state.date = action.payload.date;
 			state.author = action.payload.author;
 			state.image = action.payload.image;
-			state.categories = action.payload.categories;
+			state.topics = action.payload.topics;
 			state.title = action.payload.title;
 			state.desc = action.payload.desc;
 		},
@@ -33,7 +33,7 @@ export const postsSlice = createSlice({
 			state.date = '';
 			state.author = { authorImage: '', authorName: '' };
 			state.image = '';
-			state.categories = [''];
+			state.topics = [''];
 			state.title = '';
 			state.desc = '';
 		},
