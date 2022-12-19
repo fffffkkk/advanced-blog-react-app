@@ -8,7 +8,6 @@ interface InputProps {
 	type: inputTypes;
 	value: string;
 	change: (e: React.ChangeEvent<HTMLInputElement>) => void;
-	isSearch?: boolean;
 	name?: string;
 	placeholder?: string;
 	disabled?: boolean;
@@ -22,8 +21,7 @@ const Input: FC<InputProps> = ({
 	change,
 	name,
 	disabled,
-	accept,
-	isSearch
+	accept
 }) => {
 	return (
 		<StyledInput
