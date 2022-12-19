@@ -12,15 +12,16 @@
   "scripts": {
     "start": "webpack serve --config webpack/webpack.dev.config.ts",
     "build": "webpack --config webpack/webpack.prod.config.ts",
-    "test": "jest",
+    "build:storybook": "build-storybook",
+    "test:unit": "jest",
+    "test:2e2": "node ./scripts/2e2.mock.test.ts",
     "test:coverage": "jest --coverage",
     "json-server": "json-server --watch db.json",
     "loki": "loki",
     "eslint": "eslint .",
     "eslint:fix": "eslint --fix .",
     "prepare": "husky install",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "start-storybook -p 6006"
   },
   "devDependencies": {
     "@babel/core": "^7.20.5",
@@ -71,6 +72,7 @@
     "jest-environment-jsdom": "^29.3.1",
     "loki": "^0.30.3",
     "mini-css-extract-plugin": "^2.7.2",
+    "msw": "^0.49.2",
     "prettier": "^2.8.0",
     "style-loader": "^3.3.1",
     "ts-jest": "^29.0.3",

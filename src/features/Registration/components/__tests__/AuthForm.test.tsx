@@ -6,7 +6,7 @@ import AuthForm from '../form/AuthForm';
 import { userEvent } from '@storybook/testing-library';
 
 describe('auth form tests', () => {
-	test('have a two input, one submit and h1 tag', () => {
+	test('if have a two input, one submit and h1 tag', () => {
 		const submit = jest.fn();
 		render(<AuthForm title='Регистрация' submit={submit}/>);
 
@@ -20,7 +20,7 @@ describe('auth form tests', () => {
 		expect(userPasswordFiled).toBeInTheDocument();
 		expect(submitBtn).toBeInTheDocument();
 	});
-	test('event submit form', () => {
+	test('if event submit form', () => {
 		const submit = jest.fn();
 		render(<AuthForm title='Регистрация' submit={submit} />);
 

@@ -5,14 +5,14 @@ import { render, screen } from '@testing-library/react';
 import { Categories } from '@/features/postDetail';
 
 describe('Categories component tests', () => {
-	test('one item in data', () => {
+	test('if one item in data', () => {
 		render(<Categories data={['some']} />);
 
 		const category = screen.getByText('some');
 
 		expect(category).toBeInTheDocument();
 	}),
-		test('many items in data', () => {
+		test('if many items in data', () => {
 			render(<Categories data={['1', '2']} />);
 
 			const categoryOne = screen.getByText('1');
@@ -21,7 +21,7 @@ describe('Categories component tests', () => {
 			expect(categoryOne).toBeInTheDocument();
 			expect(categoryTwo).toBeInTheDocument();
 		}),
-		test('empty item in data', () => {
+		test('if empty item in data', () => {
 			render(<Categories data={[]} />);
 
 			const categorySome = screen.queryByText('some');

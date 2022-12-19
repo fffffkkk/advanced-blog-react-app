@@ -15,6 +15,7 @@ import { PostDetailForm } from '@/features/postDetail';
 import { assignObj } from '@/features/postDetail/utils/assignObj';
 import { useTypedSelector } from '@/hooks/use-typed-selector';
 import UploadPostImage from '@/features/postDetail/components/UploadPostImage';
+import { categoriesType } from '@/constants/categories';
 
 const PostDetail: FC = () => {
 	const navigate = useNavigate();
@@ -33,6 +34,7 @@ const PostDetail: FC = () => {
 		desc: '',
 	});
 	const [file, setFile] = useState<File>();
+	const [topics, setTopics] = useState<string[]>();
 	const [visibleInput, setVisibleInput] = useToggle(true);
 
 	if (isLoadingPost || !post) return <Spinner />;
@@ -43,22 +45,24 @@ const PostDetail: FC = () => {
 		deletePost(post.id);
 	};
 	const handleClickUpdatePost = () => {
-		if (file) {
-			assignObj(form, [
-				{ image: URL.createObjectURL(file) },
-				{ author: { authorName: user.name } },
-			]);
-		} else {
-			assignObj(form, [{ author: { authorName: user.name } }]);
-		}
+		assignObj(form, [{ author: { authorName: user.name } }, { topics }]);
+		
+		if (file) assignObj(form, [{ image: URL.createObjectURL(file) }])
 
 		setVisibleInput();
 		updatePost(form);
+		
+		console.log(post);
 	};
+	
 	const handleChangeFile = (e: React.ChangeEvent<HTMLInputElement>) => {
+		//TODO: FIX THIS
 		//@ts-ignore
 		setFile(e.target.files[0]);
 	};
+	const handleChangeTopics = (v: categoriesType[]) => {
+		setTopics([...v.map((i) => i.value)])
+	}
 
 	return (
 		<PostDetailWrapper>
@@ -75,6 +79,7 @@ const PostDetail: FC = () => {
 						visibleInput={visibleInput}
 						form={form}
 						setForm={setForm}
+						changeTopics={handleChangeTopics}
 					/>
 					<PostDetailBtns>
 						{visibleInput ? (

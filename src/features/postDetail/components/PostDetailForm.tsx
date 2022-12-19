@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import { Input } from '@/components/ui';
 import { IPost } from '@/models/IPost';
 import { Categories, CategoriesForm } from '@/features/postDetail';
+import { categoriesType } from '@/constants/categories';
 import EyeIcon from '@/assets/image/eye.png';
 
 interface IForm {
@@ -18,6 +19,7 @@ interface PostDetailInfoProps {
 	visibleInput: boolean;
 	form: IForm;
 	setForm: (e: React.ChangeEvent<HTMLInputElement>) => void;
+	changeTopics: (v: categoriesType[]) => void;
 }
 
 const PostDetailForm: FC<PostDetailInfoProps> = ({
@@ -25,6 +27,7 @@ const PostDetailForm: FC<PostDetailInfoProps> = ({
 	visibleInput,
 	form,
 	setForm,
+	changeTopics,
 }) => {
 	return (
 		<PostDetailText>
@@ -55,9 +58,13 @@ const PostDetailForm: FC<PostDetailInfoProps> = ({
 			</PostDetailWatchCount>
 			<PostDetailAuthor>
 				<PostDetailAuthorName>{post.author.authorName}</PostDetailAuthorName>
-				<PostDetailAuthorImg src={post.author.authorImage} alt='author-img'/>
+				<PostDetailAuthorImg src={post.author.authorImage} alt='author-img' />
 			</PostDetailAuthor>
-			{!visibleInput ? <Categories data={post.categories}/> : <CategoriesForm />}
+			{visibleInput ? (
+				<Categories data={post.topics} />
+			) : (
+				<CategoriesForm changeTopics={changeTopics} />
+			)}
 		</PostDetailText>
 	);
 };

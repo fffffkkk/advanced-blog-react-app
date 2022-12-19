@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, { FC, useTransition } from 'react';
 
 import styled from 'styled-components';
 
@@ -16,10 +16,14 @@ const AuthForm: FC<AuthFormProps> = ({ title, submit }) => {
 		name: '',
 		token: '',
 	});
+	// stop sending form if user change input
+	const [isPending, startTransition] = useTransition();
 
 	const handleSubmit = (e: React.FormEvent) => {
 		e.preventDefault();
-		submit(form);
+		startTransition(() => {
+			submit(form);
+		});
 	};
 
 	return (
@@ -44,7 +48,12 @@ const AuthForm: FC<AuthFormProps> = ({ title, submit }) => {
 						name='token'
 					/>
 				</Label>
-				<Button type='submit'>{stringUpper('Отправить')}</Button>
+				{/* stop sending form if user change input */}
+				{isPending ? (
+					<h1>Sending Form...</h1>
+				) : (
+					<Button type='submit'>{stringUpper('Отправить')}</Button>
+				)}
 			</FormInner>
 		</FormWrapper>
 	);

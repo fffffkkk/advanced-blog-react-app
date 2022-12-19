@@ -4,16 +4,14 @@ import { render, screen } from '@testing-library/react';
 import { userEvent } from '@storybook/testing-library';
 
 import { Navbar } from '@/features/Home';
-import { HelpersProvider, HelpersRoutes } from '@/helpers';
+import { RenderWithProviderRouter } from '@/helpers';
 
 describe('navbar test', () => {
-	test('have a title and navigation', () => {
+	test('if have a title and navigation', () => {
 		render(
-			<HelpersProvider>
-				<HelpersRoutes>
-					<Navbar />
-				</HelpersRoutes>
-			</HelpersProvider>
+			<RenderWithProviderRouter>
+				<Navbar />
+			</RenderWithProviderRouter>
 		);
 
 		const title = screen.getByText(/BLOG/i);

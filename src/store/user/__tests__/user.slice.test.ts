@@ -1,7 +1,7 @@
 import { userReducer, userAction } from '@/store/user/user.slice';
 
 describe('test user slice', () => {
-	test('add user', () => {
+	test('if add user', () => {
 		expect(
 			userReducer(
 				{ user: { id: 1, name: '', token: '' } },
@@ -9,7 +9,7 @@ describe('test user slice', () => {
 			)
 		).toEqual({ user: { id: 1, name: 'name', token: 'token' } });
 	});
-	test('remove user', () => {
+	test('if remove user', () => {
 		expect(
 			userReducer(
 				{ user: { id: 1, name: 'name', token: 'token' } },
