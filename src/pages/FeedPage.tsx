@@ -7,11 +7,11 @@ import { Posts } from '@/features/Feed';
 import { Search } from '@/features/Search';
 import { ContentLayout } from '@/layouts';
 import { useActions } from '@/hooks/use-actions';
+import { Filter } from '@/features/Filter';
 import GridOption from '@/assets/image/grid.png';
 import FlexOption from '@/assets/image/menu-burger.png';
 import SearchIcon from '@/assets/image/search.png';
 import FilterIcon from '@/assets/image/filter.png';
-
 
 const FeedPage: FC = () => {
 	const navigate = useNavigate();
@@ -24,7 +24,7 @@ const FeedPage: FC = () => {
 					<PostsBtn onClick={() => navigate('/search')}>
 						<PostsOptionsImage src={SearchIcon} alt='search-icon' />
 					</PostsBtn>
-					<PostsBtn>
+					<PostsBtn onClick={() => navigate('/filter')}>
 						<PostsOptionsImage src={FilterIcon} alt='filter-icon' />
 					</PostsBtn>
 				</PostsBtns>
@@ -39,6 +39,7 @@ const FeedPage: FC = () => {
 			</PostsWrapper>
 			<Routes>
 				<Route path='/search' element={<Search />} />
+				<Route path='/filter' element={<Filter />} />
 				<Route path='*' element={<Posts />} />
 			</Routes>
 		</ContentLayout>
