@@ -4,6 +4,9 @@ import { Route, Routes, useNavigate } from 'react-router-dom';
 import { lazily } from 'react-lazily';
 import styled from 'styled-components';
 
+import { Route, Routes, useNavigate } from 'react-router-dom';
+import styled from 'styled-components';
+
 import { Posts } from '@/features/Feed';
 import { ContentLayout } from '@/layouts';
 import { useActions } from '@/hooks/use-actions';

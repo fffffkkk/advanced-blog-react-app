@@ -21,6 +21,5 @@ export const useSearch = (posts: IPost[] | undefined) => {
 		!deferredSearch  && setPostFiltered(posts);
 		
 	}, [deferredSearch]);
-	
 	return { postFiltered, search, changeSearch };
 };

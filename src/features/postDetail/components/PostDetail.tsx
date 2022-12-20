@@ -51,6 +51,8 @@ const PostDetail: FC = () => {
 
 		setVisibleInput();
 		updatePost(form);
+		
+		console.log(post);
 	};
 	
 	const handleChangeFile = (e: React.ChangeEvent<HTMLInputElement>) => {
