@@ -1,24 +1,22 @@
-//@ts-nocheck
-import path from 'path';
-import common from './webpack.common';
+import ReactRefreshWebpackPlugin from '@pmmmwh/react-refresh-webpack-plugin';
+import { HotModuleReplacementPlugin } from 'webpack';
 import { merge } from 'webpack-merge';
+import common from './webpack.common';
 
-module.exports = merge(common, {
+/** @type {import('webpack').Configuration} */
+const devConfig = {
 	mode: 'development',
-	devtool: 'inline-source-map',
 	devServer: {
-		static: path.join(__dirname, 'build'),
-		historyApiFallback: true,
 		port: 4000,
+		contentBase: '../dist',
+		historyApiFallback: true,
 		open: true,
 		hot: true,
 	},
-	module: {
-		rules: [
-			{
-				test: /\.css$/i,
-				use: ["style-loader", "css-loader"],
-			}
-		]
-	}
-});
+	target: 'web',
+	plugins: [new HotModuleReplacementPlugin(), new ReactRefreshWebpackPlugin()],
+	devtool: 'eval-source-map',
+};
+
+// @ts-ignore
+module.exports = merge(common, devConfig);

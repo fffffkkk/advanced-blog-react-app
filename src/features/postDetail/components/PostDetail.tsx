@@ -92,11 +92,9 @@ const PostDetail: FC = () => {
 								</Button>
 							</>
 						) : (
-							<>
-								<Button type='button' click={handleClickUpdatePost}>
-									Save Change
-								</Button>
-							</>
+							<Button type='button' click={handleClickUpdatePost}>
+								Save Change
+							</Button>
 						)}
 					</PostDetailBtns>
 				</PostDetailInfoWrapper>
