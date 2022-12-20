@@ -1,17 +1,20 @@
-import React, { FC } from 'react';
+import React, { FC, Suspense } from 'react';
 
 import { Route, Routes, useNavigate } from 'react-router-dom';
+import { lazily } from 'react-lazily';
 import styled from 'styled-components';
 
 import { Posts } from '@/features/Feed';
-import { Search } from '@/features/Search';
 import { ContentLayout } from '@/layouts';
 import { useActions } from '@/hooks/use-actions';
-import { Filter } from '@/features/Filter';
+import { Spinner } from '@/components/ui';
 import GridOption from '@/assets/image/grid.png';
 import FlexOption from '@/assets/image/menu-burger.png';
 import SearchIcon from '@/assets/image/search.png';
 import FilterIcon from '@/assets/image/filter.png';
+
+const { Search } = lazily(() => import('@/features/Search'));
+const { Filter } = lazily(() => import('@/features/Filter'));
 
 const FeedPage: FC = () => {
 	const navigate = useNavigate();
@@ -22,26 +25,44 @@ const FeedPage: FC = () => {
 			<PostsWrapper>
 				<PostsBtns>
 					<PostsBtn onClick={() => navigate('/search')}>
-						<PostsOptionsImage src={SearchIcon} alt='search-icon' />
+						<PostsOptionsImage
+							src={SearchIcon}
+							alt='search-icon'
+							loading='lazy'
+						/>
 					</PostsBtn>
 					<PostsBtn onClick={() => navigate('/filter')}>
-						<PostsOptionsImage src={FilterIcon} alt='filter-icon' />
+						<PostsOptionsImage
+							src={FilterIcon}
+							alt='filter-icon'
+							loading='lazy'
+						/>
 					</PostsBtn>
 				</PostsBtns>
 				<PostsBtns>
 					<PostsBtn onClick={() => changeGrid({ grid: 'grid' })}>
-						<PostsOptionsImage src={GridOption} alt='gridOption' />
+						<PostsOptionsImage
+							src={GridOption}
+							alt='gridOption'
+							loading='lazy'
+						/>
 					</PostsBtn>
 					<PostsBtn onClick={() => changeGrid({ grid: 'flex' })}>
-						<PostsOptionsImage src={FlexOption} alt='flexOption' />
+						<PostsOptionsImage
+							src={FlexOption}
+							alt='flexOption'
+							loading='lazy'
+						/>
 					</PostsBtn>
 				</PostsBtns>
 			</PostsWrapper>
-			<Routes>
-				<Route path='/search' element={<Search />} />
-				<Route path='/filter' element={<Filter />} />
-				<Route path='*' element={<Posts />} />
-			</Routes>
+			<Suspense fallback={<Spinner />}>
+				<Routes>
+					<Route path='/*' element={<Posts />} />
+					<Route path='/search' element={<Search />} />
+					<Route path='/filter' element={<Filter />} />
+				</Routes>
+			</Suspense>
 		</ContentLayout>
 	);
 };

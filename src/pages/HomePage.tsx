@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 
 import { Route, Routes } from 'react-router-dom';
+import { lazily } from 'react-lazily';
 import styled from 'styled-components';
 
 import { Navbar } from '@/features/Home';
-import { ProfilePage, SettingsPage, FeedPage, PostDetailPage } from '@/pages';
 import { Sidebar } from '@/components';
+import { Spinner } from '@/components/ui';
+
+import { FeedPage } from '@/pages';
+
+const { ProfilePage, SettingsPage, PostDetailPage } = lazily(() =>
+	import('@/pages')
+);
 
 const HomePage = () => {
 	return (
@@ -13,12 +20,14 @@ const HomePage = () => {
 			<Navbar />
 			<HomeWrapper>
 				<Sidebar />
-				<Routes>
-					<Route path='/settings/:id' element={<SettingsPage />} />
-					<Route path='/profile/:id' element={<ProfilePage />} />
-					<Route path='/post/:id' element={<PostDetailPage />} />
-					<Route path='/*' element={<FeedPage />} />
-				</Routes>
+				<Suspense fallback={<Spinner />}>
+					<Routes>
+						<Route path='/settings/:id' element={<SettingsPage />} />
+						<Route path='/profile/:id' element={<ProfilePage />} />
+						<Route path='/post/:id' element={<PostDetailPage />} />
+						<Route path='/*' element={<FeedPage />} />
+					</Routes>
+				</Suspense>
 			</HomeWrapper>
 		</>
 	);

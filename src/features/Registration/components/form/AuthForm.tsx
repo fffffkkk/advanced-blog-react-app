@@ -50,7 +50,7 @@ const AuthForm: FC<AuthFormProps> = ({ title, submit }) => {
 				</Label>
 				{/* stop sending form if user change input */}
 				{isPending ? (
-					<h1>Sending Form...</h1>
+					<h1>Changes Form input...</h1>
 				) : (
 					<Button type='submit'>{stringUpper('Отправить')}</Button>
 				)}
