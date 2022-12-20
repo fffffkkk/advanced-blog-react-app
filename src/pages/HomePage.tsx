@@ -15,6 +15,7 @@ const { ProfilePage, SettingsPage, PostDetailPage } = lazily(() =>
 );
 
 const HomePage = () => {
+	
 	return (
 		<>
 			<Navbar />

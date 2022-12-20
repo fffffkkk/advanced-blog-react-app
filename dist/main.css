@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: 0;
+}
+ul {
+    list-style: none;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
