@@ -17,11 +17,11 @@ const PostsItem: FC<PostsItemProps> = ({ post }) => {
 	const [updatePost] = useUpdatePostMutation();
 
 	const handleClick = useCallback(() => {
-		navigate(`/post/${post.id}`);
 		updatePost({
 			...post,
 			countWatch: post.countWatch + 1,
 		});
+		navigate(`/post/${post.id}`);
 	}, []);
 
 	return (
@@ -33,7 +33,11 @@ const PostsItem: FC<PostsItemProps> = ({ post }) => {
 					<CountWatchImg src={EyeIcon} alt='eye-icon' />
 				</PostCountWatch>
 			</PostInner>
-			<PostImg src={post.image} alt='post-img' />
+			{post.image ? (
+				<PostImg src={post.image} alt='post-img' loading='lazy' />
+			) : (
+				<PostEmptyImg src={post.image} alt='post-img' loading='lazy' />
+			)}
 			<PostInner>
 				<PostText>
 					<PostTitle>{post.title.slice(0, 15)}...</PostTitle>
@@ -86,6 +90,9 @@ const PostImg = styled.img`
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
+`;
+const PostEmptyImg = styled(PostImg)`
+	background-color: #333;
 `;
 const PostDate = styled.p`
 	text-align: end;

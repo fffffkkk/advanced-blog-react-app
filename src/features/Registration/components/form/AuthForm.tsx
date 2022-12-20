@@ -3,7 +3,7 @@ import React, { FC, useTransition } from 'react';
 import styled from 'styled-components';
 
 import { useChange } from '@/hooks/use-change';
-import { stringUpper } from '@/features/Registration/utils/stringUpper';
+import { stringUpper } from '@/features/Registration';
 import { Input, Button } from '@/components/ui';
 
 interface AuthFormProps {
@@ -16,7 +16,6 @@ const AuthForm: FC<AuthFormProps> = ({ title, submit }) => {
 		name: '',
 		token: '',
 	});
-	// stop sending form if user change input
 	const [isPending, startTransition] = useTransition();
 
 	const handleSubmit = (e: React.FormEvent) => {
@@ -48,9 +47,8 @@ const AuthForm: FC<AuthFormProps> = ({ title, submit }) => {
 						name='token'
 					/>
 				</Label>
-				{/* stop sending form if user change input */}
 				{isPending ? (
-					<h1>Sending Form...</h1>
+					<h1>Changes Form input...</h1>
 				) : (
 					<Button type='submit'>{stringUpper('Отправить')}</Button>
 				)}
