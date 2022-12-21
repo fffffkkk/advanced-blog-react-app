@@ -3,8 +3,8 @@ import React, { FC, useTransition } from 'react';
 import styled from 'styled-components';
 
 import { useChange } from '@/hooks/use-change';
-import { stringUpper } from '@/features/Registration';
-import { Input, Button } from '@/components/ui';
+import { InputForm, stringUpper } from '@/features/Registration';
+import { Button } from '@/components/ui';
 
 interface AuthFormProps {
 	title: string;
@@ -24,33 +24,32 @@ const AuthForm: FC<AuthFormProps> = ({ title, submit }) => {
 			submit(form);
 		});
 	};
+	const handleChangeForm = (e: React.ChangeEvent<HTMLInputElement>) => {
+		setForm(e);
+	};
 
 	return (
 		<FormWrapper onSubmit={handleSubmit}>
 			<FormInner>
 				<Header>{stringUpper(title)}</Header>
-				<Label>
-					Введите email:
-					<Input
-						type='email'
-						value={form.name}
-						change={(e) => setForm(e)}
-						name='name'
-					/>
-				</Label>
-				<Label>
-					Введите пароль:
-					<Input
-						type='password'
-						value={form.token}
-						change={(e) => setForm(e)}
-						name='token'
-					/>
-				</Label>
+				<InputForm
+					test-id='test-input'
+					name='name'
+					type='email'
+					value={form.value}
+					change={handleChangeForm}
+				/>
+				<InputForm
+					test-id='test-input'
+					name='token'
+					type='password'
+					value={form.token}
+					change={handleChangeForm}
+				/>
 				{isPending ? (
 					<h1>Changes Form input...</h1>
 				) : (
-					<Button type='submit'>{stringUpper('Отправить')}</Button>
+					<Button test-id='test-btn' type='submit'>{stringUpper('Отправить')}</Button>
 				)}
 			</FormInner>
 		</FormWrapper>
@@ -80,15 +79,6 @@ const Header = styled.h1`
 	font-weight: bold;
 	font-size: 30px;
 	padding-bottom: 10px;
-`;
-const Label = styled.label`
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 5px;
-	padding-bottom: 10px;
-	font-size: 20px;
-	font-weight: bolder;
 `;
 
 export default AuthForm;

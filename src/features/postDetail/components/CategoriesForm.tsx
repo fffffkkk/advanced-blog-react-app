@@ -3,11 +3,11 @@ import React, { FC, useState } from 'react';
 import styled from 'styled-components';
 
 import { categories, categoriesType } from '@/constants/categories';
-import { Modal } from '@/components/ui';
 import { CategoriesSelect } from '@/features/postDetail';
+import { Modal } from '@/components/ui';
 
 interface CategoriesFormProps {
-	changeTopics: (v: categoriesType[]) => void
+	changeTopics: (v: categoriesType[]) => void;
 }
 
 const CategoriesForm: FC<CategoriesFormProps> = ({ changeTopics }) => {

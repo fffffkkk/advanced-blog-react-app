@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[978],{2978:(e,n,t)=>{t.r(n),t.d(n,{Filter:()=>o});var l=t(7294);const o=function(){return l.createElement("select",{onChange:function(e){console.log(e.target.value)}},l.createElement("option",null,"1"),l.createElement("option",null,"2"),l.createElement("option",null,"3"))}}}]);
-//# sourceMappingURL=978.708ae35f3bab9838aed6.js.map

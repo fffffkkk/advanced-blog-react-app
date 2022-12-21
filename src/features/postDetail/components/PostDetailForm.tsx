@@ -6,6 +6,7 @@ import { Input } from '@/components/ui';
 import { IPost } from '@/models/IPost';
 import { Categories, CategoriesForm } from '@/features/postDetail';
 import { categoriesType } from '@/constants/categories';
+
 import EyeIcon from '@/assets/image/eye.png';
 
 interface IForm {

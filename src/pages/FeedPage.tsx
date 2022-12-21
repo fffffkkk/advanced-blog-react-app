@@ -8,6 +8,7 @@ import { Posts } from '@/features/Feed';
 import { ContentLayout } from '@/layouts';
 import { useActions } from '@/hooks/use-actions';
 import { Spinner } from '@/components/ui';
+
 import GridOption from '@/assets/image/grid.png';
 import FlexOption from '@/assets/image/menu-burger.png';
 import SearchIcon from '@/assets/image/search.png';

@@ -32,16 +32,16 @@ const Input: FC<InputProps> = ({
 			name={name}
 			disabled={disabled}
 			accept={accept}
-			search={`${type === 'search' ? '10px 20px' : '5px 10px'}`}
+			required={true}
 		/>
 	);
 };
 
 const StyledInput = styled.input<IStyledInput>`
 	width: 100%;
-	padding: ${(props) => (props.search)};
 	border-radius: 10px;
 	border: none;
+	padding: 5px 10px;
 	background-color: ${(props) => (props.disabled ? 'transparent' : '')};
 	:active,
 	:focus {
@@ -50,7 +50,6 @@ const StyledInput = styled.input<IStyledInput>`
 `;
 
 interface IStyledInput {
-	search: '10px 20px' | '5px 10px';
 	disabled: boolean | undefined;
 }
 
