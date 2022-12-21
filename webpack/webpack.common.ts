@@ -1,19 +1,20 @@
 //@ts-nocheck
+import { CleanWebpackPlugin } from 'clean-webpack-plugin';
+import { ProgressPlugin } from 'webpack';
+import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
+import { TsconfigPathsPlugin } from 'tsconfig-paths-webpack-plugin';
 import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import ForkTsCheckerWebpackPlugin from 'fork-ts-checker-webpack-plugin';
 import ESLintPlugin from 'eslint-webpack-plugin';
-import { TsconfigPathsPlugin } from 'tsconfig-paths-webpack-plugin';
-import { CleanWebpackPlugin } from 'clean-webpack-plugin';
-import { ProgressPlugin } from 'webpack';
-import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
+import ImageMinimizerPlugin from 'image-minimizer-webpack-plugin';
 
 const config = {
 	entry: './src/index.tsx',
 	output: {
 		path: path.resolve(__dirname, '../dist'),
 		filename: '[name].[contenthash].js',
-		publicPath: '',
+		publicPath: '/',
 		clean: true,
 	},
 	module: {
@@ -33,12 +34,12 @@ const config = {
 				},
 			},
 			{
-				use: ['style-loader', 'css-loader'],
-				test: /\.(css)$/,
+				test: /\.(bmp|gif|jpg|jpeg|png)$/,
+				type: 'asset/resource',
 			},
 			{
-				type: 'asset',
-				test: /\.(png|svg|jpg|jpeg|gif)$/i,
+				test: /\.svg/,
+				type: 'asset/inline',
 			},
 		],
 	},
@@ -46,11 +47,11 @@ const config = {
 		alias: {
 			'@': path.resolve(__dirname, 'src'),
 		},
-		extensions: ['.tsx', '.ts', '.js', '.json'],
+		extensions: ['.tsx', '.ts', '.js'],
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
-			template: './public/index.html',
+			template: 'public/index.html',
 		}),
 		new ForkTsCheckerWebpackPlugin({
 			async: false,
@@ -65,6 +66,19 @@ const config = {
 			generateStatsFile: false,
 		}),
 	],
+	optimization: {
+		minimize: true,
+		minimizer: [
+			new ImageMinimizerPlugin({
+				minimizer: {
+					implementation: ImageMinimizerPlugin.imageminMinify,
+					options: {
+						plugins: [['mozjpeg', { quality: 75 }]],
+					},
+				},
+			}),
+		],
+	},
 };
 
 export default config;
