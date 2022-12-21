@@ -1,9 +1,10 @@
+//@ts-nocheck
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import { merge } from 'webpack-merge';
+
 import common from './webpack.common';
 
-/** @type {import('webpack').Configuration} */
-const prodConfig = {
+module.exports = merge(common, {
 	mode: 'production',
 	devtool: 'source-map',
 	module: {
@@ -26,8 +27,5 @@ const prodConfig = {
 			},
 		},
 	},
-	plugins: [new MiniCssExtractPlugin()],
-};
-
-// @ts-ignore
-module.exports = merge(common, prodConfig);
+	plugins: [new MiniCssExtractPlugin({ filename: '[name].[contenthash].css' })],
+});
