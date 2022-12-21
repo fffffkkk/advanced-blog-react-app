@@ -4,9 +4,10 @@ import { lazily } from 'react-lazily';
 import styled from 'styled-components';
 
 import { useGetAllPostsQuery } from '@/store/posts/posts.api';
-import { Input, Spinner, Wrong } from '@/components/ui';
+import { Spinner, Wrong } from '@/components/ui';
 import { useSearch } from '@/features/Search/hooks/useSearch';
 import { GridLayout } from '@/layouts';
+import { InputSearch } from '@/features/Search';
 
 const { PostsItem } = lazily(() => import('@/features/Feed'));
 
@@ -20,7 +21,7 @@ const Search: FC = () => {
 
 	return (
 		<SearchWrapper>
-			<Input type='search' value={search} change={changeSearch} />
+			<InputSearch search={search} changeSearch={changeSearch}/>
 			<Suspense fallback={<Spinner />}>
 				<GridLayout>
 					{postFiltered &&

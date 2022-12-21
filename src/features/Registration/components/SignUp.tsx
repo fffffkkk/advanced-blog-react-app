@@ -2,7 +2,7 @@ import React from 'react';
 
 import { useActions } from '@/hooks/use-actions';
 import { useAddUserMutation } from '@/store/user/user.api';
-import AuthForm from '@/features/Registration/components/form/AuthForm';
+import { AuthForm } from '@/features/Registration';
 
 const SignUp = () => {
 	const { addUser } = useActions();

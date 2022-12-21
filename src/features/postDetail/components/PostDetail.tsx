@@ -11,10 +11,9 @@ import {
 } from '@/store/posts/posts.api';
 import { useToggle } from '@/hooks/use-toggle';
 import { useChange } from '@/hooks/use-change';
-import { PostDetailForm } from '@/features/postDetail';
+import { PostDetailForm, UploadPostImage } from '@/features/postDetail';
 import { assignObj } from '@/features/postDetail/utils/assignObj';
 import { useTypedSelector } from '@/hooks/use-typed-selector';
-import UploadPostImage from '@/features/postDetail/components/UploadPostImage';
 import { categoriesType } from '@/constants/categories';
 
 const PostDetail: FC = () => {
