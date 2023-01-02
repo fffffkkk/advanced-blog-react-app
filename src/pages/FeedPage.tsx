@@ -11,10 +11,8 @@ import { Spinner } from '@/components/ui';
 import GridOption from '@/assets/image/grid.png';
 import FlexOption from '@/assets/image/menu-burger.png';
 import SearchIcon from '@/assets/image/search.png';
-import FilterIcon from '@/assets/image/filter.png';
 
 const { Search } = lazily(() => import('@/features/Search'));
-const { Filter } = lazily(() => import('@/features/Filter'));
 
 const FeedPage: FC = () => {
 	const navigate = useNavigate();
@@ -28,13 +26,6 @@ const FeedPage: FC = () => {
 						<PostsOptionsImage
 							src={SearchIcon}
 							alt='search-icon'
-							loading='lazy'
-						/>
-					</PostsBtn>
-					<PostsBtn onClick={() => navigate('/filter')}>
-						<PostsOptionsImage
-							src={FilterIcon}
-							alt='filter-icon'
 							loading='lazy'
 						/>
 					</PostsBtn>
@@ -60,7 +51,6 @@ const FeedPage: FC = () => {
 				<Routes>
 					<Route path='/*' element={<Posts />} />
 					<Route path='/search' element={<Search />} />
-					<Route path='/filter' element={<Filter />} />
 				</Routes>
 			</Suspense>
 		</ContentLayout>
